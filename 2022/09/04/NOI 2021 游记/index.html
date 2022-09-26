@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.2.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha256-xejo6yLi6vGtAjcMIsY8BHdKsLg7QynVlFMzdQgUuy8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"itz-ix35.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"show_result":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="NOI 2021 金牌，旧文新修。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="NOI 2021 游记">
+<meta property="og:url" content="https://itz-ix35.github.io/2022/09/04/NOI%202021%20%E6%B8%B8%E8%AE%B0/index.html">
+<meta property="og:site_name" content="ix35&#39;s Blog">
+<meta property="og:description" content="NOI 2021 金牌，旧文新修。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.luogu.com.cn/upload/image_hosting/0ubz6lzd.png">
+<meta property="article:published_time" content="2022-09-04T03:19:51.788Z">
+<meta property="article:modified_time" content="2022-09-04T03:24:31.335Z">
+<meta property="article:author" content="ix35">
+<meta property="article:tag" content="OI">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.luogu.com.cn/upload/image_hosting/0ubz6lzd.png">
+
+
+<link rel="canonical" href="https://itz-ix35.github.io/2022/09/04/NOI%202021%20%E6%B8%B8%E8%AE%B0/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://itz-ix35.github.io/2022/09/04/NOI%202021%20%E6%B8%B8%E8%AE%B0/","path":"2022/09/04/NOI 2021 游记/","title":"NOI 2021 游记"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>NOI 2021 游记 | ix35's Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">ix35's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#627"><span class="nav-number">1.</span> <span class="nav-text"> 6.27</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#71"><span class="nav-number">2.</span> <span class="nav-text"> 7.1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#73"><span class="nav-number">3.</span> <span class="nav-text"> 7.3</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#75"><span class="nav-number">4.</span> <span class="nav-text"> 7.5</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#76"><span class="nav-number">5.</span> <span class="nav-text"> 7.6</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#78"><span class="nav-number">6.</span> <span class="nav-text"> 7.8</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#712"><span class="nav-number">7.</span> <span class="nav-text"> 7.12</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#713"><span class="nav-number">8.</span> <span class="nav-text"> 7.13</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#714"><span class="nav-number">9.</span> <span class="nav-text"> 7.14</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#day-1726"><span class="nav-number">10.</span> <span class="nav-text"> Day 1（7.26）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#day-2728"><span class="nav-number">11.</span> <span class="nav-text"> Day 2（7.28）</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="ix35"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">ix35</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Itz-ix35" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Itz-ix35" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:2757336405@qq.com" title="E-Mail → mailto:2757336405@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.luogu.com.cn/user/113546" title="Luogu → https:&#x2F;&#x2F;www.luogu.com.cn&#x2F;user&#x2F;113546" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>Luogu</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/187505795" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;187505795" rel="noopener" target="_blank"><i class="fab fa-youtube fa-fw"></i>Bilibili</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://itz-ix35.github.io/2022/09/04/NOI%202021%20%E6%B8%B8%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="ix35">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ix35's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="NOI 2021 游记 | ix35's Blog">
+      <meta itemprop="description" content="NOI 2021 金牌，旧文新修。">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          NOI 2021 游记
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-09-04 11:19:51 / 修改时间：11:24:31" itemprop="dateCreated datePublished" datetime="2022-09-04T11:19:51+08:00">2022-09-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%B8%B8%E8%AE%B0%EF%BC%882020-%E8%B5%9B%E5%AD%A3%EF%BC%89/" itemprop="url" rel="index"><span itemprop="name">游记（2020 赛季）</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+            <div class="post-description">NOI 2021 金牌，旧文新修。</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p><strong>回头看才发现这篇写的太过草率了，可能是考完之后太开心了，之后有空的话可能会再加写一些东西，比如 unr 或者月赛准备之类的。</strong></p>
+<p>NOI，银定了！</p>
+<p><img src="https://cdn.luogu.com.cn/upload/image_hosting/0ubz6lzd.png" alt="" /></p>
+<p>理性看待 ix35 为啥 NOI rp 叠满：</p>
+<p>7.6 联测，挂了 100 分。</p>
+<p>7.8 联测，挂了 100 分。</p>
+<p>UNR D1，挂了至少 95 分。</p>
+<p>UNR D2，挂了至少 90 分。</p>
+<hr />
+<h2 id="627"><a class="markdownIt-Anchor" href="#627"></a> 6.27</h2>
+<p>距离 NOI 报道日还有 4 周。</p>
+<p>目前的复习基本完成了 <strong>网络流，字符串，数数</strong>，最大的重点在于 <strong>数据结构</strong>（毕竟 NOI 年年有数据结构题），次重点在于 <strong>图论</strong> 和 <strong>线性代数</strong>。</p>
+<p>主要正在学习 <strong>树（链）分治，虚树，K-D Tree，线段树扩展</strong> 等，正在计划完成 <strong>NOI 2017~2020</strong> 的剩余题目。</p>
+<hr />
+<h2 id="71"><a class="markdownIt-Anchor" href="#71"></a> 7.1</h2>
+<p>BDFZ 联测</p>
+<p>预估：240</p>
+<p>实际：240（rk 3）</p>
+<p>评价：T1 是个水题，T2 是一个叉姐讲过的原题。</p>
+<p>T3 暴力输了前两名 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>10</mn></mrow><annotation encoding="application/x-tex">10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span></span></span></span> 分，我的做法需要借助一些复杂的数据结构，所以就放弃了那 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>10</mn></mrow><annotation encoding="application/x-tex">10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span></span></span></span> 分，结果似乎有简单做法。</p>
+<hr />
+<h2 id="73"><a class="markdownIt-Anchor" href="#73"></a> 7.3</h2>
+<p>HZEZ 联测</p>
+<p>预估：160</p>
+<p>实际：160（rk 4）</p>
+<p>评价：太困难了，这是什么信心赛。</p>
+<hr />
+<h2 id="75"><a class="markdownIt-Anchor" href="#75"></a> 7.5</h2>
+<p>CJ 联测</p>
+<p>预估：250</p>
+<p>实际：230（rk 4）</p>
+<p>评价：大分块题被卡常了，少了 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>20</mn></mrow><annotation encoding="application/x-tex">20</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">0</span></span></span></span> 分，反正 NOI 不会有分块的！</p>
+<hr />
+<h2 id="76"><a class="markdownIt-Anchor" href="#76"></a> 7.6</h2>
+<p>NFLS 联测</p>
+<p>预估：160</p>
+<p>实际：60（rk 14）</p>
+<p>评价：交互题爆零了，小编十分疑惑。</p>
+<p>upd. 交错代码了。</p>
+<hr />
+<h2 id="78"><a class="markdownIt-Anchor" href="#78"></a> 7.8</h2>
+<p>CDQZ 联测</p>
+<p>预估：265</p>
+<p>实际：150（rk 8）</p>
+<p>评价：T2 炸了，一百分拿来祭天，NOI 能不能多点分？</p>
+<p>今天 T2 好像有一卡车人爆零了，哈哈。</p>
+<p>出了 7.10 的一道题，感觉是人均会做的签到题，后来发现确实送分到位。</p>
+<hr />
+<h2 id="712"><a class="markdownIt-Anchor" href="#712"></a> 7.12</h2>
+<p>BDFZ 联测</p>
+<p>预估：190</p>
+<p>实际：180（rk 10）</p>
+<p>评价：数数场也就图一乐。</p>
+<p>蜜雪冰城写错地方了，搞挂了 10 分还行。</p>
+<hr />
+<h2 id="713"><a class="markdownIt-Anchor" href="#713"></a> 7.13</h2>
+<p>HZEZ 联测</p>
+<p>三道原题两道我做过，今天这场还是图一乐。</p>
+<p>评测机真 nm 慢。</p>
+<p>结果 rk3~7 都是 210，rk8~9 都是 155，我被卡了就从 rk3 变成 rk8。</p>
+<hr />
+<h2 id="714"><a class="markdownIt-Anchor" href="#714"></a> 7.14</h2>
+<p>今天没认真打，反正原题有个 MtOI，还有个好像很经典的题，去准备月赛了。</p>
+<hr />
+<h2 id="day-1726"><a class="markdownIt-Anchor" href="#day-1726"></a> Day 1（7.26）</h2>
+<p>九点开考。</p>
+<p>以下时间可能有小偏差。</p>
+<p>0 h 0 min：开始看题，一看 T1 感觉是个比较签到的题，但麻烦之处在于码量较大，我决定先把后面的题看完。</p>
+<p>0 h 2 min：看到了 T2，<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">k=2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span></span></span></span> 是个显然的行列式，然后发现 A,B 部分分都十分简单，然后思考正解，一开始想到了直接求路径数量对应矩阵的行列式，发现没有处理交叉。</p>
+<p>0 h 10 min：看到了 T3，由于 T1,T2 比较简单所以暂时没有仔细思考。</p>
+<p>0 h 15 min：发现 T2 那个行列式就是 LGV 引理裸题，所以刚刚的做法直接上就是对的，开始码 T2。</p>
+<p>0 h 20 min：工作人员通知 T2 题面有锅，不过我比较确信我读的题是对的，所以继续写。</p>
+<p>0 h 40 min：T2 写完调完，过了全部的样例。</p>
+<p>0 h 50 min：观察了一下 T3，发现 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">k=0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span> 以及 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">k=1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 的做法显然。</p>
+<p>1 h 0 min：发现自己至少已经可以拿 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>264</mn></mrow><annotation encoding="application/x-tex">264</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">6</span><span class="mord">4</span></span></span></span> 分，思考了一下 T1 的实现后开始写树剖。</p>
+<p>1 h 35 min：T1 写完。</p>
+<p>2 h 0 min：T1 调完。</p>
+<p>2 h 10 min：手玩出了 T3 中 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">k=1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 的所有分类情况，然后开始写。</p>
+<p>2 h 50 min：写掉了 T3 的 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">k=0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span> 情况。</p>
+<p>3 h 0 min：写了一下 T3 的 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">k=1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 情况，但是没过样例。</p>
+<p>3 h 20 min：经过很多次的修正，将分类全部调对，过了 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">k=1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>。</p>
+<p>3 h 25 min：发现 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">k=1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 可以用一种虚树来理解，并且可以推广到 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">k=2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span></span></span></span>。</p>
+<p>3 h 40 min：写完 T3。</p>
+<p>4 h 0 min：三题测样例和测速完成，发现 T3 有点小卡。</p>
+<p>4 h 20 min：给 T3 加了个 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(1)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord">1</span><span class="mclose">)</span></span></span></span> LCA。</p>
+<p>然后罚坐了四十分钟。</p>
+<p>难度：T2 &lt; T1 &lt; T3</p>
+<p>分数：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>100</mn><mo>+</mo><mn>100</mn><mo>+</mo><mn>100</mn><mo>=</mo><mn>300</mn></mrow><annotation encoding="application/x-tex">100+100+100=300</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">0</span><span class="mord">0</span></span></span></span></p>
+<p>题解：</p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/blog/ix-35/solution-p7735">https://www.luogu.com.cn/blog/ix-35/solution-p7735</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/blog/ix-35/solution-p7736">https://www.luogu.com.cn/blog/ix-35/solution-p7736</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/blog/ix-35/solution-p7737">https://www.luogu.com.cn/blog/ix-35/solution-p7737</a></p>
+<hr />
+<h2 id="day-2728"><a class="markdownIt-Anchor" href="#day-2728"></a> Day 2（7.28）</h2>
+<p>八点开考。</p>
+<p>0 h 10 min：三题都好难耶，今天要拿不到 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>100</mn></mrow><annotation encoding="application/x-tex">100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span></span></span></span> 分了。</p>
+<p>0 h 20 min：仔细看了一下 T1，还是不会。</p>
+<p>0 h 35 min：这 T2 好像只需要用矩阵维护分子分母线性变换，倒着乘就可以了，只有 APPEND 的部分分是送的。</p>
+<p>0 h 40 min：好像 T2 只要冲个平衡树就做完了，但是预估了一下大概这题需要 2~3 h，于是先去开可能更简单的 T1。</p>
+<p>0 h 50 min：发现 T1 可以随机，每次随机选出 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>18</mn></mrow><annotation encoding="application/x-tex">18</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">8</span></span></span></span> 位，然后只根据每次选的这些位来匹配相同的字典串。</p>
+<p>1 h 5 min：根据一系列的尝试，暂时定为了 40 轮 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>×</mo></mrow><annotation encoding="application/x-tex">\times</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">×</span></span></span></span> 18 次。</p>
+<p>1 h 40 min：写完+调完 T1，上了个厕所后准备搞 T2 平衡树。</p>
+<p>4 h 0 min：中间经历了极为痛苦的 2.5h 左右，终于通过了 T2 的所有样例，由于过于痛苦所以我都不想再写一遍我干了些啥。</p>
+<p>4 h 30 min：重新审查 T1 复杂度和正确率，发现定在 30 轮 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>×</mo></mrow><annotation encoding="application/x-tex">\times</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">×</span></span></span></span> 18 位，并且使用循环展开时可以获得较优的时间，以及 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>10000</mn></mrow><annotation encoding="application/x-tex">10000</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span></span></span></span> 次询问大于 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>90</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">90\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.80556em;vertical-align:-0.05556em;"></span><span class="mord">9</span><span class="mord">0</span><span class="mord">%</span></span></span></span> 的正确率，于是将轮数改为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>30</mn></mrow><annotation encoding="application/x-tex">30</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">0</span></span></span></span> 并进行了循环展开。</p>
+<p>4 h 45 min：写了一个 T3 的 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><msup><mn>3</mn><mi>n</mi></msup><mo>×</mo><mi mathvariant="normal">poly</mi><mo>⁡</mo><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(3^n\times \operatorname{poly})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord"><span class="mord">3</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mop"><span class="mord mathrm">p</span><span class="mord mathrm">o</span><span class="mord mathrm">l</span><span class="mord mathrm" style="margin-right:0.01389em;">y</span></span><span class="mclose">)</span></span></span></span> 暴力，当然我也知道容斥可以得到更多分数，但时间不允许。</p>
+<p>难度：T2 &lt; T1 &lt; T3</p>
+<p>分数：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>84</mn><mo>+</mo><mn>100</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>196</mn></mrow><annotation encoding="application/x-tex">84+100+12=196</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">8</span><span class="mord">4</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">2</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">9</span><span class="mord">6</span></span></span></span></p>
+<hr />
+<p>NOI 总分：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>100</mn><mo>+</mo><mn>300</mn><mo>+</mo><mn>196</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>601</mn></mrow><annotation encoding="application/x-tex">100+300+196+5=601</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">3</span><span class="mord">0</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord">9</span><span class="mord">6</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">5</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">6</span><span class="mord">0</span><span class="mord">1</span></span></span></span>，勉强进了 rk15，和 djq 同分。</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/OI/" rel="tag"># OI</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/09/04/WC%202021%20%E6%B8%B8%E8%AE%B0/" rel="prev" title="WC 2021 游记">
+                  <i class="fa fa-chevron-left"></i> WC 2021 游记
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/09/04/NOI%202022%20%E6%B8%B8%E8%AE%B0/" rel="next" title="NOI 2022 游记">
+                  NOI 2022 游记 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">ix35</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.0/katex.min.css" integrity="sha256-uik/hNqHWZldXh/0K35nqOSCff9F61/ZOFReqNOBgB0=" crossorigin="anonymous">
+
+
+
+</body>
+</html>
