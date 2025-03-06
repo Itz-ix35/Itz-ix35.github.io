@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha256-xejo6yLi6vGtAjcMIsY8BHdKsLg7QynVlFMzdQgUuy8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"itz-ix35.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"show_result":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="讲解了有理真分式分解的概念与应用">
+<meta property="og:type" content="article">
+<meta property="og:title" content="科普文章 - 有理真分式分解">
+<meta property="og:url" content="https://itz-ix35.github.io/2024/06/02/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/%E6%9C%89%E7%90%86%E7%9C%9F%E5%88%86%E5%BC%8F%E5%88%86%E8%A7%A3/index.html">
+<meta property="og:site_name" content="ix35&#39;s Blog">
+<meta property="og:description" content="讲解了有理真分式分解的概念与应用">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-06-02T05:23:14.285Z">
+<meta property="article:modified_time" content="2025-02-21T01:31:26.142Z">
+<meta property="article:author" content="ix35">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://itz-ix35.github.io/2024/06/02/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/%E6%9C%89%E7%90%86%E7%9C%9F%E5%88%86%E5%BC%8F%E5%88%86%E8%A7%A3/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://itz-ix35.github.io/2024/06/02/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/%E6%9C%89%E7%90%86%E7%9C%9F%E5%88%86%E5%BC%8F%E5%88%86%E8%A7%A3/","path":"2024/06/02/科普文章/有理真分式分解/","title":"科普文章 - 有理真分式分解"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>科普文章 - 有理真分式分解 | ix35's Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">ix35's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-essays"><a href="/essay/" rel="section"><i class="fa fa-tags fa-fw"></i>随笔选辑</a></li><li class="menu-item menu-item-game-guide"><a href="/game-guide/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏攻略</a></li><li class="menu-item menu-item-game-review"><a href="/game-review/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏评测</a></li><li class="menu-item menu-item-music"><a href="/music/" rel="section"><i class="fa fa-tags fa-fw"></i>音乐分享</a></li><li class="menu-item menu-item-notes"><a href="/note/" rel="section"><i class="fa fa-tags fa-fw"></i>课程笔记</a></li><li class="menu-item menu-item-solutions"><a href="/solution/" rel="section"><i class="fa fa-tags fa-fw"></i>专题题解</a></li><li class="menu-item menu-item-technology"><a href="/technology/" rel="section"><i class="fa fa-tags fa-fw"></i>科普文章</a></li><li class="menu-item menu-item-travelogue"><a href="/travel/" rel="section"><i class="fa fa-tags fa-fw"></i>远古游记</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%89%E7%90%86%E7%9C%9F%E5%88%86%E5%BC%8F%E5%88%86%E8%A7%A3"><span class="nav-text">有理真分式分解</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Part-0"><span class="nav-text">Part 0</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Part-1"><span class="nav-text">Part 1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Part-2"><span class="nav-text">Part 2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Part-3"><span class="nav-text">Part 3</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="ix35"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">ix35</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Itz-ix35" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Itz-ix35" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:2757336405@qq.com" title="E-Mail → mailto:2757336405@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.luogu.com.cn/user/113546" title="Luogu → https:&#x2F;&#x2F;www.luogu.com.cn&#x2F;user&#x2F;113546" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>Luogu</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/187505795" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;187505795" rel="noopener" target="_blank"><i class="fab fa-youtube fa-fw"></i>Bilibili</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://itz-ix35.github.io/2024/06/02/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/%E6%9C%89%E7%90%86%E7%9C%9F%E5%88%86%E5%BC%8F%E5%88%86%E8%A7%A3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="ix35">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ix35's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="科普文章 - 有理真分式分解 | ix35's Blog">
+      <meta itemprop="description" content="讲解了有理真分式分解的概念与应用">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          科普文章 - 有理真分式分解
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2024-06-02 13:23:14" itemprop="dateCreated datePublished" datetime="2024-06-02T13:23:14+08:00">2024-06-02</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/" itemprop="url" rel="index"><span itemprop="name">科普文章</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+            <div class="post-description">讲解了有理真分式分解的概念与应用</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>关于公式编号，感性理解一下吧….</p>
+<h2 id="有理真分式分解"><a href="#有理真分式分解" class="headerlink" title="有理真分式分解"></a>有理真分式分解</h2><p>考虑有理真分式 $\dfrac{P(x)}{Q(x)}$​​​​, 其中 $P(x),Q(x)\in \mathbb R[x]$​​ 且 $\deg P(x)&lt;\deg Q(x)$.</p>
+<p>我们知道, $Q(x)$​​ 可以唯一地分解为 $\mathbb R[x]$ 中若干个一次或二次不可约多项式的乘积 (这是代数基本定理和共轭复根结论的简单推论), 设</p>
+<script type="math/tex; mode=display">
+Q(x)=c\times \Big(\prod\limits_{i=1}^n (x+a_i)^{p_i}\Big)\times \Big(\prod\limits_{j=1}^m(x^2+b_ix+c_i)^{q_i}\Big)\quad(c\ne 0),</script><p>我们希望将真分式 $\dfrac{P(x)}{Q(x)}$​​ 分解为如下部分分式的和:</p>
+<script type="math/tex; mode=display">
+\dfrac{P(x)}{Q(x)}=\Big(\sum\limits_{i=1}^n \sum\limits_{j=1}^{p_i}\dfrac{A_{i,j}}{(x+a_i)^j}\Big)+\Big(\sum\limits_{i=1}^m\sum\limits_{j=1}^{q_i}\dfrac{B_{i,j}x+C_{i,j}}{(x^2+b_ix+c_i)^j}\Big),</script><p>将其称为 $\dfrac{P(x)}{Q(x)}$ 的部分分式分解, 其中 $A_{i,j},B_{i,j},C_{i,j}\in \mathbb R$​​.</p>
+<hr>
+<h3 id="Part-0"><a href="#Part-0" class="headerlink" title="Part 0"></a>Part 0</h3><p><strong>定理 1. 对于任意 $P(x),Q(x)\in \mathbb R[x], \deg P(x)&lt;\deg Q(x)$, 分解 (2) 都存在且唯一.</strong></p>
+<p>我们希望通过解出 $A_{i,j},B_{i,j},C_{i,j}$​​ 来证明, 两边同时乘上 $Q(x)$​​ 得</p>
+<script type="math/tex; mode=display">
+P(x)=\Big(\sum\limits_{i,j} A_{i,j}\times \dfrac{Q(x)}{(x+a_i)^j}\Big)+\Big(\sum\limits_{i,j}(B_{i,j}x+C_{i,j})\times \dfrac{Q(x)}{(x^2+b_ix+c_i)^j}\Big).</script><p><strong>引理 1. $Q(x)=(x+a)^n$​​​ 时, 分解 (2) 存在且唯一.</strong></p>
+<p>证明: 根据 (3), 这等价于找到 $A_0,\ldots,A_{n-1}$ 使得</p>
+<script type="math/tex; mode=display">
+P(x)=A_0+A_1(x+a)+A_2(x+a)^2+\ldots+A_{n-1}(x+a)^{n-1},</script><p>这是一个 $n$​​ 元线性方程组, 对照系数就可以写出 $n$​​​ 个方程, 我们发现系数矩阵的项 $M_{i,j}=<a href="x+a">x^i</a>^j$, 所以这是一个上三角矩阵且对角线上全 $1$, 故 $\det M=1$​​, 方程组有唯一解.</p>
+<p><strong>引理 2.  $Q(x)=(x^2+bx+c)^m$​​​ 时, 分解 (2) 存在且唯一.</strong></p>
+<p>证明: 与引理 1 类似.</p>
+<p><strong>引理 3. 若 $A(x),B(x),C(x)\in \mathbb R[x]$​, 且 $A(x)$​ 与 $B(x)$​ 互素, $\deg C(x)&lt;\deg A(x)+\deg B(x)$​, 则存在唯一的 $F(x),G(x)$​ 使得 $\deg F(x)&lt;\deg B(x), \deg G(x)&lt;\deg A(x)$​, 且 $C(x)=A(x)F(x)+B(x)G(x)$​​​ .</strong></p>
+<p>证明: 先证存在性. 在多项式环 $\mathbb R[x]$ 中应用裴蜀定理, 由 $A(x),B(x)$ 互素知存在 $F_0(x),G_0(x)$ 使得 $A(x)F_0(x)+B(x)G_0(x)=1$, 故令 $F(x)=F_0(x)C(x)\bmod B(x), G(x)=G_0(x)C(x)\bmod A(x)$ 即可.</p>
+<p>再证唯一性. 假设有两组不同的解 $A(x)F(x)+B(x)G(x)=A(x)F’(x)+B(x)G’(x)=C(x)$, 那么 $A(x)(F(x)-F’(x))=B(x)(G’(x)-G(x))$, 所以 $A(x)\mid G’(x)-G(x)$, 而 $\deg G’(x),\deg G(x)&lt;\deg A(x)$, 所以只能有 $G’(x)-G(x)=0$ 即 $G’(x)=G(x)$, 同时 $F’(x)=F(x)$.</p>
+<p>现在考虑证明定理 1. 设 $Q(x)$ 的因式分解如 (1), 令 $f(R(x))=\dfrac{Q(x)}{R(x)}  (R(x)\mid Q(x))$​, 我们首先解出</p>
+<script type="math/tex; mode=display">
+P(x)=\Big(\sum\limits_{i} A_i(x)f((x+a_i)^{p_i})\Big)+\Big(\sum\limits_{i}B_i(x)f((x^2+b_ix+c_i)^{q_i})\Big)</script><p>中的 $A_i(x),B_i(x)$, 其中 $\deg A_i(x)&lt;p_i, \deg B_i(x)&lt;2q_i$.</p>
+<p>由于 $x+a_i, x^2+b_ix+c_i$ 都是 $\mathbb R[x]$ 中的不可约多项式, 所以 $f((x+a_i)^{p_i}), f((x^2+b_ix+c_i)^{q_i})$ 两两互素, 因此对 $\deg G(x)$ 归纳应用引理 3 可以说明 $A_i(x), B_i(x)$ 存在且唯一.</p>
+<p>式 (5) 其实等价于</p>
+<script type="math/tex; mode=display">
+\dfrac{P(x)}{Q(x)}=\Big(\sum\limits_{i}\dfrac{A_i(x)}{(x+a_i)^{p_i}}\Big)+\Big(\sum\limits_{i}\dfrac{B_i(x)}{(x^2+b_ix+c_i)^{q_i}}\Big),</script><p>再对每一项应用引理 1 或引理 2, 就证明了分解的存在性和唯一性, 定理 1 得证.</p>
+<hr>
+<p>下面考虑如何求出真分式 $\dfrac{P(x)}{Q(x)}$​​ 的部分分式分解, 这里重新抄一次 (2) 式:</p>
+<script type="math/tex; mode=display">
+\dfrac{P(x)}{Q(x)}=\Big(\sum\limits_{i=1}^n \sum\limits_{j=1}^{p_i}\dfrac{A_{i,j}}{(x+a_i)^j}\Big)+\Big(\sum\limits_{i=1}^m\sum\limits_{j=1}^{q_i}\dfrac{B_{i,j}x+C_{i,j}}{(x^2+b_ix+c)^j}\Big),</script><p>首先将 $Q(x)$​​​ 变为首一多项式, 即令 $Q(x),P(x)$​​ 同时乘上 $\dfrac{1}{c}$​​​.</p>
+<hr>
+<h3 id="Part-1"><a href="#Part-1" class="headerlink" title="Part 1"></a>Part 1</h3><p>考虑对于某个 $i\in [1,n]$ 如何求出全部的 $A_{i,j} (1\leq j\leq p_i)$, 我们首先将等式两边乘上 $(x+a_i)^{p_i}$, 就得到</p>
+<script type="math/tex; mode=display">
+\dfrac{P(x)}{Q(x)/(x+a_i)^{p_i}}=\Big(\sum\limits_{j=1}^{p_i} A_{i,j}(x+a_i)^{p_i-j}\Big)+(x+a_i)^{p_i}\times \dfrac{R(x)}{Q(x)/(x+a_i)^{p_i}},</script><p>其中 $\dfrac{R(x)}{Q(x)/(x+a_i)^{p_i}}$ 就是将等式右边除了 $\dfrac{A_{i,j}}{(x+a_i)^j}$​ 以外的项通分的结果.</p>
+<p>令 $Q_0(x)=\dfrac{Q(x)}{(x+a_i)^{p_i}}$, 在式 (8) 中带入 $x=-a_i$, 就有</p>
+<script type="math/tex; mode=display">
+\dfrac{P(-a_i)}{Q_0(-a_i)}=A_{i,p_i},</script><p>这是因为右边的其他项都有因式 $(x+a_i)$​, 所以为零. 这样就求出了 $A_{i,p_i}$​.</p>
+<p>接下来对 (8) 两边求 $k (k&lt;p_i)$​​ 次导, 就得到</p>
+<script type="math/tex; mode=display">
+\Big(\dfrac{P(x)}{Q_0(x)}\Big)^{(k)}=\Big(\sum\limits_{j=1}^{p_i-k}(p_i-j)^{\underline{k}}\times A_{i,j}\times (x+a_i)^{p_i-k-j}\Big)+\Big((x+a_i)^{p_i}\times \dfrac{R(x)}{Q_0(x)}\Big)^{(k)},</script><p>不难对 $k$​ 归纳证明右边第二个括号中的项 $\Big((x+a_i)^{p_i}\times \dfrac{R(x)}{Q_0(x)}\Big)^{(k)}$​​ 的分子有 $p_i-k$​ 重根 $a_i$​ (利用导数使得重根的重数减少 $1$​ 的性质).</p>
+<p>因此带入 $x=-a_i$, 右边第二个括号中的项还是为 $0$​​, 也就有</p>
+<script type="math/tex; mode=display">
+\Big(\dfrac{P}{Q_0}\Big)^{(k)}(-a_i)=k!\times A_{i,p_i-k}.</script><p>因此对于每个 $k$​ 分别计算 $\Big(\dfrac{P}{Q_0}\Big)^{(k)}(-a_i)$​, 就得到了每个 $A_{i,j}$​​.</p>
+<hr>
+<h3 id="Part-2"><a href="#Part-2" class="headerlink" title="Part 2"></a>Part 2</h3><p>再考虑如何计算 $B_{i,j},C_{i,j}$, 下面是我自己编的做法, 其实和 $A_{i,j}$ 区别不大, 但计算量似乎非常大.</p>
+<p>等式两边乘上 $(x^2+b_ix+c_i)^{q_i}$, 令 $Q_0(x)=\dfrac{Q(x)}{(x^2+b_ix+c_i)^{q_i}}$, 就得到</p>
+<script type="math/tex; mode=display">
+\dfrac{P(x)}{Q_0(x)}=\Big(\sum\limits_{j=1}^{q_i}(B_{i,j}x+C_{i,j})(x^2+b_ix+c_i)^{q_i-j}\Big)+\Big((x^2+b_ix+c_i)^{q_i}\times\dfrac{R(x)}{Q_0(x)}\Big),</script><p>同样两边求 $k (k&lt;q_i)$​​ 次导, 得到</p>
+<script type="math/tex; mode=display">
+\Big(\dfrac{P(x)}{Q_0(x)}\Big)^{(k)}=\Big(\sum\limits_{j=1}^{q_i} [(B_{i,j}x+C_{i,j})(x^2+b_ix+c_i)^{q_i-j}]^{(k)}\Big)+\Big((x^2+b_ix+c_i)^{q_i}\times\dfrac{R(x)}{Q_0(x)}\Big)^{(k)}.</script><p>设 $x^2+b_ix+c_i$​​ 的两个复根为 $z,\bar z$​, 根据导数和重根的关系知右边第二个括号中的分子有 $q_i-k$​ 重根 $z,\bar z$​, 所以我们带入 $x=z$​, 右边第二个括号和第一个括号中的一部分就消失了, 具体地:</p>
+<script type="math/tex; mode=display">
+\Big(\dfrac{P}{Q_0}\Big)^{(k)}(z)=F^{(k)}(z)</script><p>其中 $F(x)=\sum\limits_{j=q_i-k}^{q_i}(B_{i,j}x+C_{i,j})(x^2+b_ix+c_i)^{q_i-j}$.</p>
+<p>对比左右两边的虚部和实部, 就可以得到有关 $B_{i,q_i-k},\ldots,B_{i,q_i},C_{i,q_i-k},\ldots,C_{i,q_i}$ 的 $2$ 个线性方程, 于是我们依次令 $k=0,\ldots,q_i-1$, 就可以每次用两个方程分别解出 $B_{i,q_i-k}$ 和 $C_{i,q_i-k}$ (实际上得到的是一个它们关于 $B_{i,q_i-k+1},\ldots,B_{i,q_i},C_{i.q_i-k+1},\ldots,C_{q_i}$ 的递推式).</p>
+<hr>
+<h3 id="Part-3"><a href="#Part-3" class="headerlink" title="Part 3"></a>Part 3</h3><p>上面介绍了一个通法, 当然还有一些别的办法计算部分分式分解, 有的通用, 有的不通用, 比如极限法, 留数定理法等, 我不太了解.</p>
+<p>假分式也可以进行分式分解, 只不过先把 $P(x)$​ 除以 $Q(x)$ 的商拿出来, 然后再做剩下的真分式的分解.</p>
+<p>下面介绍一些分式分解的很简单的应用.</p>
+<p>在 oi 中, 式 (2) 可以用于一些线性递推的快速计算, 例如:</p>
+<blockquote>
+<p>例题: [ABC 241 Ex] Card Deck Score</p>
+<p>有 $n$​​​ 个盒子, 第 $i$​​​ 个盒子里有 $b_i$​​​ 个球, 从各个盒子中取出总共 $m$​​​ 个球, 若第 $i$​​ 个盒子中取出了 $c_i$​​ 个球, 则这种取法的价值是 $\prod_{i=1}^n a_i^{c_i}$​​, 求所有取法的价值总和对 $P=998244353$​ 取模的结果, 同一盒子中的球不可区分.</p>
+<p>$1\leq n\leq 16, 1\leq m\leq 10^{18}, 1\leq a_i\leq 998244352, 1\leq b_i\leq 10^{17}$, 保证 $a_i$ 两两不同.</p>
+</blockquote>
+<p>考虑经典的容斥, 先不考虑第 $i$ 个盒子最多取 $b_i$ 个的限制, 再钦定某个子集中所有盒子都违反了 $b_i$​ 的限制进行容斥, 则对于每个子集, 问题转化为: 从 $n$ 个盒子中一共取出 $m-S$ 个球, 不考虑 $b_i$ 的限制, 问价值之和.</p>
+<p>显然答案为</p>
+<script type="math/tex; mode=display">
+[x^{m-S}]\prod\limits_{i=1}^n\dfrac{1}{1-a_ix}.</script><p>式 (15) 中的分式代表了一个线性递推, 可以使用各种方法做到 $O(n^3\log m), O(n^2\log m), O(n\log n\log m)$ 等复杂度.</p>
+<p>进一步优化, 对式 (15) 中的分式进行分式分解, 那么答案就是</p>
+<script type="math/tex; mode=display">
+\sum\limits_{i=1}^n[x^{m-S}]\dfrac{A_i}{1-a_ix}=\sum\limits_{i=1}^nA_i\times a_i^{m-S}</script><p>这样, 复杂度就是 $O(n\log P)$​ (利用欧拉定理).</p>
+<p>而预处理 $A_i$ 的复杂度为 $O(\operatorname{poly}(n,\log P))$, 所以本题总复杂度为 $O(2^n\times n\log P)$.</p>
+<p>在数学中, 式 (2) 可以用于求有理分式的不定积分. 对于整式以及分母是 $(x+a)^k$, 分子零次的真分式, 我们有:</p>
+<script type="math/tex; mode=display">
+\int(a_nx^n+\ldots+a_0) \text{d}x=\dfrac{a_n}{n+1}x^{n+1}+\ldots+a_0x+C;</script><script type="math/tex; mode=display">
+\int\dfrac{A}{(x+a)^k} \text{d}x=\begin{cases}\dfrac{A}{(1-k)(x+a)^{k-1}}+C & (k\ne 1) \\
+A\ln|x+a|+C & (k=1)\end{cases}.</script><p>而对于分母是 $(x^2+bx+c)^k$ 且 $x^2+bx+c$​ 不可约, 分子一次的真分式, 有 (抄书):</p>
+<script type="math/tex; mode=display">
+\int\dfrac{Bx+C}{(x^2+b_ix+c_i)^k}\text{d}x=\int \dfrac{\alpha u+\beta}{(u^2+a^2)^k}\text{d}u\quad (u=x+\dfrac{p}{2},\ a=\sqrt{c-\dfrac{b^2}{4}},\ \alpha=B,\ \beta=C-\dfrac{Bb}{2}),</script><p>将 $\alpha u$ 和 $\beta$ 分开来算, 不管常数 $\alpha,\beta$, 对于前者有</p>
+<script type="math/tex; mode=display">
+\int \dfrac{u}{(u^2+a^2)^k}\text{d}u=\int\dfrac{\text{d}(u^2+a^2)}{2(u^2+a^2)^k}=\begin{cases}\dfrac{1}{2\times (1-k)(u^2+a^2)^{k-1}}+C & (k\ne 1) \\ \dfrac{1}{2}\ln (u^2+a^2)+C & (k=1)\end{cases}</script><p>对于后者, 使用分部积分获得递推式 (抄书):</p>
+<script type="math/tex; mode=display">
+I_k=\int \dfrac{1}{(u^2+a^2)^k}\text{d}u</script><script type="math/tex; mode=display">
+I_{k}=\int \dfrac{\text{d}u}{\text{d}u}\times \dfrac{1}{(u^2+a^2)^k}\text{d}u=\dfrac{u}{(u^2+a^2)^k}-\int u\times \dfrac{\text{d}}{(u^2+a^2)^k\text{d}u}\text{d}u</script><script type="math/tex; mode=display">
+=\dfrac{u}{(u^2+a^2)^k}+2k\int \dfrac{u^2}{(u^2+a^2)^{k+1}}\text{d}u</script><script type="math/tex; mode=display">
+=\dfrac{u}{(u^2+a^2)^k}+2k\int \dfrac{(u^2+a^2)-a^2}{(u^2+a^2)^{k+1}}\text{d}u</script><script type="math/tex; mode=display">
+=\dfrac{u}{(u^2+a^2)^k}+2kI_k-2ka^2I_{k+1}.</script><p>稍作整理, 得到:</p>
+<script type="math/tex; mode=display">
+I_{k+1}=\dfrac{u}{(u^2+a^2)^k\times 2ka^2}+\dfrac{2k-1}{2ka^2}I_k</script><script type="math/tex; mode=display">
+I_1=\int \dfrac{1}{u^2+a^2}\text{d}u=\dfrac{1}{a}\arctan(\dfrac{u}{a})+C.</script><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/06/02/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/" rel="prev" title="专题题解 - 消除游戏">
+                  <i class="fa fa-chevron-left"></i> 专题题解 - 消除游戏
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2024/06/02/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/%E7%A7%AF%E6%9C%A8%E6%B8%B8%E6%88%8F/" rel="next" title="专题题解 - 积木游戏">
+                  专题题解 - 积木游戏 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">ix35</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js","integrity":"sha256-tu9j5pBilBQrWSDePOOajCUdz6hWsid/lBNzK4KgEPM="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.0/katex.min.css" integrity="sha256-uik/hNqHWZldXh/0K35nqOSCff9F61/ZOFReqNOBgB0=" crossorigin="anonymous">
+
+
+
+</body>
+</html>

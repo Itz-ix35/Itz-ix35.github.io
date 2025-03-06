@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha256-xejo6yLi6vGtAjcMIsY8BHdKsLg7QynVlFMzdQgUuy8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"itz-ix35.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"show_result":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="NOI 2023">
+<meta property="og:type" content="article">
+<meta property="og:title" content="专题题解 - NOI 2023 部分题目">
+<meta property="og:url" content="https://itz-ix35.github.io/2025/02/24/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/NOI2023/index.html">
+<meta property="og:site_name" content="ix35&#39;s Blog">
+<meta property="og:description" content="NOI 2023">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-02-24T14:54:35.941Z">
+<meta property="article:modified_time" content="2025-02-24T14:55:07.970Z">
+<meta property="article:author" content="ix35">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://itz-ix35.github.io/2025/02/24/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/NOI2023/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://itz-ix35.github.io/2025/02/24/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/NOI2023/","path":"2025/02/24/专题题解/NOI2023/","title":"专题题解 - NOI 2023 部分题目"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>专题题解 - NOI 2023 部分题目 | ix35's Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">ix35's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-essays"><a href="/essay/" rel="section"><i class="fa fa-tags fa-fw"></i>随笔选辑</a></li><li class="menu-item menu-item-game-guide"><a href="/game-guide/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏攻略</a></li><li class="menu-item menu-item-game-review"><a href="/game-review/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏评测</a></li><li class="menu-item menu-item-music"><a href="/music/" rel="section"><i class="fa fa-tags fa-fw"></i>音乐分享</a></li><li class="menu-item menu-item-notes"><a href="/note/" rel="section"><i class="fa fa-tags fa-fw"></i>课程笔记</a></li><li class="menu-item menu-item-solutions"><a href="/solution/" rel="section"><i class="fa fa-tags fa-fw"></i>专题题解</a></li><li class="menu-item menu-item-technology"><a href="/technology/" rel="section"><i class="fa fa-tags fa-fw"></i>科普文章</a></li><li class="menu-item menu-item-travelogue"><a href="/travel/" rel="section"><i class="fa fa-tags fa-fw"></i>远古游记</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#D1T1"><span class="nav-text">D1T1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#D1T2"><span class="nav-text">D1T2</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#D2T1"><span class="nav-text">D2T1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#D2T2"><span class="nav-text">D2T2</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="ix35"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">ix35</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Itz-ix35" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Itz-ix35" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:2757336405@qq.com" title="E-Mail → mailto:2757336405@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.luogu.com.cn/user/113546" title="Luogu → https:&#x2F;&#x2F;www.luogu.com.cn&#x2F;user&#x2F;113546" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>Luogu</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/187505795" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;187505795" rel="noopener" target="_blank"><i class="fab fa-youtube fa-fw"></i>Bilibili</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://itz-ix35.github.io/2025/02/24/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/NOI2023/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="ix35">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ix35's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="专题题解 - NOI 2023 部分题目 | ix35's Blog">
+      <meta itemprop="description" content="NOI 2023">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          专题题解 - NOI 2023 部分题目
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2025-02-24 22:54:35" itemprop="dateCreated datePublished" datetime="2025-02-24T22:54:35+08:00">2025-02-24</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/" itemprop="url" rel="index"><span itemprop="name">专题题解</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+            <div class="post-description">NOI 2023</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>感觉不如……2021……难度……</p>
+<h2 id="D1T1"><a href="#D1T1" class="headerlink" title="D1T1"></a>D1T1</h2><p>先假设没有斜线，只有横线和竖线，那么总点数等于每条线的点数之和减掉交点数。先加横线，然后从左到右扫描线加入竖线，求交点数就是一个单点加区间求和的线段树。</p>
+<p>再加入斜线，我们暴力枚举每条横线和竖线看有没有与它相交，然后看看本质不同的交点有多少个就行了。</p>
+<h2 id="D1T2"><a href="#D1T2" class="headerlink" title="D1T2"></a>D1T2</h2><p>从 $n+1$ 到 $n+m$ 依次加点，维护当前前缀的虚树。每加入一个点时，有可能会额外引入一个虚树上的父亲。</p>
+<p>设 $f(i,S)$ 表示加到了 $n+i$，$S$ 的第 $j$ 位为 $1$ 当且仅当加入 $n+i-j$ 时引入了一个还没有被认领的虚树上的父亲。</p>
+<p>转移有两种：</p>
+<ol>
+<li><p>$n+i+1$ 认领 $S$ 中的一个未认领的父亲，$f(i,S)\to f(i+1,S’)$，$S’$ 是 $S$ 去掉一个 $1$，左移一位末尾加 $0$ 得到的。</p>
+</li>
+<li><p>$n+i+1$ 加在当前树的一条边上或一个点下，$f(i,S)\times (2sz-1)\to f(i+1,S’)$，其中 $sz$ 是树的大小可以通过 $i,S$ 得出；$S’$ 是 $S$ 左移一位末尾加 $0$ 得到的。</p>
+</li>
+<li><p>$n+i+1$ 引入了一个父亲，$f(i,S)\times (sz-1)\to f(i+1,S’)$，$S’$ 是 $S$ 左移一位末尾加 $1$ 都得到的。</p>
+</li>
+</ol>
+<h2 id="D2T1"><a href="#D2T1" class="headerlink" title="D2T1"></a>D2T1</h2><p>考虑 $x\to y$ 最短路，将边全部反转考虑 $y\to x$，设 $l$ 为它们的 LCA，那么可以发现一定是 $y$ 先走到 $l$ 然后沿着树边一路向下走到 $x$。</p>
+<p>于是对于每个 $y$，我们只要算它到它的所有祖先的最短路即可，这只有 $O(\log n)$ 个点，随便乱做都可以。</p>
+<h2 id="D2T2"><a href="#D2T2" class="headerlink" title="D2T2"></a>D2T2</h2><p>$w[x:x+i-1]&lt;w[x+i:x+2i-1]^R$，可以先统计后缀 $w[x:]$ 小于前缀反转 $w[:x+2i-1]^R$ 的方案数，等价于问一个区间里有多少个后缀排名比 $w[x:]$ 大，二维数点。</p>
+<p>但是我们要减掉其中 $w[x:x+i-1]=w[x+i:x+2i-1]^R$ 的情况。用 manacher，枚举回文中心 $x+i-\frac{1}{2}$，可以发现以其为中心的偶回文串是否要减掉贡献是确定的，所以我们可以得出所有需要减掉贡献的情况，就看有几个能够到 $x$ 即可，又是一个数点。</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2025/02/24/%E9%9F%B3%E4%B9%90%E5%88%86%E4%BA%AB/G04AstralBirth/" rel="prev" title="音乐分享 - G04 組曲:星羅征く旅人 最終楽章:煌めき星">
+                  <i class="fa fa-chevron-left"></i> 音乐分享 - G04 組曲:星羅征く旅人 最終楽章:煌めき星
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2025/02/24/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/PKU&THUSC2023/" rel="next" title="专题题解 - PKU&THUSC 2023">
+                  专题题解 - PKU&THUSC 2023 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">ix35</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js","integrity":"sha256-tu9j5pBilBQrWSDePOOajCUdz6hWsid/lBNzK4KgEPM="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.0/katex.min.css" integrity="sha256-uik/hNqHWZldXh/0K35nqOSCff9F61/ZOFReqNOBgB0=" crossorigin="anonymous">
+
+
+
+</body>
+</html>

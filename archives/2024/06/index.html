@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.2.0">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
 
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
@@ -13,12 +14,12 @@
 
 <link rel="stylesheet" href="/css/main.css">
 
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha256-xejo6yLi6vGtAjcMIsY8BHdKsLg7QynVlFMzdQgUuy8=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"itz-ix35.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"show_result":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"itz-ix35.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"show_result":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
     <meta property="og:type" content="website">
 <meta property="og:title" content="ix35&#39;s Blog">
@@ -81,7 +82,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-essays"><a href="/essay/" rel="section"><i class="fa fa-tags fa-fw"></i>随笔选辑</a></li><li class="menu-item menu-item-game-guide"><a href="/game-guide/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏攻略</a></li><li class="menu-item menu-item-game-review"><a href="/game-review/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏评测</a></li><li class="menu-item menu-item-music"><a href="/music/" rel="section"><i class="fa fa-tags fa-fw"></i>音乐分享</a></li><li class="menu-item menu-item-notes"><a href="/note/" rel="section"><i class="fa fa-tags fa-fw"></i>课程笔记</a></li><li class="menu-item menu-item-solutions"><a href="/solution/" rel="section"><i class="fa fa-tags fa-fw"></i>专题题解</a></li><li class="menu-item menu-item-technology"><a href="/technology/" rel="section"><i class="fa fa-tags fa-fw"></i>科普文章</a></li><li class="menu-item menu-item-travelogue"><a href="/travel/" rel="section"><i class="fa fa-tags fa-fw"></i>远古游记</a></li>
   </ul>
 </nav>
 
@@ -121,26 +122,6 @@
       src="/images/avatar.png">
   <p class="site-author-name" itemprop="name">ix35</p>
   <div class="site-description" itemprop="description"></div>
-</div>
-<div class="site-state-wrap site-overview-item animated">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-        <a href="/archives/">
-          <span class="site-state-item-count">45</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-          <a href="/categories/">
-        <span class="site-state-item-count">12</span>
-        <span class="site-state-item-name">分类</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-          <a href="/tags/">
-        <span class="site-state-item-count">8</span>
-        <span class="site-state-item-name">标签</span></a>
-      </div>
-  </nav>
 </div>
   <div class="links-of-author site-overview-item animated">
       <span class="links-of-author-item">
@@ -189,33 +170,13 @@
     <div class="post-content">
       <div class="collection-title">
         
-        <span class="collection-header">还行! 目前共计 45 篇日志。 继续努力。</span>
+        <span class="collection-header">很好! 目前共计 86 篇日志。 继续努力。</span>
       </div>
 
       
     <div class="collection-year">
       <span class="collection-header">2024</span>
     </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2024-06-02T14:23:05+08:00"
-              content="2024-06-02">
-          06-02
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/QCS%20%E6%9E%81%E7%AE%80%E6%95%B4%E7%90%86/" itemprop="url">
-            <span itemprop="name">QCS 极简整理</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
 
   <article itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -228,8 +189,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/HNOI%202009%20%E7%A7%AF%E6%9C%A8%E6%B8%B8%E6%88%8F%20%E9%A2%98%E8%A7%A3/" itemprop="url">
-            <span itemprop="name">HNOI 2009 积木游戏 题解</span>
+          <a class="post-title-link" href="/2024/06/02/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/%E7%A7%AF%E6%9C%A8%E6%B8%B8%E6%88%8F/" itemprop="url">
+            <span itemprop="name">专题题解 - 积木游戏</span>
           </a>
       </div>
 
@@ -248,28 +209,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/%E6%9C%89%E7%90%86%E7%9C%9F%E5%88%86%E5%BC%8F%E5%88%86%E8%A7%A3/" itemprop="url">
-            <span itemprop="name">有理真分式分解</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2024-06-02T13:20:44+08:00"
-              content="2024-06-02">
-          06-02
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/P7729%20%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93%20%E9%A2%98%E8%A7%A3/" itemprop="url">
-            <span itemprop="name">P7729 交通运输 题解</span>
+          <a class="post-title-link" href="/2024/06/02/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/%E6%9C%89%E7%90%86%E7%9C%9F%E5%88%86%E5%BC%8F%E5%88%86%E8%A7%A3/" itemprop="url">
+            <span itemprop="name">科普文章 - 有理真分式分解</span>
           </a>
       </div>
 
@@ -288,8 +229,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/NOI%202014%20%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F%20%E9%A2%98%E8%A7%A3/" itemprop="url">
-            <span itemprop="name">NOI 2014 消除游戏 题解</span>
+          <a class="post-title-link" href="/2024/06/02/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F/" itemprop="url">
+            <span itemprop="name">专题题解 - 消除游戏</span>
           </a>
       </div>
 
@@ -308,8 +249,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/OI%20%E9%80%80%E5%BD%B9%E8%AE%B0/" itemprop="url">
-            <span itemprop="name">OI 退役记</span>
+          <a class="post-title-link" href="/2024/06/02/%E9%9A%8F%E7%AC%94%E9%80%89%E8%BE%91/OI%E9%80%80%E5%BD%B9%E8%AE%B0/" itemprop="url">
+            <span itemprop="name">随笔选辑 - OI 退役记</span>
           </a>
       </div>
 
@@ -328,8 +269,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/%E6%88%91%E5%AF%B9%20OI%20%E7%9A%84%E6%83%B3%E8%B1%A1/" itemprop="url">
-            <span itemprop="name">我对 OI 的想象</span>
+          <a class="post-title-link" href="/2024/06/02/%E9%9A%8F%E7%AC%94%E9%80%89%E8%BE%91/%E6%88%91%E5%AF%B9OI%E7%9A%84%E6%83%B3%E8%B1%A1/" itemprop="url">
+            <span itemprop="name">随笔选辑 - 我对 OI 的想象</span>
           </a>
       </div>
 
@@ -348,8 +289,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%8A%80%E6%9C%AF%E5%B7%A1%E7%A4%BC/" itemprop="url">
-            <span itemprop="name">字符串算法巡礼</span>
+          <a class="post-title-link" href="/2024/06/02/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%8A%80%E6%9C%AF%E5%B7%A1%E7%A4%BC/" itemprop="url">
+            <span itemprop="name">科普文章 - 字符串技术巡礼</span>
           </a>
       </div>
 
@@ -368,8 +309,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/%E9%9B%A8/" itemprop="url">
-            <span itemprop="name">雨</span>
+          <a class="post-title-link" href="/2024/06/02/%E9%9A%8F%E7%AC%94%E9%80%89%E8%BE%91/%E9%9B%A8/" itemprop="url">
+            <span itemprop="name">随笔选辑 - 雨</span>
           </a>
       </div>
 
@@ -381,15 +322,55 @@
     <header class="post-header">
       <div class="post-meta-container">
         <time itemprop="dateCreated"
-              datetime="2024-06-02T12:56:15+08:00"
+              datetime="2024-06-02T12:50:37+08:00"
               content="2024-06-02">
           06-02
         </time>
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/ix35%20%E9%A2%98%E7%9B%AE%E5%90%88%E9%9B%86/" itemprop="url">
-            <span itemprop="name">ix35 题目合集</span>
+          <a class="post-title-link" href="/2024/06/02/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/IntrotoCSW7/" itemprop="url">
+            <span itemprop="name">课程笔记 - Intro to CS W7</span>
+          </a>
+      </div>
+
+      
+    </header>
+  </article>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+      <div class="post-meta-container">
+        <time itemprop="dateCreated"
+              datetime="2024-06-02T12:49:47+08:00"
+              content="2024-06-02">
+          06-02
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2024/06/02/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/IntrotoCSW1/" itemprop="url">
+            <span itemprop="name">课程笔记 - Intro to CS W1</span>
+          </a>
+      </div>
+
+      
+    </header>
+  </article>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+      <div class="post-meta-container">
+        <time itemprop="dateCreated"
+              datetime="2024-06-02T12:41:52+08:00"
+              content="2024-06-02">
+          06-02
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2024/06/02/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/GeneralPhysicsIIW9/" itemprop="url">
+            <span itemprop="name">课程笔记 - General Physics II W9</span>
           </a>
       </div>
 
@@ -416,9 +397,9 @@
 
 <div class="copyright">
   &copy; 
-  <span itemprop="copyrightYear">2024</span>
+  <span itemprop="copyrightYear">2025</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">ix35</span>
 </div>
@@ -434,6 +415,8 @@
 
   
 
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js","integrity":"sha256-tu9j5pBilBQrWSDePOOajCUdz6hWsid/lBNzK4KgEPM="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
 
 
 

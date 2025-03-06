@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.2.0">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
 
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
@@ -13,12 +14,12 @@
 
 <link rel="stylesheet" href="/css/main.css">
 
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha256-xejo6yLi6vGtAjcMIsY8BHdKsLg7QynVlFMzdQgUuy8=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"itz-ix35.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"show_result":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"itz-ix35.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"show_result":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
     <meta property="og:type" content="website">
 <meta property="og:title" content="ix35&#39;s Blog">
@@ -81,7 +82,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-essays"><a href="/essay/" rel="section"><i class="fa fa-tags fa-fw"></i>随笔选辑</a></li><li class="menu-item menu-item-game-guide"><a href="/game-guide/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏攻略</a></li><li class="menu-item menu-item-game-review"><a href="/game-review/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏评测</a></li><li class="menu-item menu-item-music"><a href="/music/" rel="section"><i class="fa fa-tags fa-fw"></i>音乐分享</a></li><li class="menu-item menu-item-notes"><a href="/note/" rel="section"><i class="fa fa-tags fa-fw"></i>课程笔记</a></li><li class="menu-item menu-item-solutions"><a href="/solution/" rel="section"><i class="fa fa-tags fa-fw"></i>专题题解</a></li><li class="menu-item menu-item-technology"><a href="/technology/" rel="section"><i class="fa fa-tags fa-fw"></i>科普文章</a></li><li class="menu-item menu-item-travelogue"><a href="/travel/" rel="section"><i class="fa fa-tags fa-fw"></i>远古游记</a></li>
   </ul>
 </nav>
 
@@ -121,26 +122,6 @@
       src="/images/avatar.png">
   <p class="site-author-name" itemprop="name">ix35</p>
   <div class="site-description" itemprop="description"></div>
-</div>
-<div class="site-state-wrap site-overview-item animated">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-        <a href="/archives/">
-          <span class="site-state-item-count">45</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-          <a href="/categories/">
-        <span class="site-state-item-count">12</span>
-        <span class="site-state-item-name">分类</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-          <a href="/tags/">
-        <span class="site-state-item-count">8</span>
-        <span class="site-state-item-name">标签</span></a>
-      </div>
-  </nav>
 </div>
   <div class="links-of-author site-overview-item animated">
       <span class="links-of-author-item">
@@ -189,7 +170,7 @@
     <div class="post-content">
       <div class="collection-title">
         
-        <span class="collection-header">还行! 目前共计 45 篇日志。 继续努力。</span>
+        <span class="collection-header">很好! 目前共计 86 篇日志。 继续努力。</span>
       </div>
 
       
@@ -208,8 +189,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2023/09/29/%E7%BA%AF%E7%BA%AF%E7%9A%84%E6%B0%91%E7%A7%912%EF%BC%9ALagHam/" itemprop="url">
-            <span itemprop="name">纯纯的民科2：LagHam</span>
+          <a class="post-title-link" href="/2023/09/29/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/LagHam/" itemprop="url">
+            <span itemprop="name">科普文章 - LagHam</span>
           </a>
       </div>
 
@@ -228,8 +209,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2023/09/29/%E7%BA%AF%E7%BA%AF%E7%9A%84%E6%B0%91%E7%A7%911%EF%BC%9A%E6%AD%A3%E8%BD%B4%E5%9C%86%E6%9F%B1%E6%8A%95%E5%BD%B1/" itemprop="url">
-            <span itemprop="name">纯纯的民科1：正轴圆柱投影</span>
+          <a class="post-title-link" href="/2023/09/29/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/%E6%AD%A3%E8%BD%B4%E5%9C%86%E6%9F%B1%E6%8A%95%E5%BD%B1/" itemprop="url">
+            <span itemprop="name">科普文章 - 正轴圆柱投影</span>
           </a>
       </div>
 
@@ -248,8 +229,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2023/09/29/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" itemprop="url">
-            <span itemprop="name">第一篇博客</span>
+          <a class="post-title-link" href="/2023/09/29/%E9%9A%8F%E7%AC%94%E9%80%89%E8%BE%91/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" itemprop="url">
+            <span itemprop="name">随笔选辑 - 第一篇博客</span>
           </a>
       </div>
 
@@ -268,8 +249,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2023/09/29/%E7%A9%BA%E6%B4%9E%E9%AA%91%E5%A3%AB%E4%B8%AA%E4%BA%BA%E5%90%91%E4%BA%94%E9%97%A8%20boss%20%E9%9A%BE%E5%BA%A6/" itemprop="url">
-            <span itemprop="name">空洞骑士个人向五门 boss 难度</span>
+          <a class="post-title-link" href="/2023/09/29/%E9%9A%8F%E7%AC%94%E9%80%89%E8%BE%91/%E6%BB%9A%E5%8A%A8%E7%9A%84%E5%A4%A9%E7%A9%BA/" itemprop="url">
+            <span itemprop="name">随笔选辑 - 滚动的天空</span>
           </a>
       </div>
 
@@ -288,8 +269,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2023/09/29/%E6%BB%9A%E5%8A%A8%E7%9A%84%E5%A4%A9%E7%A9%BA/" itemprop="url">
-            <span itemprop="name">滚动的天空</span>
+          <a class="post-title-link" href="/2023/09/29/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/%E5%8D%95%E4%BD%8D%E8%92%99%E6%97%A5%E7%9F%A9%E9%98%B5%E4%B9%98%E6%B3%95/" itemprop="url">
+            <span itemprop="name">科普文章 - 单位蒙日矩阵乘法</span>
           </a>
       </div>
 
@@ -308,8 +289,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2023/09/29/%E4%BB%A5%E6%92%92%E7%AB%9E%E9%80%9F%E5%85%A5%E9%97%A8%EF%BC%88%E8%8D%89%E7%A8%BF%EF%BC%89/" itemprop="url">
-            <span itemprop="name">以撒竞速入门（草稿）</span>
+          <a class="post-title-link" href="/2023/09/29/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/XXIIOpenCup,GrandPrixofEDG/" itemprop="url">
+            <span itemprop="name">专题题解 - XXII Open Cup, Grand Prix of EDG</span>
           </a>
       </div>
 
@@ -328,8 +309,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2023/09/29/%E5%8D%95%E4%BD%8D%E8%92%99%E6%97%A5%E7%9F%A9%E9%98%B5%E4%B9%98%E6%B3%95/" itemprop="url">
-            <span itemprop="name">单位蒙日矩阵乘法 - 模板</span>
+          <a class="post-title-link" href="/2023/09/29/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/XXIIOpenCupnamedafterE.V.Pankratiev,GrandPrixofPoland/" itemprop="url">
+            <span itemprop="name">专题题解 - XXII Open Cup named after E.V. Pankratiev, Grand Prix of Poland</span>
           </a>
       </div>
 
@@ -348,8 +329,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2023/09/29/XXII%20Open%20Cup%20named%20after%20E.V.%20Pankratiev,%20Grand%20Prix%20of%20Poland/" itemprop="url">
-            <span itemprop="name">XXII Open Cup named after E.V. Pankratiev, Grand Prix of Poland</span>
+          <a class="post-title-link" href="/2023/09/29/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/XXIOpenCup,GrandPrixofNizhnyNovgorod/" itemprop="url">
+            <span itemprop="name">专题题解 - XXI Open Cup, Grand Prix of Nizhny Novgorod</span>
           </a>
       </div>
 
@@ -368,8 +349,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2023/09/29/XXII%20Open%20Cup,%20Grand%20Prix%20of%20EDG/" itemprop="url">
-            <span itemprop="name">XXII Open Cup, Grand Prix of EDG</span>
+          <a class="post-title-link" href="/2023/09/29/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/XXIOpenCup,GrandPrixofKorea/" itemprop="url">
+            <span itemprop="name">专题题解 - XXI Open Cup, Grand Prix of Korea</span>
           </a>
       </div>
 
@@ -388,8 +369,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2023/09/29/XXI%20Open%20Cup,%20Grand%20Prix%20of%20Nizhny%20Novgorod/" itemprop="url">
-            <span itemprop="name">XXI Open Cup, Grand Prix of Nizhny Novgorod</span>
+          <a class="post-title-link" href="/2023/09/29/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/XR-4/" itemprop="url">
+            <span itemprop="name">专题题解 - XR-4</span>
           </a>
       </div>
 
@@ -416,9 +397,9 @@
 
 <div class="copyright">
   &copy; 
-  <span itemprop="copyrightYear">2024</span>
+  <span itemprop="copyrightYear">2025</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">ix35</span>
 </div>
@@ -434,6 +415,8 @@
 
   
 
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js","integrity":"sha256-tu9j5pBilBQrWSDePOOajCUdz6hWsid/lBNzK4KgEPM="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
 
 
 

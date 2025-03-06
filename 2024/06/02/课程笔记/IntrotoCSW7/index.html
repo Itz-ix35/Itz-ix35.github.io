@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha256-xejo6yLi6vGtAjcMIsY8BHdKsLg7QynVlFMzdQgUuy8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"itz-ix35.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"show_result":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="Learning Theory">
+<meta property="og:type" content="article">
+<meta property="og:title" content="课程笔记 - Intro to CS W7">
+<meta property="og:url" content="https://itz-ix35.github.io/2024/06/02/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/IntrotoCSW7/index.html">
+<meta property="og:site_name" content="ix35&#39;s Blog">
+<meta property="og:description" content="Learning Theory">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-06-02T04:50:37.487Z">
+<meta property="article:modified_time" content="2025-02-21T01:28:17.668Z">
+<meta property="article:author" content="ix35">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://itz-ix35.github.io/2024/06/02/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/IntrotoCSW7/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://itz-ix35.github.io/2024/06/02/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/IntrotoCSW7/","path":"2024/06/02/课程笔记/IntrotoCSW7/","title":"课程笔记 - Intro to CS W7"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>课程笔记 - Intro to CS W7 | ix35's Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">ix35's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-essays"><a href="/essay/" rel="section"><i class="fa fa-tags fa-fw"></i>随笔选辑</a></li><li class="menu-item menu-item-game-guide"><a href="/game-guide/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏攻略</a></li><li class="menu-item menu-item-game-review"><a href="/game-review/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏评测</a></li><li class="menu-item menu-item-music"><a href="/music/" rel="section"><i class="fa fa-tags fa-fw"></i>音乐分享</a></li><li class="menu-item menu-item-notes"><a href="/note/" rel="section"><i class="fa fa-tags fa-fw"></i>课程笔记</a></li><li class="menu-item menu-item-solutions"><a href="/solution/" rel="section"><i class="fa fa-tags fa-fw"></i>专题题解</a></li><li class="menu-item menu-item-technology"><a href="/technology/" rel="section"><i class="fa fa-tags fa-fw"></i>科普文章</a></li><li class="menu-item menu-item-travelogue"><a href="/travel/" rel="section"><i class="fa fa-tags fa-fw"></i>远古游记</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Learning-Theory"><span class="nav-text">Learning Theory</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Approximation-Error"><span class="nav-text">Approximation Error</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Optimization-Error"><span class="nav-text">Optimization Error</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generalization-Error"><span class="nav-text">Generalization Error</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="nav-text">参考资料</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="ix35"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">ix35</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Itz-ix35" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Itz-ix35" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:2757336405@qq.com" title="E-Mail → mailto:2757336405@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.luogu.com.cn/user/113546" title="Luogu → https:&#x2F;&#x2F;www.luogu.com.cn&#x2F;user&#x2F;113546" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>Luogu</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/187505795" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;187505795" rel="noopener" target="_blank"><i class="fab fa-youtube fa-fw"></i>Bilibili</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://itz-ix35.github.io/2024/06/02/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/IntrotoCSW7/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="ix35">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ix35's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="课程笔记 - Intro to CS W7 | ix35's Blog">
+      <meta itemprop="description" content="Learning Theory">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          课程笔记 - Intro to CS W7
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2024-06-02 12:50:37" itemprop="dateCreated datePublished" datetime="2024-06-02T12:50:37+08:00">2024-06-02</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">课程笔记</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+            <div class="post-description">Learning Theory</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h2 id="Learning-Theory"><a href="#Learning-Theory" class="headerlink" title="Learning Theory"></a>Learning Theory</h2><p>今天介绍机器学习理论。我们将以监督学习（Supervised Learning）为主，我们首先有一个数据集，数据集可以认为是一些输入与输出二元组的集合 $D=\{x_i,y_i\}_i$（为了方便，假设 $y_i\in \mathbb R$），我们需要找到一个函数 $f$，使得在某种度量下 $\Vert f(x_i)-y_i\Vert$ 尽量小。</p>
+<p>一般来说，我们对 $D$ 进行采样得到训练集 $D’$，只通过 $D’$ 得出某个函数 $f$，然后把它应用在 $D$ 上。为了评估 $f$ 的表现，我们定义损失函数，这是一个泛函 $L_D(f)$，例如</p>
+<script type="math/tex; mode=display">L_D(f)=\frac{1}{|D|}\sum_{(x,y)\in D} (f(x)-y)^2</script><p>就是一个可能的损失函数，我们的目标是在某一函数族 $\mathcal F$ 中找到一个 $f$ 最小化 $L_D(f)$。</p>
+<p>但在这过程中我们可能有许多误差，下面稍加分析：</p>
+<script type="math/tex; mode=display">\begin{aligned}
+L_D(f)=& \min_{f\in \mathcal F}\{L_{D'}(f)\} && (*)\\
+&+L_{D'}(f)-\min_{f\in \mathcal F}\{L_{D'}(f)\} && (**)\\
+&+L_{D}(f)-L_{D'}(f) && (***)
+\end{aligned}</script><p>上面的三项，分布称为 $(<em>)$ Approximation Error，$(<strong>)$ Optimization Error 和 $(</strong></em>)$ Generalization Error。接下来我们就来看，如何让它们分别比较小。</p>
+<hr>
+<h3 id="Approximation-Error"><a href="#Approximation-Error" class="headerlink" title="Approximation Error"></a>Approximation Error</h3><p>在这里，我们唯一可以决定的就是 $\mathcal F$ 而已。</p>
+<p>选择合适的函数族可以使得答案更精确，这是很明显的。例如二分类 SVM，如果我们只被允许使用线性 SVM，那么</p>
+<script type="math/tex; mode=display">\mathcal F=\left\{f(x)\middle| f(x_1,\ldots,x_n)=\left[\sum_{i=1}^nw_ix_i+b\ge 0\right]\right\}.</script><p>它只能在线性可分的数据集上达到 $0$ 的误差。但如果我们使用核函数 $K(x,z)$，那么</p>
+<script type="math/tex; mode=display">\mathcal F=\left\{f(x)\middle| f(x)=\left[K(x,w)+b\ge 0\right]\right\}.</script><p>这提供了非线性性的可能，自然适用于解决不同类型的问题。</p>
+<p>下面我们特别考虑一下神经网络的功能，注意所有固定形状的神经网络构成一个函数族 $\mathcal F$，我们就是要计算一些情况下 $\min_{f\in \mathcal F}L_D(f)$ 的上界。</p>
+<ul>
+<li><p><strong>1D Approximation THM</strong>：若函数 $g:[0,1]\to \mathbb R$ 是 $\rho-\text{Lipschitz}$ 的，则对于任意 $\varepsilon&gt;0$，存在一个 $\left\lceil\dfrac{\rho}{\epsilon}\right\rceil$ 个中间结点的三层神经网络，以 $\sigma(x)=[x\ge 0]$ 为激活函数，设其输出为 $f(x)$，使得 $|f(x)-g(x)|\leq \varepsilon (\forall x\in[0,1])$。</p>
+</li>
+<li><p>Proof：首先回忆李普希茨函数的定义，$g$ 是 $\rho-\text{Lipschitz}$ 的，表示 $|g(x)-g(y)|\leq \rho|x-y|$。</p>
+<p>建立一个隐藏层有 $m=\left\lceil\dfrac{\rho}{\epsilon}\right\rceil$ 个结点的神经网络，则</p>
+<script type="math/tex; mode=display">f(x)=\sum_{i=0}^{m-1} a_i[w_ix+b_i\ge 0]+c</script><p>令 $a_0=g(0), a_i=g\left(\dfrac{i\varepsilon}{\rho}\right)-g\left(\dfrac{(i-1)\varepsilon}{\rho}\right) (i&gt;0), c=0$，再令 $w_i=\rho, b_i=-i\varepsilon$，那么经过计算可知</p>
+<script type="math/tex; mode=display">f(x)=g\left(\left\lfloor\dfrac{x\rho}{\varepsilon}\right\rfloor\dfrac{\varepsilon}{\rho}\right).</script><p>根据 $\rho-\text{Lipschitz}$ 条件自然有 $|f(x)-g(x)|\leq \varepsilon$。</p>
+</li>
+<li><p><strong>Multivariate Approximation THM</strong>：若函数 $g:[0,1]^d\to \mathbb R$ 满足 Lipschitz 条件 $\Vert x-y\Vert_{\infty}\leq \delta\Rightarrow |g(x)-g(y)|\leq \varepsilon$，那么存在一个 $O\left(\dfrac{1}{\delta^d}\right)$ 的三层神经网络，以 RELU 为激活函数，设其输出为 $f(x)$，使得</p>
+<script type="math/tex; mode=display">\int_{[0,1]^d} |f(x)-g(x)|\mathrm dx\leq \varepsilon.</script><p>Remarks：上述积分称为 $f-g$（在 $[0,1]^d$ 上）的 L1 范数 $\Vert f-g\Vert_1$。</p>
+<p>Sketch（我瞎编的，不知道对不对）：和上面的证明类似的思路，以 $\dfrac{1}{\delta}$ 为边长网格化，给格点一个顺序使得对于每个前缀存在一个超平面恰好经过这些格点，然后差分一下得到系数。</p>
+</li>
+</ul>
+<p>上面的定理告诉我们，对于有好的李普希茨性的函数，我们总能利用神经网络得到足够好的近似。但是令我们在意的是，神经元数量是维数 $d$ 的指数，然而大部分神经网络应用问题的输入维数都很高，这使得上面的分析非常没用。那么能不能得到一个不这么依赖维数的结论呢？下面的 Barron 定理给了部分的答案。不过反正我看不懂，只能把它抄下来。</p>
+<ul>
+<li><p><strong>Barron THM</strong>：对于函数 $f:\mathbb R^d\to \mathbb R$，考虑其傅里叶系数 $\hat f$：</p>
+<script type="math/tex; mode=display">\hat f(w)=\int_{\mathbb R^d}f(x)e^{-i(w\cdot x)}\mathrm dx.</script><p>定义 $f$ 的 Barron Constant 为</p>
+<script type="math/tex; mode=display">C(f)=\int_{\mathbb R^d} \Vert w\Vert_2\hat f(w)\mathrm dw.</script><p>那么，存在一个 $O\left(\dfrac{C(f)^2}{\varepsilon}\right)$ 个结点的三层神经网络，以 sigmoid 为激活函数，设输出为 $f’(x)$，使得在单位球 $B$ 内</p>
+<script type="math/tex; mode=display">\Vert f'-f\Vert_2^2=\int_{B}(f'(x)-f(x))^2\mathrm dx\leq \varepsilon.</script></li>
+</ul>
+<hr>
+<h3 id="Optimization-Error"><a href="#Optimization-Error" class="headerlink" title="Optimization Error"></a>Optimization Error</h3><p>在优化过程中，最常用的方法就是梯度下降法。为了寻找函数 $f$ 的最小值，我们不断迭代 $w_{t+1}=w_t-\eta\nabla f(w_t)$。当然单纯这样做是不一定能找到全局最小值（或至少到达全局最小值附近）的，而是可能会跑到局部最小值附近。</p>
+<p>不过，我们首先说明这一过程一般情况下是会收敛的，下面设 $x^*$ 是 $f(x)$ 的最小值点（首先当然要假设它的存在性）。</p>
+<ul>
+<li><p>Lemma：若 $f$ 二阶可导，且 $\Vert H(f(x))\Vert_2\leq \beta$，其中 $\Vert H(f(x))\Vert_2$ 是 Hessian 矩阵 $H(f(x))$ 的算子范数 $\max_{\Vert v\Vert_2=1} \{H(f(x))v\}$。则在梯度下降中令 $\eta=1/\beta$，就有</p>
+<script type="math/tex; mode=display">f(w_t)-f(w_{t+1})\ge \dfrac{1}{2\beta}\Vert \nabla f(w_t)\Vert_2^2.</script><p>Remarks: 关于 Hessian 矩阵的条件 $\Vert H(f(x))\Vert_2\leq \beta$ 称为 $f$ 的光滑性，$\beta$ 称为光滑系数。</p>
+<p>Proof：考虑二阶 Lagrange 余项的泰勒展开，令 $h=-\eta\nabla f(w_t)$：</p>
+<script type="math/tex; mode=display">\begin{aligned}f(w_t+h)&=f(w_t)+h\nabla f(w_t)+\dfrac{1}{2}h^TH(f(\xi))h\\&\leq f(w_t)-\eta\Vert \nabla f(w_t)\Vert_2^2+\dfrac{\beta}{2}\eta^2\Vert \nabla f(w_t)\Vert_2^2\\& =f(w_t)-\dfrac{1}{2\beta}\Vert \nabla f(w_t)\Vert_2^2.\end{aligned}</script><p>这和要证的不等式等价。</p>
+</li>
+<li><p>收敛性定理：在上面引理的条件下，梯度下降经过 $T=O\left(\dfrac{\beta}{\varepsilon^2}\right)$ 轮可以使得 $\Vert \nabla f(w_T)\Vert_2^2\leq \varepsilon$。</p>
+<p>Proof：存在一些小问题，后补。</p>
+</li>
+</ul>
+<p>下面考虑一个更特殊的情况，即要优化的是一个二次型 $\dfrac{1}{2}x^TAx$，其中 $A$ 正定，我们有一个很漂亮的结果（对于一般情况，由于 $\lim_{x\to x^<em>}\Vert \nabla f(x)\Vert_2=0$，所以在 $x^</em>$ 附近时<br>$\dfrac{1}{2}x^TH(f(x^*))x$ 就成为了主项，在微积分 A (2) 中，就是用该二次型分析一般梯度下降的）。</p>
+<p>令 $f(x)=\dfrac{1}{2}x^TAx$，那么</p>
+<script type="math/tex; mode=display">f(x+t\nabla f(x))=f(x)+t\Vert\nabla f(x)\Vert_2^2+\dfrac{t^2}{2}\nabla^Tf(x)A\nabla f(x).</script><p>这是个关于 $t$ 的二次函数，当</p>
+<script type="math/tex; mode=display">t=-\dfrac{\nabla^Tf(x)\nabla f(x)}{\nabla^Tf(x)A\nabla f(x)}</script><p>时取到最小值，因此我们在梯度下降时步长就这样取。即令 $v_t=Aw_t=\nabla f(w_t)$，那么</p>
+<script type="math/tex; mode=display">w_{t+1}=w_t-\dfrac{v_t^T v_t}{v_t^T A v_t}v_t.</script><p>然后我们来计算收敛速度</p>
+<script type="math/tex; mode=display">\begin{aligned}
+\dfrac{f(w_{t+1})-f(x^*)}{f(w_t)-f(x^*)}&=\dfrac{w_t^TAw_t-\frac{(v_t^Tv_t)^2}{v_t^TAv_t}}{w_t^TAw_t}\\
+&=1-\dfrac{(v_t^Tv_t)^2}{(v_t^TAv_t)(w_t^TAw_t)}\\
+&=1-\dfrac{(v_t^Tv_t)^2}{(v_t^TAv_t)(v_t^TA^{-1}v_t)}\\
+&\leq 1-\dfrac{\lambda_{min}}{\lambda_{max}}.
+\end{aligned}</script><p>因此对于正定的 $A$，我们能用 $O(\log\dfrac{1}{\varepsilon})$ 步达到答案的 $\varepsilon$ 逼近，这是一个比一般函数更好的结果。</p>
+<p>相对于前面说的光滑性，$\Vert H^{-1}(f(x))\Vert\leq \beta’$ 称为 $f$ 的强凸性（实际上就是 $H(f(x))$ 的最小特征值有下界 $\dfrac{1}{\beta’}$。若 $f$ 有一定的光滑性和强凸性，则对任意 $x$ 有 $H(f(x))$ 正定（正定是由强凸性保证的），梯度下降一定可以找到最优解，且速率和 $\operatorname{cond}(H(f(x)))$ 有关，这里 $\operatorname{cond}(A)$ 是矩阵 $A$ 的条件数，等于 $A$ 的最大特征值除以最小特征值。</p>
+<hr>
+<h3 id="Generalization-Error"><a href="#Generalization-Error" class="headerlink" title="Generalization Error"></a>Generalization Error</h3><p>好大的鸽子。</p>
+<hr>
+<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><p>计算机入门 Lecture 7.</p>
+<p>（梯度下降在二次型上的收敛速度证明）<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/273726875">https://zhuanlan.zhihu.com/p/273726875</a> （有一个更好的结果）</p>
+<p>微积分 W 207-最小二乘法与梯度下降法</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/06/02/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/IntrotoCSW1/" rel="prev" title="课程笔记 - Intro to CS W1">
+                  <i class="fa fa-chevron-left"></i> 课程笔记 - Intro to CS W1
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2024/06/02/%E9%9A%8F%E7%AC%94%E9%80%89%E8%BE%91/%E9%9B%A8/" rel="next" title="随笔选辑 - 雨">
+                  随笔选辑 - 雨 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">ix35</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js","integrity":"sha256-tu9j5pBilBQrWSDePOOajCUdz6hWsid/lBNzK4KgEPM="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.0/katex.min.css" integrity="sha256-uik/hNqHWZldXh/0K35nqOSCff9F61/ZOFReqNOBgB0=" crossorigin="anonymous">
+
+
+
+</body>
+</html>

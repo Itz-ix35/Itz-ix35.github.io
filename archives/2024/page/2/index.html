@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.2.0">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
 
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
@@ -13,12 +14,12 @@
 
 <link rel="stylesheet" href="/css/main.css">
 
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha256-xejo6yLi6vGtAjcMIsY8BHdKsLg7QynVlFMzdQgUuy8=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"itz-ix35.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"show_result":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"itz-ix35.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"show_result":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
     <meta property="og:type" content="website">
 <meta property="og:title" content="ix35&#39;s Blog">
@@ -81,7 +82,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-essays"><a href="/essay/" rel="section"><i class="fa fa-tags fa-fw"></i>随笔选辑</a></li><li class="menu-item menu-item-game-guide"><a href="/game-guide/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏攻略</a></li><li class="menu-item menu-item-game-review"><a href="/game-review/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏评测</a></li><li class="menu-item menu-item-music"><a href="/music/" rel="section"><i class="fa fa-tags fa-fw"></i>音乐分享</a></li><li class="menu-item menu-item-notes"><a href="/note/" rel="section"><i class="fa fa-tags fa-fw"></i>课程笔记</a></li><li class="menu-item menu-item-solutions"><a href="/solution/" rel="section"><i class="fa fa-tags fa-fw"></i>专题题解</a></li><li class="menu-item menu-item-technology"><a href="/technology/" rel="section"><i class="fa fa-tags fa-fw"></i>科普文章</a></li><li class="menu-item menu-item-travelogue"><a href="/travel/" rel="section"><i class="fa fa-tags fa-fw"></i>远古游记</a></li>
   </ul>
 </nav>
 
@@ -121,26 +122,6 @@
       src="/images/avatar.png">
   <p class="site-author-name" itemprop="name">ix35</p>
   <div class="site-description" itemprop="description"></div>
-</div>
-<div class="site-state-wrap site-overview-item animated">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-        <a href="/archives/">
-          <span class="site-state-item-count">45</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-          <a href="/categories/">
-        <span class="site-state-item-count">12</span>
-        <span class="site-state-item-name">分类</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-          <a href="/tags/">
-        <span class="site-state-item-count">8</span>
-        <span class="site-state-item-name">标签</span></a>
-      </div>
-  </nav>
 </div>
   <div class="links-of-author site-overview-item animated">
       <span class="links-of-author-item">
@@ -189,33 +170,13 @@
     <div class="post-content">
       <div class="collection-title">
         
-        <span class="collection-header">还行! 目前共计 45 篇日志。 继续努力。</span>
+        <span class="collection-header">很好! 目前共计 86 篇日志。 继续努力。</span>
       </div>
 
       
     <div class="collection-year">
       <span class="collection-header">2024</span>
     </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2024-06-02T12:50:37+08:00"
-              content="2024-06-02">
-          06-02
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/Intro%20to%20CS%20W7/" itemprop="url">
-            <span itemprop="name">Intro to CS W7</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
 
   <article itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -228,8 +189,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/Intro%20to%20CS%20W1/" itemprop="url">
-            <span itemprop="name">Intro to CS W1</span>
+          <a class="post-title-link" href="/2024/06/02/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/IntrotoCSW1/" itemprop="url">
+            <span itemprop="name">课程笔记 - Intro to CS W1</span>
           </a>
       </div>
 
@@ -248,8 +209,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/General%20Physics%20II%20W9/" itemprop="url">
-            <span itemprop="name">General Physics II W9</span>
+          <a class="post-title-link" href="/2024/06/02/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/GeneralPhysicsIIW9/" itemprop="url">
+            <span itemprop="name">课程笔记 - General Physics II W9</span>
           </a>
       </div>
 
@@ -268,8 +229,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/General%20Physics%20II%20W5-6/" itemprop="url">
-            <span itemprop="name">General Physics II W5-6</span>
+          <a class="post-title-link" href="/2024/06/02/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/GeneralPhysicsIIW5-6/" itemprop="url">
+            <span itemprop="name">课程笔记 - General Physics II W5-6</span>
           </a>
       </div>
 
@@ -288,8 +249,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/General%20Physics%20II%20W3-4/" itemprop="url">
-            <span itemprop="name">General Physics II W3-4</span>
+          <a class="post-title-link" href="/2024/06/02/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/GeneralPhysicsIIW3-4/" itemprop="url">
+            <span itemprop="name">课程笔记 - General Physics II W3-4</span>
           </a>
       </div>
 
@@ -308,8 +269,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/General%20Physics%20II%20W2/" itemprop="url">
-            <span itemprop="name">General Physics II W2</span>
+          <a class="post-title-link" href="/2024/06/02/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/GeneralPhysicsIIW2/" itemprop="url">
+            <span itemprop="name">课程笔记 - General Physics II W2</span>
           </a>
       </div>
 
@@ -328,8 +289,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2024/06/02/General%20Physics%20II%20W1/" itemprop="url">
-            <span itemprop="name">General Physics II W1</span>
+          <a class="post-title-link" href="/2024/06/02/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/GeneralPhysicsIIW1/" itemprop="url">
+            <span itemprop="name">课程笔记 - General Physics II W1</span>
           </a>
       </div>
 
@@ -356,9 +317,9 @@
 
 <div class="copyright">
   &copy; 
-  <span itemprop="copyrightYear">2024</span>
+  <span itemprop="copyrightYear">2025</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">ix35</span>
 </div>
@@ -374,6 +335,8 @@
 
   
 
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js","integrity":"sha256-tu9j5pBilBQrWSDePOOajCUdz6hWsid/lBNzK4KgEPM="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
 
 
 

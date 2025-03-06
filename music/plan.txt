@@ -1,0 +1,85 @@
+M01 String Theocracy
+M02 Mortal With You
+M03 Classroom Dreamer
+M04 Hero
+M05 Between Two Worlds
+M06 world.execute (me) ;
+M07 world. search (you);
+M08 Utopiosphere
+M09 Year N
+M10 Chocological
+M11 Grown-up's Paradise
+M12 Poems of a Machine
+M13 幾年月
+M14 Sleep Talk Metropolis
+M15 Hearts Stay Unchanged
+M16 Bulbel
+M17 Salt, Pepper, Birds and the Thought Police
+M18 Ga1ahad and Scientific Witchery
+M19 In Hell We Live, Lament
+M20 Duetting Solo
+M21 RTRT
+M22 奶水
+M23 Life We Sow
+M24 Fly, My Wings
+M25 Children of the City
+M26 Summoning 101
+M27 Camelia
+M28 Birthday Kid
+
+---
+
+G01 Duet
+G02 Freudias Thema
+G03 Mora the Spider
+G04 組曲:星羅征く旅人 最終楽章:煌めき星
+G05 Rosary & Bible - Intro
+G06 三级警报
+G07 Accolade - Intro
+G08 狂花水月
+G09 World's End Valentine
+G10 My Innermost Apocalypse
+G11 Malkuth - Elijah
+G12 Oblivion
+G13 いつしか双星はロッシュ限界へ
+G14 Farewell
+G15 Lily Tree
+G16 Restoring the Light, Facing the Dark
+G17 Escaping a Foul Presence
+G18 霓虹
+G19 Purgatori
+G20 Sealed Vessel
+G21 Sun and Moon
+G22 VS.スタードリーム
+G23 Something Different
+G24 The Sun - Outro
+
+---
+
+X01 Euterpe
+X02 Ugly Fuel
+X03 The Scrap Boy
+X04 克卜勒
+X05 蜂鸟
+X06 ヰ世界の宝石譚
+X07 Anytime Anywhere
+X08 bliss
+X09 Dog Days Are Over
+X10 Show Yourself
+X11 God knows...
+X12 Love 2000
+X13 プラスティック・ラブ
+X14 北京东路的日子
+X15 飞鸟与鱼
+X16 今世
+X17 Stars
+X18 Empty Chairs at Empty Tables
+X19 Memory
+X20 Angel Of Music
+X21 Wishing You Were Somehow Here Again
+X22 All I Ask Of You
+X23 Distant Dreamer
+X24 ラピスのお人形
+X25 シリウスの心臓
+X26 The Perfumer's Perfect Fumes
+X27 The Last Chronicle

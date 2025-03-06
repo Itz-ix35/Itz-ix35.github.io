@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha256-xejo6yLi6vGtAjcMIsY8BHdKsLg7QynVlFMzdQgUuy8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"itz-ix35.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"show_result":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="记一次微积分作业">
+<meta property="og:type" content="article">
+<meta property="og:title" content="科普文章 - 正轴圆柱投影">
+<meta property="og:url" content="https://itz-ix35.github.io/2023/09/29/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/%E6%AD%A3%E8%BD%B4%E5%9C%86%E6%9F%B1%E6%8A%95%E5%BD%B1/index.html">
+<meta property="og:site_name" content="ix35&#39;s Blog">
+<meta property="og:description" content="记一次微积分作业">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.luogu.com.cn/upload/image_hosting/n3heye1b.png">
+<meta property="article:published_time" content="2023-09-29T12:47:44.114Z">
+<meta property="article:modified_time" content="2025-02-21T01:31:37.568Z">
+<meta property="article:author" content="ix35">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.luogu.com.cn/upload/image_hosting/n3heye1b.png">
+
+
+<link rel="canonical" href="https://itz-ix35.github.io/2023/09/29/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/%E6%AD%A3%E8%BD%B4%E5%9C%86%E6%9F%B1%E6%8A%95%E5%BD%B1/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://itz-ix35.github.io/2023/09/29/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/%E6%AD%A3%E8%BD%B4%E5%9C%86%E6%9F%B1%E6%8A%95%E5%BD%B1/","path":"2023/09/29/科普文章/正轴圆柱投影/","title":"科普文章 - 正轴圆柱投影"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>科普文章 - 正轴圆柱投影 | ix35's Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">ix35's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-essays"><a href="/essay/" rel="section"><i class="fa fa-tags fa-fw"></i>随笔选辑</a></li><li class="menu-item menu-item-game-guide"><a href="/game-guide/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏攻略</a></li><li class="menu-item menu-item-game-review"><a href="/game-review/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏评测</a></li><li class="menu-item menu-item-music"><a href="/music/" rel="section"><i class="fa fa-tags fa-fw"></i>音乐分享</a></li><li class="menu-item menu-item-notes"><a href="/note/" rel="section"><i class="fa fa-tags fa-fw"></i>课程笔记</a></li><li class="menu-item menu-item-solutions"><a href="/solution/" rel="section"><i class="fa fa-tags fa-fw"></i>专题题解</a></li><li class="menu-item menu-item-technology"><a href="/technology/" rel="section"><i class="fa fa-tags fa-fw"></i>科普文章</a></li><li class="menu-item menu-item-travelogue"><a href="/travel/" rel="section"><i class="fa fa-tags fa-fw"></i>远古游记</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AD%A3%E8%BD%B4%E5%9C%86%E6%9F%B1%E6%8A%95%E5%BD%B1"><span class="nav-text">正轴圆柱投影</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%AD%E5%BF%83%E9%80%8F%E8%A7%86%E6%8A%95%E5%BD%B1"><span class="nav-text">中心透视投影</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%9D%E8%A7%92%E6%8A%95%E5%BD%B1"><span class="nav-text">保角投影</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%9D%E9%9D%A2%E7%A7%AF%E6%8A%95%E5%BD%B1"><span class="nav-text">保面积投影</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%9D%E8%B7%9D%E6%8A%95%E5%BD%B1"><span class="nav-text">保距投影</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="ix35"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">ix35</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Itz-ix35" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Itz-ix35" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:2757336405@qq.com" title="E-Mail → mailto:2757336405@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.luogu.com.cn/user/113546" title="Luogu → https:&#x2F;&#x2F;www.luogu.com.cn&#x2F;user&#x2F;113546" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>Luogu</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/187505795" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;187505795" rel="noopener" target="_blank"><i class="fab fa-youtube fa-fw"></i>Bilibili</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://itz-ix35.github.io/2023/09/29/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/%E6%AD%A3%E8%BD%B4%E5%9C%86%E6%9F%B1%E6%8A%95%E5%BD%B1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="ix35">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ix35's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="科普文章 - 正轴圆柱投影 | ix35's Blog">
+      <meta itemprop="description" content="记一次微积分作业">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          科普文章 - 正轴圆柱投影
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2023-09-29 20:47:44" itemprop="dateCreated datePublished" datetime="2023-09-29T20:47:44+08:00">2023-09-29</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/" itemprop="url" rel="index"><span itemprop="name">科普文章</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+            <div class="post-description">记一次微积分作业</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h2 id="正轴圆柱投影"><a href="#正轴圆柱投影" class="headerlink" title="正轴圆柱投影"></a>正轴圆柱投影</h2><p>本篇文章不是很严谨和规范。</p>
+<p>我们想要绘制一张世界地图，在这里我们将地球视为球。</p>
+<p>我们可以采取如下方式：放置一个（可能无限高的）圆柱面，它与球在赤道处相切，然后构造一个从球面到圆柱面的映射 $f$，最后选一条平行旋转轴的直线将圆柱面展开，就得到了平面地图。</p>
+<p><img src="https://cdn.luogu.com.cn/upload/image_hosting/n3heye1b.png" alt=""></p>
+<p>一般情况下，我们会选择将每条纬线映射到圆柱面上平行于赤道的圆上，每条经线映射到平行于旋转轴的直线上，这就称为正轴圆柱投影。</p>
+<p>设球半径为 $R$，用经度 $\alpha$ 和纬度 $\beta$ 来描述球面上一个点，（此处与常规可能不同）西经为负，东经为正，南纬为负，北纬为正，$\alpha\in (-\pi,\pi], \beta\in [-\frac{\pi}{2},\frac{\pi}{2}]$。</p>
+<p>用 $x,y$ 描述圆柱面上一个点，$x$ 为赤道平面方向，以 $0$ 度经线为零点，西经为负，东经为正；$y$ 为垂直赤道平面方向，以赤道为零点，南纬为负，北纬为正。因此 $x\in (-\pi R,\pi R], y\in \mathbb R$。</p>
+<p>一个正轴圆柱投影可以表述成 $(\alpha,\beta)$ 到 $(x,y)$ 的映射：</p>
+<script type="math/tex; mode=display">\begin{cases}x=R\alpha \\y=y(\beta)\end{cases}</script><p>不同的投影方式就是因为 $y(\beta)$ 的选择而拥有不同的性质的。</p>
+<p>注意到经线和纬线这一对正交方向在投影后仍然正交，所以我们可以试求出这组始终正交的方向上的一组正交基，我们关心这组正交基的长度。</p>
+<p>考虑点 $(\alpha_0,\beta_0)$，设 $\alpha_0$ 经线为 $\mathbf A(\beta)$，$\beta_0$ 纬线为 $\mathbf B(\alpha)$，则：</p>
+<script type="math/tex; mode=display">\begin{aligned}
+\mathbf A(\beta) & =(R\cos \beta\cos \alpha_0,R\cos \beta\sin \alpha_0,R\sin \beta) \\
+\left\Vert \dfrac{\mathrm d\mathbf A}{\mathrm d\beta}(\beta_0)\right\Vert & =R\Vert(-\sin\beta_0\cos\alpha_0,-\sin\beta_0\cos\alpha_0,\cos\beta_0)\Vert=R\\
+\mathbf B(\alpha) & =(R\cos \beta_0\cos \alpha,R\cos \beta_0\sin \alpha,R\sin \beta_0) \\
+\left\Vert \dfrac{\mathrm d\mathbf B}{\mathrm d\alpha}(\alpha_0)\right\Vert & =R\Vert(-\cos\beta_0\sin\alpha_0,\cos\beta_0\cos\alpha_0,0)\Vert=R\cos \beta_0\\
+\left\Vert \dfrac{\partial(x,y)}{\partial \alpha}(\alpha_0,\beta_0)\right\Vert &=\Vert(R,0)\Vert=R\\
+\left\Vert \dfrac{\partial(x,y)}{\partial \beta}(\alpha_0,\beta_0)\right\Vert &=\Vert(0,y'(\beta_0))\Vert=y'(\beta_0)
+\end{aligned}</script><p>其中，$\left\{\dfrac{\mathrm d\mathbf B}{\mathrm d\alpha}(\alpha_0),\dfrac{\mathrm d\mathbf A}{\mathrm d\beta}(\beta_0)\right\}$ 是球面上 $(\alpha_0,\beta_0)$ 处的一组正交基，它被投影后成为圆柱面上对应点处的正交基 $\left\{\dfrac{\partial(x,y)}{\partial \alpha}(\alpha_0,\beta_0),\dfrac{\partial(x,y)}{\partial \beta}(\alpha_0,\beta_0)\right\}$。</p>
+<p>下面介绍几种正轴圆柱投影。</p>
+<hr>
+<h3 id="中心透视投影"><a href="#中心透视投影" class="headerlink" title="中心透视投影"></a>中心透视投影</h3><p>从球心引射线，射线穿过的球上的点被映射到射线穿过的圆柱面上的点。</p>
+<p>除了南北极点外，所有点都可以被映射到无限高的圆柱上。</p>
+<p>通过简单的几何关系知：</p>
+<script type="math/tex; mode=display">\begin{aligned}
+y(\beta) &=R\tan\beta\\
+y'(\beta) &=R\sec^2\beta
+\end{aligned}</script><h3 id="保角投影"><a href="#保角投影" class="headerlink" title="保角投影"></a>保角投影</h3><p>也叫 Mercator 投影，满足任何球面角等于映射后的平面角。</p>
+<p>考虑角度的定义，曲线 $\mathbf P(t),\mathbf Q(t)$ 交于 $\mathbf P(0)=\mathbf Q(0)$，则夹角定义为：</p>
+<script type="math/tex; mode=display">\arccos\left(\dfrac{\mathbf P'(0)\cdot \mathbf Q'(0)}{\Vert \mathbf P'(0)\Vert\Vert \mathbf Q'(0)\Vert}\right)</script><p>因此只要一对标准正交基被映射到标准正交基，那么角度就保持不变。即：</p>
+<script type="math/tex; mode=display">\dfrac{\left\Vert\dfrac{\partial(x,y)}{\partial \alpha}(\alpha_0,\beta_0)\right\Vert}{\left\Vert\dfrac{\mathrm d\mathbf B}{\mathrm d\alpha}(\alpha_0)\right\Vert}=\dfrac{\left\Vert\dfrac{\partial(x,y)}{\partial \beta}(\alpha_0,\beta_0)\right\Vert}{\left\Vert\dfrac{\mathrm d\mathbf A}{\mathrm d\beta}(\beta_0)\right\Vert}</script><p>解得：</p>
+<script type="math/tex; mode=display">\begin{aligned}
+y'(\beta) &=R\sec\beta\\
+y(\beta) &=R\ln(\sec\beta+\tan\beta)
+\end{aligned}</script><h3 id="保面积投影"><a href="#保面积投影" class="headerlink" title="保面积投影"></a>保面积投影</h3><p>球面上的一块面积与映射后的面积成固定比例。</p>
+<p>类似地：</p>
+<script type="math/tex; mode=display">\left\Vert\dfrac{\partial(x,y)}{\partial \alpha}(\alpha_0,\beta_0)\right\Vert\times \left\Vert\dfrac{\partial(x,y)}{\partial \beta}(\alpha_0,\beta_0)\right\Vert=\left\Vert\dfrac{\mathrm d\mathbf B}{\mathrm d\alpha}(\alpha_0)\right\Vert\times \left\Vert\dfrac{\mathrm d\mathbf A}{\mathrm d\beta}(\beta_0)\right\Vert</script><p>解得：</p>
+<script type="math/tex; mode=display">\begin{aligned}
+y'(\beta) &=R\cos\beta\\
+y(\beta) &=R\sin\beta
+\end{aligned}</script><h3 id="保距投影"><a href="#保距投影" class="headerlink" title="保距投影"></a>保距投影</h3><p>球面距离与映射后的距离成固定比例。</p>
+<p>这不可能实现。</p>
+<hr>
+<p>WXF 课件写的感觉是错的！！Mercator 投影不是中心透视投影。</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/09/29/%E9%9A%8F%E7%AC%94%E9%80%89%E8%BE%91/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" rel="prev" title="随笔选辑 - 第一篇博客">
+                  <i class="fa fa-chevron-left"></i> 随笔选辑 - 第一篇博客
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2023/09/29/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/LagHam/" rel="next" title="科普文章 - LagHam">
+                  科普文章 - LagHam <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">ix35</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js","integrity":"sha256-tu9j5pBilBQrWSDePOOajCUdz6hWsid/lBNzK4KgEPM="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.0/katex.min.css" integrity="sha256-uik/hNqHWZldXh/0K35nqOSCff9F61/ZOFReqNOBgB0=" crossorigin="anonymous">
+
+
+
+</body>
+</html>

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha256-xejo6yLi6vGtAjcMIsY8BHdKsLg7QynVlFMzdQgUuy8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"itz-ix35.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"show_result":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="LGR-117">
+<meta property="og:type" content="article">
+<meta property="og:title" content="专题题解 - LGR-117">
+<meta property="og:url" content="https://itz-ix35.github.io/2025/02/24/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/LGR-117/index.html">
+<meta property="og:site_name" content="ix35&#39;s Blog">
+<meta property="og:description" content="LGR-117">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.luogu.com.cn/upload/image_hosting/edj36v8v.png">
+<meta property="og:image" content="https://cdn.luogu.com.cn/upload/image_hosting/6jia0z5b.png">
+<meta property="article:published_time" content="2025-02-24T15:00:22.479Z">
+<meta property="article:modified_time" content="2025-02-24T15:00:56.083Z">
+<meta property="article:author" content="ix35">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.luogu.com.cn/upload/image_hosting/edj36v8v.png">
+
+
+<link rel="canonical" href="https://itz-ix35.github.io/2025/02/24/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/LGR-117/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://itz-ix35.github.io/2025/02/24/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/LGR-117/","path":"2025/02/24/专题题解/LGR-117/","title":"专题题解 - LGR-117"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>专题题解 - LGR-117 | ix35's Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">ix35's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-essays"><a href="/essay/" rel="section"><i class="fa fa-tags fa-fw"></i>随笔选辑</a></li><li class="menu-item menu-item-game-guide"><a href="/game-guide/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏攻略</a></li><li class="menu-item menu-item-game-review"><a href="/game-review/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏评测</a></li><li class="menu-item menu-item-music"><a href="/music/" rel="section"><i class="fa fa-tags fa-fw"></i>音乐分享</a></li><li class="menu-item menu-item-notes"><a href="/note/" rel="section"><i class="fa fa-tags fa-fw"></i>课程笔记</a></li><li class="menu-item menu-item-solutions"><a href="/solution/" rel="section"><i class="fa fa-tags fa-fw"></i>专题题解</a></li><li class="menu-item menu-item-technology"><a href="/technology/" rel="section"><i class="fa fa-tags fa-fw"></i>科普文章</a></li><li class="menu-item menu-item-travelogue"><a href="/travel/" rel="section"><i class="fa fa-tags fa-fw"></i>远古游记</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#D-%E6%98%A5%E5%88%86"><span class="nav-text">D 春分</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%98%E7%9B%AE%E5%A4%A7%E6%84%8F%EF%BC%9A"><span class="nav-text">题目大意：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%98%E8%A7%A3%EF%BC%9A"><span class="nav-text">题解：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#E-%E6%B8%85%E6%98%8E"><span class="nav-text">E 清明</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%98%E7%9B%AE%E5%A4%A7%E6%84%8F%EF%BC%9A-1"><span class="nav-text">题目大意：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%98%E8%A7%A3%EF%BC%9A-1"><span class="nav-text">题解：</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="ix35"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">ix35</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Itz-ix35" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Itz-ix35" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:2757336405@qq.com" title="E-Mail → mailto:2757336405@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.luogu.com.cn/user/113546" title="Luogu → https:&#x2F;&#x2F;www.luogu.com.cn&#x2F;user&#x2F;113546" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>Luogu</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/187505795" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;187505795" rel="noopener" target="_blank"><i class="fab fa-youtube fa-fw"></i>Bilibili</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://itz-ix35.github.io/2025/02/24/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/LGR-117/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="ix35">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ix35's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="专题题解 - LGR-117 | ix35's Blog">
+      <meta itemprop="description" content="LGR-117">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          专题题解 - LGR-117
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2025-02-24 23:00:22" itemprop="dateCreated datePublished" datetime="2025-02-24T23:00:22+08:00">2025-02-24</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/" itemprop="url" rel="index"><span itemprop="name">专题题解</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+            <div class="post-description">LGR-117</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h2 id="D-春分"><a href="#D-春分" class="headerlink" title="D 春分"></a><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P8477">D 春分</a></h2><h3 id="题目大意："><a href="#题目大意：" class="headerlink" title="题目大意："></a>题目大意：</h3><p>过于复杂，点击链接。</p>
+<p>$N\leq 609$，要求 $M\leq 712$。</p>
+<hr>
+<h3 id="题解："><a href="#题解：" class="headerlink" title="题解："></a>题解：</h3><p>这题很有 IOI 的感觉！不过比 IOI 还是难了一些！让我们逐步优化！</p>
+<p>设左边液体的集合为 $L$，右边液体的集合为 $R$。</p>
+<ul>
+<li><p>算法一：$M=\dfrac{2}{1}N$。</p>
+<p>考虑给每种不同的液体都分配一块板，然后每次实验就找那两种液体对应的板放在中间即可！</p>
+</li>
+<li><p>算法二：$M=\dfrac{3}{2}N$。</p>
+<p>$L$ 中每种液体分配一块板，$R$ 则拆分成大小相同的两部分 $R_1,R_2$，一开始只给 $R_1$ 中的液体分配一块板！</p>
+<p>首先完成 $L\times R_1$ 的实验，然后将 $R_1$ 对应的板都翻转一下，将反面分配给 $R_2$ 使用，完成 $L\times R_2$ 的实验！</p>
+</li>
+<li><p>算法三：$M=\dfrac{5}{4}N$。</p>
+<p>注意到一个事情，我们在右边使用一块正反面都有液体的板 $r$ 时，其实不一定会污染左边的板 $l$，只需要在中间隔上一块左边是干净的 $m$ 即可！</p>
+<p>于是，我们可以优化上面的策略。$L$ 中每种液体分配一块板，$R$ 则拆分成大小相同的四部分 $R_1,R_2,R_3,R_4$，一开始只给 $R_1$ 中的液体分配一块板！</p>
+<p>首先完成 $L\times R_1$ 的实验，然后把 $R_1$ 的板翻转后分给 $R_2$，再完成 $L\times R_2$ 的实验（注意这里采用中间隔板的方法，因此 $L$ 中的板的右侧不会被污染）！</p>
+<p>然后将 $L$ 拆分为大小相同的 $L_1,L_2$，首先把 $L_1$ 的板翻转后分给 $R_3,R_4$，就完成了 $L_2\times (R_3+R_4)$ 的实验；再把 $L_2$ 的板翻转后分给 $L_1$，就完成了 $L_1\times (R_3+R_4)$ 的实验！</p>
+</li>
+<li><p>算法四：$M=\dfrac{7}{6}N$。</p>
+<p>进行一定的精细分析即可从算法三进化到算法四，主要过程就是人脑搜索可行的解，下面直接给出构造：</p>
+<p><img src="https://cdn.luogu.com.cn/upload/image_hosting/edj36v8v.png" alt=""></p>
+<p><img src="https://cdn.luogu.com.cn/upload/image_hosting/6jia0z5b.png" alt=""></p>
+<p>首先把 $L$ 三等分成 $L_1,L_2,L_3$（绿，蓝，紫），$R$ 二等分成 $R_1,R_2$（红，橙），一开始给 $L_1,L_2,R_1$ 分配隔板！</p>
+<p>第一步：完成 $(L_1+L_2)\times R_1$ 的实验。</p>
+<p>第二步：将 $L_2$ 的板子翻转后给 $L_3$，完成 $L_3\times R_1$ 的实验。</p>
+<p>第三步：将 $R_1$ 的板子翻转后给 $R_2$，完成 $(L_1+L_3)\times R_2$ 的实验。</p>
+<p>第四步：将 $L_1$ 的板子翻转后给 $L_2$，完成 $L_2\times R_2$ 的实验。</p>
+<p>上图展示了全流程（左右分别为每种液体，黑色竖线表示隔板，两侧虚线表示那一侧沾上的液体，中间的细线表示已经完成的实验）！</p>
+</li>
+</ul>
+<hr>
+<h2 id="E-清明"><a href="#E-清明" class="headerlink" title="E 清明"></a><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P8478">E 清明</a></h2><h3 id="题目大意：-1"><a href="#题目大意：-1" class="headerlink" title="题目大意："></a>题目大意：</h3><p>给定 $a_1,\ldots,a_N$，对于每个 $a_i$，现在可以把 $a_i$ 分一部分给 $a_{i+1},a_{i+2},\ldots,a_{\min(N,i+k)}$，要求每一部分都是自然数。</p>
+<p>设得到的序列为 $b_1,\ldots,b_N$，对 $\prod b_i$ 求和，对 $998244353$ 取模。</p>
+<p>$N\leq 32$。</p>
+<hr>
+<h3 id="题解：-1"><a href="#题解：-1" class="headerlink" title="题解："></a>题解：</h3><p>首先转化一下问题：</p>
+<ul>
+<li>有一个 $N\times N$ 列的矩阵 $M$，第 $i$ 列的和为 $a_i$，并且 $M_{i,j}$ 只有 $0\leq i-j\leq k$ 时才可以是非零的（也就是一个下三角的带状矩阵），求每一行的和的乘积之和。</li>
+</ul>
+<p>考虑拆贡献，也就是在每一行选择一个非零位置，然后求出这些位置乘积之和，然后再对所有方案求和！</p>
+<p>首先做一个准备工作，设 $f(A,p,q)$ 表示将 $A$ 分为 $p+q$ 个自然数，前 $p$ 个自然数的乘积之和，这可以用一个组合数计算，对每个 $A=a_i, p,q\leq N$ 预处理这个结果！</p>
+<p>然后可以开始状压 DP 了：设 $dp(i,S)$ 表示目前在前 $i$ 列选择了一些位置，并且选择的行的集合为 $S$，所有方案的选出位置乘积之和，那么显然有 $dp(i-1,S)\times f(a_i,\min(N-i+1,k+1),|T|)\to dp(i,S+T)$，表示在第 $i$ 列选择 $T$ 这个集合。</p>
+<p>注意到在状态 $dp(i,S)$ 中一定有 $\{1,\ldots,i-1\}\subseteq S$，并且 $S\cup \{i+k+1,\ldots,N\}=\varnothing$，所以对于每个 $i$ 只有至多 $2^k$ 个合法状态！</p>
+<p>于是这个 DP 如果暴力转移是 $O(N\times 3^k)$ 的，由于贡献只和 popcount 有关，所以可以优化到 $O(N^3\times 2^k)$。</p>
+<p>我们发现，在上面的 DP 过程中，$\{1,\ldots,k+1\}$ 这些行是“不必区分”的，因为从第一列开始这些行就一直能被选，所以我们就有另一种 DP：设 $dp(i,j,S)$ 表示在前 $i$ 列选择一些位置，目前 $\{k+2,\ldots,N\}$ 这些行中被选择的为集合 $S$，并且 $\{i,i+1,\ldots,k+1\}$ 这些行中选择了 $j$ 行，这个 DP 状态数看似是 $O(N^2\times 2^{N-k})$，但实则是 $O(N\times 2^{N-k})$ 的，请读者自行思考！</p>
+<p>暴力复杂度 $O(N\times 3^{N-k})$，这里同样贡献只和 popcount 有关，所以可以优化到 $O(N^3\times 2^{N-k})$。</p>
+<p>平衡复杂度后，时间复杂度为 $O(N^3\times 2^{\frac{N}{2}})$，需要一定程度的卡常！</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2025/02/24/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/PKU&THUSC2023/" rel="prev" title="专题题解 - PKU&THUSC 2023">
+                  <i class="fa fa-chevron-left"></i> 专题题解 - PKU&THUSC 2023
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2025/02/24/%E4%B8%93%E9%A2%98%E9%A2%98%E8%A7%A3/ARC129/" rel="next" title="专题题解 - ARC 129">
+                  专题题解 - ARC 129 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">ix35</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js","integrity":"sha256-tu9j5pBilBQrWSDePOOajCUdz6hWsid/lBNzK4KgEPM="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.0/katex.min.css" integrity="sha256-uik/hNqHWZldXh/0K35nqOSCff9F61/ZOFReqNOBgB0=" crossorigin="anonymous">
+
+
+
+</body>
+</html>

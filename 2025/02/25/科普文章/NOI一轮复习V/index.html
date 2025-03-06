@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha256-xejo6yLi6vGtAjcMIsY8BHdKsLg7QynVlFMzdQgUuy8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"itz-ix35.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"show_result":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="早期作品">
+<meta property="og:type" content="article">
+<meta property="og:title" content="科普文章 - NOI 一轮复习 V：图论杂谈">
+<meta property="og:url" content="https://itz-ix35.github.io/2025/02/25/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/NOI%E4%B8%80%E8%BD%AE%E5%A4%8D%E4%B9%A0V/index.html">
+<meta property="og:site_name" content="ix35&#39;s Blog">
+<meta property="og:description" content="早期作品">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.luogu.com.cn/upload/image_hosting/4tqodyqi.png">
+<meta property="article:published_time" content="2025-02-25T02:02:48.646Z">
+<meta property="article:modified_time" content="2025-02-25T02:07:28.825Z">
+<meta property="article:author" content="ix35">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.luogu.com.cn/upload/image_hosting/4tqodyqi.png">
+
+
+<link rel="canonical" href="https://itz-ix35.github.io/2025/02/25/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/NOI%E4%B8%80%E8%BD%AE%E5%A4%8D%E4%B9%A0V/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://itz-ix35.github.io/2025/02/25/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/NOI%E4%B8%80%E8%BD%AE%E5%A4%8D%E4%B9%A0V/","path":"2025/02/25/科普文章/NOI一轮复习V/","title":"科普文章 - NOI 一轮复习 V：图论杂谈"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>科普文章 - NOI 一轮复习 V：图论杂谈 | ix35's Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">ix35's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-essays"><a href="/essay/" rel="section"><i class="fa fa-tags fa-fw"></i>随笔选辑</a></li><li class="menu-item menu-item-game-guide"><a href="/game-guide/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏攻略</a></li><li class="menu-item menu-item-game-review"><a href="/game-review/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏评测</a></li><li class="menu-item menu-item-music"><a href="/music/" rel="section"><i class="fa fa-tags fa-fw"></i>音乐分享</a></li><li class="menu-item menu-item-notes"><a href="/note/" rel="section"><i class="fa fa-tags fa-fw"></i>课程笔记</a></li><li class="menu-item menu-item-solutions"><a href="/solution/" rel="section"><i class="fa fa-tags fa-fw"></i>专题题解</a></li><li class="menu-item menu-item-technology"><a href="/technology/" rel="section"><i class="fa fa-tags fa-fw"></i>科普文章</a></li><li class="menu-item menu-item-travelogue"><a href="/travel/" rel="section"><i class="fa fa-tags fa-fw"></i>远古游记</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%B0%9A%E4%B8%8D%E5%AE%8C%E5%96%84"><span class="nav-text">尚不完善</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#NOI-%E4%B8%80%E8%BD%AE%E5%A4%8D%E4%B9%A0-V%EF%BC%9A%E5%9B%BE%E8%AE%BA%E6%9D%82%E8%B0%88"><span class="nav-text">NOI 一轮复习 V：图论杂谈</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9F%A5%E8%AF%86%E6%B8%85%E5%8D%95%EF%BC%9A"><span class="nav-text">知识清单：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%AE%9A%E4%B9%89"><span class="nav-text">1. 概念与定义</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E6%9C%80%E7%9F%AD%E8%B7%AF"><span class="nav-text">2. 最短路</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%80%E7%9F%AD%E8%B7%AF%E7%BB%93%E6%9E%84"><span class="nav-text">最短路结构</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%8C%E4%BD%99%E6%9C%80%E7%9F%AD%E8%B7%AF"><span class="nav-text">同余最短路</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B7%AE%E5%88%86%E7%BA%A6%E6%9D%9F"><span class="nav-text">差分约束</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%80%E7%9F%AD%E8%B7%AF%E7%AE%97%E6%B3%95%E7%9A%84%E6%89%A9%E5%B1%95"><span class="nav-text">最短路算法的扩展</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%80%E7%9F%AD%E8%B7%AF%E9%97%AE%E9%A2%98%E7%9A%84%E6%89%A9%E5%B1%95"><span class="nav-text">最短路问题的扩展</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91"><span class="nav-text">3. 最小生成树</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80%E4%BA%9B%E7%89%B9%E6%AE%8A%E6%9D%83%E5%80%BC%E5%9B%BE%E7%9A%84%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91"><span class="nav-text">一些特殊权值图的最小生成树</span></a></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="ix35"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">ix35</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Itz-ix35" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Itz-ix35" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:2757336405@qq.com" title="E-Mail → mailto:2757336405@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.luogu.com.cn/user/113546" title="Luogu → https:&#x2F;&#x2F;www.luogu.com.cn&#x2F;user&#x2F;113546" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>Luogu</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/187505795" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;187505795" rel="noopener" target="_blank"><i class="fab fa-youtube fa-fw"></i>Bilibili</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://itz-ix35.github.io/2025/02/25/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/NOI%E4%B8%80%E8%BD%AE%E5%A4%8D%E4%B9%A0V/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="ix35">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ix35's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="科普文章 - NOI 一轮复习 V：图论杂谈 | ix35's Blog">
+      <meta itemprop="description" content="早期作品">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          科普文章 - NOI 一轮复习 V：图论杂谈
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2025-02-25 10:02:48" itemprop="dateCreated datePublished" datetime="2025-02-25T10:02:48+08:00">2025-02-25</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/" itemprop="url" rel="index"><span itemprop="name">科普文章</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+            <div class="post-description">早期作品</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <div class="note warning"><h4 id="尚不完善"><a href="#尚不完善" class="headerlink" title="尚不完善"></a>尚不完善</h4><p>此文章内容没有写完，并且今后亦没有写完的计划。</p>
+</div>
+<h1 id="NOI-一轮复习-V：图论杂谈"><a href="#NOI-一轮复习-V：图论杂谈" class="headerlink" title="NOI 一轮复习 V：图论杂谈"></a>NOI 一轮复习 V：图论杂谈</h1><h2 id="知识清单："><a href="#知识清单：" class="headerlink" title="知识清单："></a>知识清单：</h2><ul>
+<li><p>概念与定义</p>
+</li>
+<li><p>最短路</p>
+</li>
+<li><p>最小生成树</p>
+</li>
+<li><p>无向图连通性</p>
+<ul>
+<li><p>DFS 树</p>
+</li>
+<li><p>双连通分量</p>
+</li>
+<li>最小割</li>
+</ul>
+</li>
+<li><p>有向图连通性</p>
+<ul>
+<li><p>DFS 树</p>
+</li>
+<li><p>强连通分量</p>
+</li>
+<li>竞赛图</li>
+<li>支配树</li>
+</ul>
+</li>
+<li><p>欧拉路和哈密顿路</p>
+</li>
+<li><p>杂项技巧（不断补充，越排在下面表示越可能鸽）</p>
+<ul>
+<li>最小树形图</li>
+<li>一般图匹配</li>
+<li>最小斯坦纳树</li>
+<li>弦图</li>
+<li>图同构</li>
+<li>连通度</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="1-概念与定义"><a href="#1-概念与定义" class="headerlink" title="1. 概念与定义"></a>1. 概念与定义</h2><ul>
+<li><strong>有向图</strong> $G$ 可以用 $(V,E)$ 表示（本文中也默认这样表示），$V$ 为图的点集，$E$ 为图的边集，是<strong>可重集</strong>，其元素是 $V$ 中元素构成的<strong>有序二元组</strong>，而<strong>无向图</strong>也以相同形式表示，但是 $E$ 的元素是 $V$ 中元素构成的<strong>无序二元组</strong>，不加额外说明的情况下，令 $n=|V|,m=|E|$；</li>
+<li><strong>简单图</strong>是满足 $E$ 中元素不重复且 $(u,u)\notin E$ 的图，将这两个条件称为无重边和无自环；</li>
+<li>本文中，用 $u\to v$ 表示一条边 $(u,v)$，用 “$u\to v$ 的路径” 或 $u\rightsquigarrow v$ 表示一条以 $u$ 开始到 $v$ 结束的路径（Latex 符号 <code>\rightsquigarrow</code>），即 $u=x_1\to x_2\to \ldots\to x_m=v$；</li>
+<li>一个<strong>环</strong>或<strong>圈</strong>指的是形如 $u\rightsquigarrow u$ 的路径；</li>
+<li><strong>简单路径</strong>指的是不经过重复顶点的路径，<strong>简单环</strong>指的是除了起点和终点外不经过重复顶点的环；</li>
+<li>称 $G’=(V’,E’)$ 为 $G=(V,E)$ 的<strong>子图</strong>，当且仅当 $V’\subseteq V,E’\subseteq E$；</li>
+<li>图 $G=(V,E)$ 关于点集 $V’$ 的<strong>（点）导出子图</strong>为 $G’=(V’,E’), E’=\{(u,v)\in E|u,v\in V’\}$；</li>
+<li>图 $G=(V,E)$ 关于边集 $E’$ 的<strong>（边）导出子图</strong>为 $G’=(V’,E’), V’=\{x|\exist (x,y) or (y,x)\in E’\}$；</li>
+<li>称无向图 $G$ 是<strong>连通</strong>的，当且仅当 $\forall x,y\in V$，存在路径 $x\rightsquigarrow y$；</li>
+<li>无向图 $G$ 的一个<strong>连通分量</strong>或<strong>连通块</strong>是其一个连通的点导出子图 $G’$，满足不存在更大的连通的点导出子图包含 $G’$；</li>
+<li>称有向图 $G$ 是<strong>弱连通</strong>的，当且仅当将其所有边换成无向边形成的无向图是连通的。</li>
+</ul>
+<hr>
+<h2 id="2-最短路"><a href="#2-最短路" class="headerlink" title="2. 最短路"></a>2. 最短路</h2><p>对于图 $G$ 的每条边 $e$ 赋予权值 $w(e)$，定义一条路径的权值为其包含的所有边的权值和，对于一些点对 $(u,v)$ 求 $u\rightsquigarrow v$ 的权值最小路径，这个问题称为<strong>最短路</strong>问题。</p>
+<p>下面的最短路一般是有向图最短路，对于无向图只需将每条无向边拆为两条有向边即可。</p>
+<p>当图中存在负权环时，某些点对间的最短路是可以无限小的，这时最短路无意义。</p>
+<p>设 $dis(s,x)$ 表示 $s\rightsquigarrow x$ 的最短路长度，根据最短性可以得到，若存在边权为 $w$ 的边 $x\to y$，那么 $dis(s,x)+w\ge dis(s,y)$，更进一步地，$dis(s,x)+dis(x,y)\ge dis(s,y)$，这称为<strong>三角形不等式</strong>。</p>
+<p>设算法运行到一半时当前求出来的最短路数组为 $d$，对于一条满足 $d(s,x)+w(x,y)&lt;d(s,y)$ 的边，将 $d(s,y)$ 赋值为 $d(s,x)+w(x,y)$ 的操作称为<strong>松弛</strong>。</p>
+<p>由于这是 NOI 复习，不详细写每种最短路算法的过程了，常见的几种算法简单整理如下：</p>
+<ul>
+<li><p>Floyd 算法，利用 DP 思想，令 $f(x,u,v)$ 表示 $u\rightsquigarrow v$ 的除起点终点外不经过编号大于 $x$ 的点时的最短路，$x$ 这一维可通过滚动数组优化。</p>
+<p>Floyd 算法可以在 $O(n^3)$ 的时间复杂度内计算任意两点间最短路（All Pair Shortest Path，APSP），条件是<strong>没有负环</strong>，因为它无法判定负环。</p>
+</li>
+<li><p>Dijkstra 算法，利用贪心思想，可以求出从一个点出发到其余所有点的最短路，每一步骤中选出当前未选过的距离最小的点，利用它松弛所有点。</p>
+<p>Dijkstra 算法可以在 $O(n^2)$ 的时间复杂度内计算单源最短路（从一个点出发的最短路，Single Source Shortest Path，SSSP），条件是<strong>没有负权边</strong>，此算法利用堆等数据结构优化后复杂度为 $O(m\log n)$。</p>
+<p>斐波那契堆可以实现 $O(m+n\log n)$ 的复杂度，但本文中 Dijkstra 的复杂度都用 $O(m\log n)$ 表示。</p>
+</li>
+<li><p>Bellman-Ford 算法，同为计算单源最短路的算法，每次枚举所有边进行松弛，$n-1$ 轮过后就求出了最短路。</p>
+<p>Bellman-Ford 算法可以在 $O(nm)$ 的时间复杂度内计算单源最短路，<strong>可以判定负环</strong>，此算法可以采用队列去除一些冗余更新操作，这种方法称为 SPFA 算法。</p>
+</li>
+</ul>
+<p>特别地，当边权全为 $1$ 或全为 $0$ 或 $1$ 时，有简单的线性办法求单源最短路：</p>
+<ul>
+<li>边权全为 $1$ 时，直接从源点开始 BFS，每个点访问到的层数就对应它的最短路；</li>
+<li>边权全为 $0$ 或 $1$ 时，采用 Dijkstra 算法，由于队列中始终只有两种数，所以可以不用堆而用线性手法维护（通常是双端队列）。</li>
+</ul>
+<hr>
+<blockquote>
+<p>例题 $1$：[GXOI/GZOI 2019] 旅行者</p>
+<p>给定有向正权图 $G$ 中的 $k$ 个关键点，求两个关键点间最短路的最小值。</p>
+</blockquote>
+<p>这题至少有两种解法。</p>
+<p>解一：</p>
+<p>为保证遍历到每一对点对，首先进行二进制分组，每次将一组连到超级源点，另一组连到超级汇点（反过来也要算一遍），Dijkstra 更新答案，这种做法时间复杂度为 $O(m\log^2 n)$，属于比较容易想到的套路做法。</p>
+<p>解二：</p>
+<p>考虑关键点 $x$ 到关键点 $y$ 的最短路 $x=p_1\to p_2\to \ldots\to p_l=y$，这过程中必然有一个 $1\leq i&lt;l$ 使得 $p_i$ 到 $x$ 比到 $y$ 近而 $p_{i+1}$ 到 $y$ 比到 $x$ 近，所以我们如果能枚举 $p_i,p_{i+1}$，计算 $dis(x,p_i)+dis(y+p_{i+1})+w(p_i,p_{i+1})$ 就可以更新答案。</p>
+<p>具体地，我们在正图和反图上分别求出关键点到其他所有点的最短路（所有关键点到某个点的最短路最小值，可以连超级源点实现），同时设正图和反图上到 $i$ 最近的关键点为 $f(i)$ 和 $g(i)$，对于边 $(u,v,w)$，如果 $f(u)\ne g(v)$，则可以用 $dis(u,f(u))+dis(v,g(v))+w$ 更新答案，注意如果到一个点距离最短的关键点有多个，那么就没有不等号的限制了。</p>
+<p>时间复杂度为 $O(m\log n)$。</p>
+<hr>
+<blockquote>
+<p>例题 $2$：[Luogu P1119] 灾后重建</p>
+<p>给定无向正权图 $G$，其中的第 $i$ 个点在 $t_i$ 时间之后才可以经过，有 $q$ 个询问，每次询问 $x$ 到 $y$ 在 $t$ 时刻的最短路。</p>
+<p>$O(n^3)$</p>
+</blockquote>
+<p>首先离线，问题转化成：支持加点的最短路。</p>
+<p>考虑怎样的最短路算法可以满足加点的需要，答案是 Floyd 算法，如果我们按照 $t_i$ 从小到大的顺序排序后进行 Floyd 算法，就可以得到任意两点间在某个前缀的点可经过时的最短路了。</p>
+<p>时间复杂度为 $O(n^3)$。</p>
+<hr>
+<blockquote>
+<p>例题 $3$：[USACO 09 Feb. Gold] Revamping Trails</p>
+<p>给定无向正权图 $G$，可以将至多 $k$ 条边的权值改为 $0$，求 $1\to n$ 的最短路的最小值。</p>
+</blockquote>
+<p>这题用到了分层图的思想。</p>
+<p>将一个点 $x$，拆成 $k+1$ 个点，分别称为 $(x,0),\ldots,(x,k)$，对于原图中的边 $(x,y,z)$，连 $((x,i),(y,i),z)$ 和 $((x,i),(y,i+1),0)$。</p>
+<p>将 $(x,i)$ 称为 $i$ 层点，从 $(1,0)$ 开始计算单源最短路，可以发现，走到一个 $i$ 层点时，恰好经过了 $i$ 次边权为 $0$ 的边，所以走到任何一个 $(n,i)$ 都不会经过超过 $k$ 次边权为 $0$ 的边，算 $(1,0)$ 到所有 $(n,i)$ 的最短路的最小值即为答案。</p>
+<p>时间复杂度为 $O(mk(\log n+\log k))$。</p>
+<p>类似的题目还有一车，如  [BJWC 2012] 冻结。</p>
+<hr>
+<h3 id="最短路结构"><a href="#最短路结构" class="headerlink" title="最短路结构"></a>最短路结构</h3><p>在接下来这一段的描述中，我们将无向图看作每条无向边拆为两条有向边得到的有向图。</p>
+<p>在一张<strong>正权图</strong>中，确定源点 $s$，令 $dis(u)$ 为 $s\to u$ 的最短路长度，将所有满足 $dis(u)+w=dis(v)$ 的边 $(u,v,w)$ 称为<strong>最短路边</strong>，所有最短路边构成的边导出子图称为<strong>最短路图</strong>。</p>
+<p>在正权的限制下，我们有结论：</p>
+<p><strong>结论 $1$：最短路图是有向无环图。</strong></p>
+<p>假设存在环，那么设环长为 $w$，因为是正权图所以 $w&gt;0$，任选环上一个点，绕一圈就有 $dis(u)=dis(u)+w$，这不可能，所以无环。</p>
+<p>此时将最短路图也称为最短路 DAG。</p>
+<p><strong>结论 $2$：最短路图中任意从 $s$ 出发的路径 $s\rightsquigarrow t$ 的长度为 $dis(t)$，且所有 $s$ 到 $t$ 的长度为 $dis(t)$ 的路径均在最短路图中。</strong></p>
+<p>按最短路长度归纳易证。</p>
+<p>有了以上两个结论，可以得到：一张图的单源最短路信息可以被包含在最短路图中，其他边都可以删去。</p>
+<p>通过最短路图，我们可以将最短路的相关问题转化成普通路径的相关问题。</p>
+<p>同时，如果在某些无权的问题中我们对一些点到 $s$ 的最短路有要求，那么可以按照最短路进行分层，只有同层和相邻层之间的点可以连边（例如给定最短路计数图数等）。</p>
+<hr>
+<blockquote>
+<p>例题 $4$：</p>
+<p>给定正权图 $G$，求源点 $s$ 到每个结点的最短路和最短路数量。</p>
+</blockquote>
+<p>求出最短路图后，$s\to t$ 的最短路数量就是最短路图上 $s\to t$ 的路径数量，可以利用拓扑排序在一个 DAG 上计数路径数量。</p>
+<p>时间复杂度为 $O(m\log n)$。</p>
+<hr>
+<blockquote>
+<p>例题 $5$：</p>
+<p>给定正权图 $G$，称最短路树是以源点 $s$ 为根的外向树，满足 $s$ 到任何点的最短路均等于它们的树上路径长度，求最短路树的数量。</p>
+</blockquote>
+<p>最短路树就是最短路 DAG 上的一棵外向生成树，同样可以用拓扑排序计数。</p>
+<p>实际上也不需要那么麻烦，对于每个点算其父亲数量再相乘即可，点 $v$ 的父亲就是满足有边 $(u,v,w)$ 且这条边在最短路图中的 $u$ 的数量。</p>
+<p>时间复杂度为 $O(m\log n)$。</p>
+<hr>
+<blockquote>
+<p>例题 $6$：[HAOI 2012] 道路</p>
+<p>给定 $n$ 个点 $m$ 条边的有向图，对于每条边求有多少条不同的最短路经过这条边（起点终点任意）。</p>
+<p>$O(nm)$。</p>
+</blockquote>
+<p>枚举起点 $s$，建立最短路图 $G$。</p>
+<p>对于某条边 $(u,v)$，经过它的最短路数量等于 $G$ 上 $s\to u$ 路径数量乘上 $v$ 出发的路径数量。</p>
+<p>时间复杂度为 $O(nm)$。</p>
+<hr>
+<h3 id="同余最短路"><a href="#同余最短路" class="headerlink" title="同余最短路"></a>同余最短路</h3><p>最普通的同余最短路用于解决类似下述问题的一类问题（当然也有若干扩展）：</p>
+<p><strong>有 $n$ 个正整数 $a_1,\ldots,a_n$，探讨可以表示为 $\sum x_i\times a_i$（$x_i$ 为自然数）的整数的结构。</strong></p>
+<p>具体地，我们令 $A=\min(a_1,\ldots,a_n)$，随后建立一个包含 $A$ 个点的图 $G$。</p>
+<p>$G$ 中的点 $i (i\in [0,A))$ 表示一族 $\bmod A=i$ 的数，即每个结点代表了一个剩余类。</p>
+<p>尝试在 $G$ 中用 $dis(0,i)$ 表示能被表示出的 $\bmod A=i$ 的最小数字，由于 $A\in \{a_1,\ldots,a_n\}$，所以任何的 $dis(0,i)+kA$ 也能被表示。</p>
+<p>对于所有 $a_j$，从 $i$ 到 $(i+a_j)\bmod A$ 连权值为 $a_j$ 的边，然后从 $0$ 开始求单源最短路，就是我们需要的答案了。</p>
+<p>不难验证这种做法的正确性，而这种方法的时间复杂度为 $O(nA\log A)$。</p>
+<hr>
+<blockquote>
+<p>例题 $6$：[Luogu P2371] 墨墨的等式</p>
+<p>给定非负整数 $a_1,\ldots,a_n$，求 $[l,r]$ 内有多少数可以表示为 $\sum x_i\times a_i$（$x_i$ 为自然数）。</p>
+</blockquote>
+<p>求同余最短路后，对于每一剩余类容易算出与 $[l,r]$ 的交，相加即为答案。</p>
+<p>注意 $0$ 是没用的，要去掉。</p>
+<p>时间复杂度为 $O(nA\log A)$。</p>
+<hr>
+<blockquote>
+<p>例题 $7$：[ARC 112 F] Die Siedler</p>
+<p>有 $n$ 种卡和 $m$ 种卡包，你初始有 $a_i$ 种卡 $i$，第 $i$ 种卡包中有 $s_{i,j}$ 种卡 $j$，每种卡包可以开无限次，在开完后，你可以选择将 $2i$ 张卡 $i$ 替换为 $1$ 张卡 $i\bmod n+1$，求你可以拥有的最少卡数。</p>
+<p>$O(n\times \sqrt{(2n)!!})$</p>
+</blockquote>
+<p>首先记第 $i$ 种卡的价值为 $(2i-2)!!$，并在 $\bmod ((2n)!!-1)$ 意义下计算，可以发现经过任意换卡操作都不影响手上卡的总价值，而且因为每次换卡都会使得卡的总数变少，所以有结论：</p>
+<ul>
+<li>价值总和为 $S$ 的卡组中，卡数最小的卡组唯一，为第 $i$ 种卡数小于 $2i$ 的那种。</li>
+</ul>
+<p>这个卡数可以通过一个简单的类进制转换求出。</p>
+<p>下面考虑我们能通过开卡包构造出怎样的 $S$，设第 $i$ 种卡包的价值总和为 $b_i$，那么根据剩余系的优秀性质，我们可以开出的所有价值总和是 $d=\gcd(b_1,\ldots,b_m,(2n)!!-1)$ 的所有倍数。</p>
+<p>再设初始的价值总和为 $A$，我们能够开出所有 $A+kd$ 形式的卡组。</p>
+<p>下面对 $d$ 进行一个根号分治：</p>
+<ul>
+<li><p>如果 $d&gt;\sqrt {(2n)!!-1}$，那么就暴力求 $d$ 的所有 $(2n)!!-1$ 以内的倍数，并计算 $A+kd$ 的最小卡数更新答案；</p>
+</li>
+<li><p>否则，我们用同余最短路的思想解决问题。</p>
+<p>我们想要构造出一个卡数最少的卡组，使得其价值 $\bmod d$ 为 $A$，这有点类似同余最短路的形式了，我们不妨将 $dis(0,i)$ 定义为价值 $\bmod d$ 为 $i$ 的卡组中卡数最少的，从 $i$ 到 $(i+(2j-2)!!)\bmod d$ 连边权为 $1$ 的边，再求一次 $0$ 出发的单源最短路，$dis(0,A\bmod d)$ 即为答案。</p>
+</li>
+</ul>
+<p>由于没有卡和其他状态不互通，所以可能要初始特判没有卡的情况。</p>
+<p>时间复杂度为 $O(n\times \sqrt{(2n)!!})$。</p>
+<hr>
+<h3 id="差分约束"><a href="#差分约束" class="headerlink" title="差分约束"></a>差分约束</h3><p>将最短路的三角形不等式 $dis(u)+w\ge dis(v)$ 改写为 $dis(v)-dis(u)\leq w$，启发我们得到如下问题的解法：</p>
+<ul>
+<li>有 $n$ 个变量 $x_1,\ldots,x_n$ 和 $m$ 个限制，限制形如 $x_i-x_j\leq w$，求一组符合要求的变量。</li>
+</ul>
+<p>建立超级源点 $s$， 不妨令 $x_s\ge x_i (i\in [1,n])$，从 $s$ 向所有点建零权边，再对所有限制建边 $(j,i,w)$，然后求最短路，最短路数组即为一组合法变量。</p>
+<p>上述问题称为<strong>差分约束问题</strong>，一般通过 Bellman-Ford 解决。</p>
+<p>当遇到形如 $x_i-x_j\ge w$ 时，转化为 $x_j-x_i\leq -w$，而遇到严格等号时视题目定义的数域转化成非严格等号。</p>
+<hr>
+<blockquote>
+<p>例题 $8$：[省选 2021 A 卷] 矩阵游戏</p>
+<p>给定一个 $n\times m$ 矩阵每个 $2\times 2$ 区域的和，还原矩阵，元素大小在 $[0,10^6]$ 之间。</p>
+</blockquote>
+<p>解一：</p>
+<p>首先假设原矩阵第一行第一列全零，那么可以推出一个初始矩阵 $A’$。</p>
+<p>接下来，我们可以选择将 $A’$ 中某行第一个元素 $+x$，随后发现在递推时这一行所有偶数位置都 $-x$，所有奇数位置都 $+x$，同理对某一列的第一个元素操作。</p>
+<p>同时，显而易见，所有可能得到的矩阵都可以通过若干次这样的操作得到。</p>
+<p>不妨设第 $i$ 行第一列加的是 $b_i$，第一行第 $j$ 列加的是 $c_j$，那么根据元素大小在 $[0,10^6]$ 之间可以列出关于每一对 $b_i,c_j$ 的一次不等式，系数有 $\pm 1$，我们要做的就是把奇数行和奇数列定义的数取相反数，这样就都是形如 $\pm(b_i-c_j)\ge w$ 形式的限制了。</p>
+<p>点数为 $n+m$，边数为 $nm$，复杂度为 $O(nm(n+m))$。</p>
+<p>解二：</p>
+<p>我们只设 $b_i$，而对于 $c_j$ 的限制不设变量，而是用形如 $c_j\in [l_{i,j},r_{i,j}]$ 的区间来限制，这就对每一对 $p,q$ 有 $l_{p,j}\leq r_{q,j}$，转化成了只包含 $b_i$ 的差分约束问题。</p>
+<p>点数为 $m$，边数为 $m^2$，复杂度为 $O(m^2(n+m))$。</p>
+<hr>
+<blockquote>
+<p>例题 $9$：[CF 241 E] Flights</p>
+<p>给定一张 $n$ 个点 $m$ 条边的有向图，请你为每条边赋权 $1$ 或 $2$，使得 $1\to n$ 的每条路径长度相等，或报告无解。</p>
+</blockquote>
+<p>每条 $1\to n$ 路径长度相等，即每条 $1\to n$ 路径都是最短路，因此条件就等价于：对于任意一条在某个 $1\to n$ 路径上的边，它都属于 $1$ 为源点的最短路图。</p>
+<p>也就是对于任意满足上述条件的边 $(u,v,w)$，有 $dis(u)+w=dis(v)$，而由于 $w\in\{1,2\}$，所以设约束为 $1\leq dis(v)-dis(u)\leq 2$，然后求解差分约束问题即可。</p>
+<p>时间复杂度为 $O(nm)$。</p>
+<hr>
+<h3 id="最短路算法的扩展"><a href="#最短路算法的扩展" class="headerlink" title="最短路算法的扩展"></a>最短路算法的扩展</h3><p><strong>势能 Dijkstra</strong></p>
+<p>在负权图上无法使用 Dijkstra，这在很多时候使得一些问题需要改用 Bellman-Ford 算法解决，平添了复杂度。但某些情况下对边权稍作改良即可转化为 Dijkstra 可解决的非负权最短路问题。</p>
+<p>一个常见的想法是，将所有边权都加上一个大数 $E$，这样它们就都变成非负数了，但这显然是错误的，因为新边权下包含边数更少的路径显然更占优。于是我们考虑采取一个灵活的改变边权的策略，下面讲述对它的两种互相补充的理解思路。</p>
+<p><strong>第一种思路：</strong>我们定义如下两种操作：</p>
+<ul>
+<li>将结点 $u$ ”升高“ $x$，这使得所有连向 $u$ 的边的边权增加 $x$；而 $u$ 连出去的边的边权减少 $x$。</li>
+<li>将结点 $u$ ”降低“ $x$，这使得所有连向 $u$ 的边的边权减少 $x$；而 $u$ 连出去的边的边权增加 $x$。</li>
+</ul>
+<p>直观地说，上坡路难走而下坡路好走，所以从高度低的点走到高度高的点就需要更多代价，也就是连向被升高的点的边权会增加。</p>
+<p>设 $u$ 最后<strong>降低</strong>的高度为 $h_u$（上升则为负，这里只是用了习惯记法），原图中的边 $(u,v,w)$ 在新图中的边权就是 $w+h_u-h_v$。按照上面的直观解释，将这个量 $h_u$ 称为<strong>势能</strong>就是很容易理解的了。而为了使得新图边权非负，只需要满足 $w+h_u-h_v\ge 0$，即 $h_u+w\ge h_v$ 即可。</p>
+<p><strong>第二种思路：</strong>直接考虑差分约束的条件即三角形不等式 $h_v-h_u\leq w$，上面所说的势能就要满足这个条件，我们知道最短路数组显然是满足条件的，但是并不是唯一满足条件的一组解，如果我们能（不借助最短路地）轻易地得到这个差分约束的一个解（可以将它看成<strong>最短路的一个“估测值”</strong>），那么将它作为势能函数就可以将所有边权调整为非负，从而求出最短路了。</p>
+<p>在修改边权后的新图上我们考虑某条路径 $z_1\to z_2\to \ldots \to z_k$，发现其边权和由两部分贡献：一部分是原图的边权，即原图上 $z_1\to \ldots\to z_k$ 路径的边权和，另一部分是势能差，也就是 $(h_{z_1}-h_{z_2})+\ldots+(h_{z_{k-1}}-h_{z_k})$，它就是 $h_{z_1}-h_{z_k}$，因此对于确定的起点和终点，所有路径相比原图上相应路径的边权和差值是一个定值 $h_{z_1}-h_{z_k}$。</p>
+<p>所以如果我们得到了每个点 $u$ 的势能 $h_u$ 就可以用 Dijkstra 求出以 $s$ 为源的单源最短路：首先将原图中的边 $(u,v,w)$ 变成 $(u,v,w+h_u-h_v)$，然后求出新图上以 $s$ 为源的单源最短路，设新图上 $s\to i$ 最短路为 $dis’(i)$，则原图中的最短路为 $dis(i)=dis’(i)-h_s+h_i$。</p>
+<hr>
+<blockquote>
+<p>例题 $10$：</p>
+<p>给定 $n$ 个点 $m$ 条边的有向图，不保证边权非负，求所有点对间的最短路长度。</p>
+<p>$O(nm\log n)$</p>
+</blockquote>
+<p>直接使用 Floyd 是 $O(n^3)$ 的，不符合复杂度要求；而对每个点进行一次 Bellman-Ford 是 $O(n^2m)$ 的，更是走远了。</p>
+<p>这时就需要势能 Dijkstra 来救场了，我们只需先用<strong>一次</strong> Bellman-Ford 求解差分约束 $h_v-h_u\leq w$，于是调整边权后图中的边已经是非负，再对每个点进行一次 Dijkstra 即可求出任意点对间的最短路了。</p>
+<p>这个方法称为 <strong>Johnson 全源最短路算法</strong>。</p>
+<p>时间复杂度为 $O(nm\log n)$。</p>
+<hr>
+<blockquote>
+<p>例题 $11$：[ABC 237 E] Skiing</p>
+<p>给定一张 $n$ 个点 $m$ 条边的有向图，点 $u$ 有点权 $h_u$，一条边 $u\to v$ 若满足 $h_u&gt;h_v$ 则边权为 $h_u-h_v$，否则边权为 $2(h_u-h_v)$，求从 $1$ 出发的单源最长路。</p>
+</blockquote>
+<p>首先将边权取反，变为最短路问题。</p>
+<p>然后考虑设定一个势能去掉负权边，我们发现只需要设 $u$ 的势能为 $h_u$ 即可。</p>
+<p>时间复杂度为 $O(m\log n)$。</p>
+<hr>
+<p>势能 Dijkstra 还在费用流的 SSP 算法中有应用，可以看之前的网络流篇。</p>
+<hr>
+<p><strong>邻接矩阵的幂</strong></p>
+<p>这可以看作一种比较暴力的求最短路的方法，也可以看成 Bellman-Ford 算法的一种数学解释。</p>
+<p>考虑有向图 $G$ 的邻接矩阵 $M$，如果有重边则取最短者，某对点间没有边则认为边权为 $\infty$。同时将 $M$ 的对角线元素设为 $0$。</p>
+<p>考虑矩阵的 $(\min,+)$ 乘积，$M^2_{i,j}=\min(M_{i,k}+M_{k,j})$， 我们发现它的意义就是 $i$ 至 $j$ 途经恰好一点 $k$（也可以等于 $i$ 或 $j$，此时就是 $i\to j$ 的边权）的最短路，同理可以得出 $M^t_{i,j}=\min(M_{i,k_1}+M_{k_1,k_2}+\ldots+M_{k_{t-1},j})$，也就是从 $i$ 到 $j$ 途经任意 $t-1$ 个点 $k_1,\ldots,k_{t-1}$ 的最短路，在没有负环的图中至多只会途经 $n-2$ 个点，所以我们求出 $M^{n-1}$ 后，$M^{n-1}_{i,j}$ 就是 $i\to j$ 的最短路长度了。</p>
+<p>再看看 Bellman-Ford 算法，如果我们对它稍作改动：设第 $i$ 轮后源点 $s$ 到点 $x$ 的距离为 $dis_i(x)$，每轮枚举所有边 $(u,v,w)$，用 $dis_i(u)+w$ 更新 $dis_{i+1}(v)$，那么这其实就是一个矩阵乘向量的过程——如果把所有 $dis_i(x)$ 看成一个行向量 $V_i$，那么 $V_i\times M=V_{i+1}$，由于 $M$ 中只有 $m$ 个有效元素，所以我们可以 $O(m)$ 地完成一轮乘法，从而 Bellman-Ford 的复杂度是 $O(nm)$ 的。</p>
+<p>如果不用 $(\min,+)$ 乘积，而是用普通的 $(+,\times)$ 乘积求邻接矩阵的幂的话，我们就可以得到一些有关计数和可达性的结果，这一点将在之后提及。</p>
+<hr>
+<blockquote>
+<p>例题 $12$：</p>
+<p>给定一张 $n$ 个点的带权有向图和常数 $k$，求任意两点间恰好经过 $k$ 条边的最短路长度。</p>
+</blockquote>
+<p>求出邻接矩阵 $M$ 并求 $M^k$ 即为答案。</p>
+<p>但是注意这里需要恰好 $k$ 条边，所以这时对角线元素应该为 $\infty$（或自环的长度，如果有自环的话）而不是 $0$，因为原先 $0$ 的意义实际上是允许某一步停在原地不动。</p>
+<p>时间复杂度为 $O(n^3\log k)$。</p>
+<hr>
+<h3 id="最短路问题的扩展"><a href="#最短路问题的扩展" class="headerlink" title="最短路问题的扩展"></a>最短路问题的扩展</h3><p><strong>最小环问题：给定一张有向图，求权值最小的非空回路</strong>，下面我们一般探讨非负权图上的最小环。</p>
+<p>无向图中也可以求最小环，但一般要求点数不少于 $3$。</p>
+<p>最小环问题还可以分为有无”源点”：</p>
+<ul>
+<li><p>有源最小环：求出包含点 $s$ 的最小环。</p>
+<p>解决方法：其实也就是我们要找到一条 $s\to s$ 的路径使得长度最短但非空，这可以理解成 $s$ 必须有一条入边，所以我们将 $s$ 建立一份复制 $s’$，将所有连到 $s$ 的边同时连到 $s’$，求出 $s\to s’$ 的最短路即为答案。</p>
+<p>采用 Dijkstra 算法，复杂度为 $O(m\log n)$。</p>
+<p>直接套用此算法可以得到 $O(mn\log n)$ 或 $O(n^3)$ 的最小环算法，适用于非负权图。</p>
+</li>
+<li><p>无源最小环：求出全图的最小环。</p>
+<p>解决方法：考虑 Floyd 算法的流程，设最小环中编号最大的点为 $k$，它的相邻点为 $a,b$，那么它可以表示成：$a\to b$ 不经过编号 $\ge k$ 的点的最短路加上 $b\to k,k\to a$ 这两条边，因此可以用 $f(k-1,a,b)+w(b,k)+w(k,a)$ 更新答案。</p>
+<p>适用于没有负环的图，时间复杂度为 $O(n^3)$，优点是写起来简单。</p>
+</li>
+</ul>
+<hr>
+<p><strong>单源 K 短路：给定有向正权图，求 $s$ 出发到所有点的非严格第 $K$ 短的路径。</strong></p>
+<p>有一种简单的方法解决 K 短路问题：在执行 Dijkstra 算法的过程中，不论是否满足三角形不等式都松弛一遍，除非终点已经被从队列中取出了 $K$ 遍（此时它的 K​ 短路已经求出来了），其第 K 短路就是第 $K$ 次从队列中取出时的路径长度。</p>
+<p>时间复杂度为 $O(km\log n)$。</p>
+<p>值得注意的是，<strong>当我们只要求一对起点和终点 $s,t$ 之间的 K 短路时</strong>，这个算法有一种启发式搜索的优化：利用 A<em> 搜索的思想，令估价函数为每个点到 $t$ 的单汇<em>*最短路</em></em>（即反图单源最短路），然后在模仿上述 Dijkstra 算法的同时将点在路径中的权值附上到 $t$ 的最短路进行启发式搜索。</p>
+<p>下面介绍一下复杂度正常的固定点对 $s,t$ 之间的 K 短路算法。</p>
+<p>我们考虑以 $t$ 为根的最短路内向树（在例题 5 中提到，即以 $t$ 为根的内向树，使得每个点 $i$ 到 $t$ 的树上路径长度等于其到 $t$ 的最短路 $dis(i,t)$）$T$，再考虑一条 $s\to t$ 的路径 $P$。</p>
+<p>定义一条边 $e=(u,v,w)$ 的代价为 $\delta(e)=dis(v,t)+w-dis(u,t)$，这个值的含义是“一条 $s\to t$ 路径经过边 $e$ 时要增加的权值”，事实上，路径 $P$ 的长度就等于 $dis(s,t)+\sum\limits_{e\in P}\delta(e)$（读者自证不难）。</p>
+<p>同时显见对于最短路树上的边 $e$ 有 $\delta(e)=0$，所以我们在计算上述和式时只需要考虑不在最短路树上的边。</p>
+<p>于是一条 $s\to t$ 的路径可以用一个边序列 $e_1,\ldots,e_k$ 来描述，满足：</p>
+<ul>
+<li>$e_i$ 不在最短路树上；</li>
+<li>$e_i$ 的终点在最短路树上是 $e_{i+1}$ 起点的祖先，特别地 $e_1$ 的起点是 $s$ 的祖先；</li>
+<li>路径长度等于 $dis(s,t)+\sum\delta(e_i)$。</li>
+</ul>
+<p>这条路径的形式就是依次经过每个 $e_i$，在相邻 $e_i$ 之间只走最短路树上的边。</p>
+<p>于是我们只需要对满足上述条件的边序列求第 $k$ 小权值和即可，这可以用一个带扩展贪心来解决：</p>
+<p>带扩展贪心的一般形式就是从一个最初状态开始依次扩展出每个可能的状态，并且只能由小的状态扩展到大的状态，每个状态的扩展方式唯一，那么再利用一个优先队列，每次取出队首进行扩展，连续 $k$ 次就可以求出答案了。</p>
+<p>在该问题中，扩展方式如下：</p>
+<ul>
+<li>对于序列 $e_1,\ldots,e_{k}$，它可以在后面添加一条边 $e_{k+1}$，扩展出 $e_1,\ldots,e_k,e_{k+1}$；</li>
+<li>对于序列 $e_1,\ldots,e_k$，设 $e_{k-1}$ 的终点为 $a$，我们将 $e_k$ 替换为权值更大的一条边，为了保证唯一性，我们可以暂时规定只扩展<strong>起点是 $a$ 祖先的所有非树边中，权值是 $e_k$ 后继的那一个</strong>。</li>
+</ul>
+<p>这样显然每个状态的扩展方式唯一，即不会有一个方案算两次（因为每个状态的前驱唯一）。</p>
+<p>可以用<strong>可持久化线段树</strong>实现上述算法，我们对于每个 $a$ 求出所有起点是 $a$ 的祖先的非树边权值构成的线段树，由于要支持的操作仅仅是求某棵线段树上某值的后继和求某棵线段树上的最小值，都可以 $O(\log n)$ 完成。</p>
+<p>外面再套一个 <code>priority_queue</code> 维护当前所有状态，时间复杂度为 $O(n+m\log n+k(\log k+\log n))$，空间复杂度为 $O(m\log n+k)$。</p>
+<p>这时间和空间看上去比较令人满意了，不过实际上还有在复杂度和代码难度方面都更优的做法。</p>
+<p>考虑将上述算法中的线段树换成堆，那么第二种扩展就不用是求后继了，而是取出堆中的一个结点后加入它的两个子结点（这样也满足大的状态总是被更小的状态扩展出），相当于对每个堆以一种拓扑序遍历。</p>
+<p>这里需要使用一种可持久化的堆（不一定是可并堆，和线段树一样只需要单点加入即可），以最容易写的左偏树为例，由于堆的空间线性，而且求出两个子结点的过程 $O(1)$，因此复杂度比上面更好一些，时间复杂度为 $O(n+m\log n+k\log k)$，空间复杂度为 $O(n\log n+m+k)$。</p>
+<hr>
+<p><strong>局部修改的最短路径</strong></p>
+<p>这一部分我们要解决下列问题和解释一些相关结构：</p>
+<blockquote>
+<p>例题 $13$：[CF 1163 F] Indecisive Taxi Fee</p>
+<p>给定 $n$ 个点 $m$ 条边的非负（原题为正）权无向图，$q$ 次询问，每次询问（在初始图的基础上）修改一条边权，求 $1\to n$ 的最短路长度。</p>
+</blockquote>
+<p>首先求出 $1,n$ 到其余点的单源最短路。</p>
+<p>修改边 $(u,v)$ 的权值后，我们分别求出经过 $(u,v)$ 和不经过 $(u,v)$ 的最短路长度，取 min 即可得到答案。</p>
+<p>经过 $(u,v)$ 的最短路很好求，就是 $dis(1,u)+w_{u,v}+dis(v,n)$（将它记为 $D(u,v)$），或者 $dis(1,v)+w_{u,v}+dis(u,n)$（相应地记为 $D(v,u)$）。所以我们主要的问题其实是求出不经过某条边的最短路，即删边最短路问题。</p>
+<p>随便找出一条 $1\to n$ 的最短路 $1=z_1\to z_2\to\ldots\to z_k=n$，显然如果删掉的边不在这条最短路上，那么不影响最短路的长度，所以只需要考虑删掉 $(z_i,z_{i+1})$ 的情形。</p>
+<p>设删去 $(z_i,z_{i+1})$ 后 $1\to n$ 的一条最短路是 $1=y_1\to y_2\to \ldots\to y_l=n$，我们可以找到一个<strong>最大的</strong> $a$ 使得 $1\to y_a$ 存在一条最短路<strong>不经过</strong> $z_{i+1}$，那么有<strong>结论：$y_{a+1}\to n$ 存在一条最短路不经过 $z_i$（或者 $a$ 就是 $l$）。</strong></p>
+<p>这是因为：由于 $a$ 的最大性，所以 $1\to y_{a+1}$ 的最短路必定要经过 $z_{i+1}$，那么假设 $y_{a+1}\to n$ 的最短路必定经过 $z_i$，那么 $1\to n$ 经过 $y_{a+1}$ 的最短路就必定如红色路径所示，然而我们可以将其替换为蓝色路径，长度不更长，矛盾。</p>
+<p><img src="https://cdn.luogu.com.cn/upload/image_hosting/4tqodyqi.png" alt=""></p>
+<p>因此删除 $(z_i,z_{i+1})$ 后的最短路就等于 $D(y_a,y_{a+1})$。这一命题的意义在于告诉我们：<strong>删除一条最短路上的边之后的最短路可以通过枚举强制经过一条不在最短路上的边来计算。</strong></p>
+<p>于是我们可以倒过来，随便枚举一条边 $(a,b)$，用 $D(a,b)$ 更新所有不在 $1\to a\to b\to n$ 最短路上的 $(z_i,z_{i+1})$ 的答案，容易发现这是一个区间，我们只要计算出 $l_a$ 和 $r_b$ 分别表示最小的 $i$ 使得 $1\to a$ 最短路必须经过 $z_i$，以及最大的 $i$ 使得 $b\to n$ 最短路必须经过 $z_i$，然后 $[l_a,r_b]$ 之间的最短路上的边的答案都可以用 $D(a,b)$ 更新。</p>
+<p>如何计算 $l_i,r_i$ 呢？只需要在最短路图上贪心搜索即可，以 $l_i$ 为例，依次枚举 $z_1,\ldots,z_k$，从 $z_x$ 出发在最短路图上进行强制不经过 $z_{x+1}$ 的 DFS，所有搜索到的曾经未被搜索过的点的 $l_i$ 就都是当前的 $z_x$ 了。</p>
+<p>注意上面关键结论的证明依赖了 $y_a\to y_{a+1}$ 是双向边这一事实，以及 $z_i\to z_{i+1}$ 是非负权的，因此上述算法只能用在<strong>无向非负权图</strong>上，在 dengyaotriangle 的博客里也说明了这一点 <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/blog/dengyaotriangle/shan-bian-zui-duan-lu-wen-ti。有趣的是，该博客中似乎还证明了，在**正权图**中求">https://www.luogu.com.cn/blog/dengyaotriangle/shan-bian-zui-duan-lu-wen-ti。有趣的是，该博客中似乎还证明了，在**正权图**中求</a> $l_i,r_i$ 的过程中我们无需保证它的最小性（最大性），也是正确的。</p>
+<p>与之类似的题还有 [TJOI 2012] 桥。</p>
+<hr>
+<h2 id="3-最小生成树"><a href="#3-最小生成树" class="headerlink" title="3. 最小生成树"></a>3. 最小生成树</h2><p>对于一张连通无向图 $G$，一个包含所有结点的连通无环的子图 $T$ 称为 $G$ 的生成树，在边带权时，边权和最小的生成树就是 $G$ 的最小生成树（Minimum Spanning Tree，MST）。</p>
+<p>求最小生成树，一般的算法有如下三种：</p>
+<ul>
+<li><p>Kruskal 算法，将边权从小到大排序，依次尝试将每条边加入 $T$（如果所得到的图仍然无环则加入），最终的 $T$ 就是最小生成树，时间复杂度为 $O(m\log n)$。</p>
+<p>Kruskal 算法的理论基础是最小边一定在最小生成树中，这不难通过反证法证明。不过更高级一点的说明方法是：生成森林集合是边集 $E$ 上的拟阵，拟阵上的最优化问题可以采用直接贪心。</p>
+</li>
+<li><p>Prim 算法，维护 $T$ 的一个点导出子图 $T’$，初始仅包含一个点 $s$，每轮向 $T’$ 中加入一个点 $v$ 和 $v$ 到 $T’$ 的一条边 $e$，使得 $e$ 的权值是所有可能的边中最小的，时间复杂度为 $O(n^2+m)$ 或堆优化的 $O(m\log n)$。</p>
+<p>Prim 算法的正确性证明与 Kruskal 算法比较类似。</p>
+</li>
+<li><p>Boruvka 算法，因为很多初学者没有听说过，这里稍微详细点说：</p>
+<p>不妨认为任意两条边权值不同（如有相同权值则随机给个顺序），考虑以点 $v$ 为端点的边权最小的边 $e_v$，观察 $\{e_1,\ldots,e_n\}$ 组成的子图 $G’$，（若无重边自环）不难发现它是无环的（因为不存在包含不小于三个点的环，否则容易得到某个 $e_i$ 的权值小于自身），由此易证 $G’$ 是 $T$ 的一部分。于是我们将 $G’$ 先加入 $T$ 中，然后将 $G’$ 的每个连通块缩成一个点，继续上述过程得到 $G’’$，直到某个 $G^{(k)}$ 只有一个点，那么所有点都连在了一起，也就得到了最小生成树 $T$。</p>
+<p>实现时，一开始令每个点各属于一个连通块，每轮迭代考虑每个连通块到其他连通块的最小边，选取所有这样的最小边并合并对应连通块，然后再进行下一轮迭代，直到连通块数为 $1$。</p>
+<p>由于每个连通块都有出边，所以一轮迭代后连通块数至少减半，每轮迭代复杂度为 $O(m’+n’\log n’)$（其中 $n’,m’$ 为当前合并连通块后的点数和边数），故总时间复杂度为 $O(m\log n)$。</p>
+</li>
+</ul>
+<hr>
+<hr>
+<h3 id="一些特殊权值图的最小生成树"><a href="#一些特殊权值图的最小生成树" class="headerlink" title="一些特殊权值图的最小生成树"></a>一些特殊权值图的最小生成树</h3><p>这里首先讨论几个权值比较特殊的图的最小生成树。</p>
+<hr>
+<blockquote>
+<p>例题 $14$：</p>
+<p>给定平面上 $n$ 个点，构成一个完全图，两点之间边权为两点的欧氏距离，求最小生成树。</p>
+</blockquote>
+<p>对于一些边权可 $O(1)$ 计算的完全图都可以做类似的考虑：</p>
+<p>使用 Kruskal 算法或 Boruvka 算法时间复杂度都会到达 $O(n^2\log n)$，前者的空间复杂度更是到达了 $O(n^2)$。</p>
+<p>而使用 Prim 算法即可在 $O(n^2)$ 的时间和 $O(n)$ 的空间内解决该问题。</p>
+<hr>
+<blockquote>
+<p>例题 $15$：[CF 888 G] Xor MST</p>
+<p>给定 $n$ 个数 $a_1,\ldots,a_n$，构成一个完全图，$i,j$ 之间边权为 $a_i\oplus a_j$，求最小生成树。</p>
+</blockquote>
+<p>解一：</p>
+<p>直接套用 Boruvka 算法，每次给所有数编号使得同一连通块的数编号连续，然后转化为前后缀最大异或，可以使用字典树完成。</p>
+<p>解二：</p>
+<p>使用 Kruskal 算法，我们从整个图的 Kruskal 重构树入手，容易证明的是这个 Kruskal 树恰好就等于包含这些数的压缩 Trie，压缩 Trie 指的是删除所有 Trie 上二度点构成的数，每个非叶结点恰好有两个儿子，这也就是所有叶子的虚树。</p>
+<p>所以我们只需求出 Trie，考虑所有有两个儿子的点，分别求出其左右儿子各选一个点异或的最小值，就是每条边的边权。</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2025/02/25/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/NOI%E4%B8%80%E8%BD%AE%E5%A4%8D%E4%B9%A0III/" rel="prev" title="科普文章 - NOI 一轮复习 III：数据结构">
+                  <i class="fa fa-chevron-left"></i> 科普文章 - NOI 一轮复习 III：数据结构
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2025/02/25/%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0/NOI%E4%B8%80%E8%BD%AE%E5%A4%8D%E4%B9%A0I/" rel="next" title="科普文章 - NOI 一轮复习 I：二分图网络流">
+                  科普文章 - NOI 一轮复习 I：二分图网络流 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">ix35</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js","integrity":"sha256-tu9j5pBilBQrWSDePOOajCUdz6hWsid/lBNzK4KgEPM="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.0/katex.min.css" integrity="sha256-uik/hNqHWZldXh/0K35nqOSCff9F61/ZOFReqNOBgB0=" crossorigin="anonymous">
+
+
+
+</body>
+</html>
