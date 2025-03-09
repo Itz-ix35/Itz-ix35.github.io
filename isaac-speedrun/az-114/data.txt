@@ -1,0 +1,102 @@
+﻿编号,种子,现实时间,视频
+1,CVR2ST6M,6:30,<a href="https://www.bilibili.com/video/BV1Kky6YkERd" target="_blank">Vol.1 Link 第一局（00:00）</a>
+2,4KV2YQJX,6:36,
+3,R90J2HDM,7:22,<a href="https://www.bilibili.com/video/BV1Kky6YkERd" target="_blank">Vol.1 Link 第三局（13:58）</a>
+4,YV3E0GFM,6:56,<a href="https://www.bilibili.com/video/BV1Kky6YkERd" target="_blank">Vol.1 Link 第四局（21:35）</a>
+5,XEX2EDBW,6:14,<a href="https://www.bilibili.com/video/BV1Kky6YkERd" target="_blank">Vol.1 Link 第五局（28:52）</a>
+6,STNLDR4W,7:01,<a href="https://www.bilibili.com/video/BV1Kky6YkERd" target="_blank">Vol.1 Link 第六局（35:25）</a>
+7,F8TEL7N0,8:13,<a href="https://www.bilibili.com/video/BV1Kky6YkERd" target="_blank">Vol.1 Link 第七局（42:43）</a>
+8,MJBDLG6L,7:47,<a href="https://www.bilibili.com/video/BV1Kky6YkERd" target="_blank">Vol.1 Link 第八局（51:12）</a>
+9,27LFFSZL,5:54,<a href="https://www.bilibili.com/video/BV1Kky6YkERd" target="_blank">Vol.1 Link 第九局（59:17）</a>
+10,CFLMM3X7,7:00,<a href="https://www.bilibili.com/video/BV1Kky6YkERd" target="_blank">Vol.1 Link 第十局（01:05:40）</a>
+11,E4NKP7HE,6:56,<a href="https://www.bilibili.com/video/BV1jRX9YnEsP" target="_blank">Vol.2 Link 第一局（00:00）</a>
+12,C8GK92VR,6:52,<a href="https://www.bilibili.com/video/BV1jRX9YnEsP" target="_blank">Vol.2 Link 第二局（07:13）</a>
+13,8HS7AXW1,6:16,<a href="https://www.bilibili.com/video/BV1jRX9YnEsP" target="_blank">Vol.2 Link 第三局（14:17）</a>
+14,123AYNVE,6:48,<a href="https://www.bilibili.com/video/BV1jRX9YnEsP" target="_blank">Vol.2 Link 第四局（20:46）</a>
+15,7Y4WP1NF,6:56,<a href="https://www.bilibili.com/video/BV1jRX9YnEsP" target="_blank">Vol.2 Link 第五局（27:47）</a>
+16,CHSC83NC,7:00,<a href="https://www.bilibili.com/video/BV1jRX9YnEsP" target="_blank">Vol.2 Link 第六局（34:59）</a>
+17,D604V04V,7:31,<a href="https://www.bilibili.com/video/BV1jRX9YnEsP" target="_blank">Vol.2 Link 第七局（42:20）</a>
+18,TJDYLJ7D,7:37,<a href="https://www.bilibili.com/video/BV1jRX9YnEsP" target="_blank">Vol.2 Link 第八局（50:03）</a>
+19,902PDZWS,6:08,<a href="https://www.bilibili.com/video/BV1jRX9YnEsP" target="_blank">Vol.2 Link 第九局（57:52）</a>
+20,Q4E2A4N7,6:17,
+21,R9CF8Q0C,7:02,
+22,LR9TLCY1,7:20,
+23,VFD39M8E,7:46,
+24,G4HSBCB9,7:05,
+25,NBPBLK4V,6:23,
+26,7E2Y3KJD,6:41,
+27,S84LGYEV,7:15,
+28,QFDRWRN7,6:13,
+29,7EWVW8RP,6:15,
+30,NCWVYNCS,6:21,
+31,GHB2A0SJ,6:15,
+32,P3PX4GGN,6:42,
+33,7TSNVR18,6:44,
+34,0VHTFE0D,7:34,
+35,APXP0MLR,7:22,
+36,9140MHDL,6:37,
+37,1G0QDWF6,6:37,
+38,9AVZ4G2P,6:42,
+39,619NZMK1,6:48,
+40,61RMCDSP,8:23,
+41,A7SFPZVM,7:41,
+42,GAR0NLGJ,6:46,
+43,KA9PANXB,7:52,
+44,4JZ4E8HV,99:99,
+45,A1XVM3LE,7:47,
+46,220ZKLNW,7:18,
+47,W1NAV6W2,7:09,
+48,84TRVMX2,6:15,
+49,FND4FGQP,6:37,
+50,TNN1B7QY,6:39,
+51,N0QGVQNK,6:35,
+52,YJ69PPR3,7:32,
+53,PLESYHXX,7:11,
+54,3G03BCF9,6:36,
+55,GKAM7KZP,6:45,
+56,Z43GLF17,6:39,
+57,ZXPZBFA8,6:44,
+58,EPRS4M6H,6:55,
+59,B30QR3NL,6:57,
+60,D4XRKBNE,6:39,
+61,0FBLQJZ0,7:15,
+62,R8YPBGE0,99:99,
+63,9FSQJQCA,6:17,
+64,M47DSCYV,7:12,
+65,7NKVFGEP,6:39,
+66,FPRLEMAY,8:00,
+67,4QS3WEQ8,7:05,
+68,AFHFH7M4,6:39,
+69,8TP8JKYG,6:48,
+70,9AGH1Y71,7:26,
+71,RMTEAT1Z,6:45,
+72,P9XD9296,7:51,
+73,B1F914VS,7:40,
+74,TH1RPFG1,6:45,
+75,NDCY8BGD,6:50,
+76,4DFZXN7N,7:46,
+77,RJWZAJLC,6:33,
+78,CHP8XD3W,6:58,
+79,2DBZBNAV,7:19,
+80,0G8WDF71,6:27,
+81,8A8YRECV,8:30,
+82,C86CKHFS,7:05,
+83,6JJXYSMQ,7:49,
+84,SYLXY9LM,6:58,
+85,Z9EJMSG2,5:56,
+86,NW6B1EMT,6:42,
+87,NYS2VFG8,8:09,
+88,MKQF83FL,6:21,
+89,7Q983V8D,6:14,
+90,2GW7EQHR,6:38,
+91,78LGDLXA,7:35,
+92,1FJTFBBR,7:19,
+93,1GL9TZAM,5:27,
+94,T4Y361RY,6:21,
+95,6BQR6DHG,7:43,
+96,7ANPJRXP,6:16,
+97,Y2H2CMKA,6:59,
+98,VD7KQFLD,6:42,
+99,H3VKB1JZ,6:58,
+100,HTGMZZ2L,6:59,
+Average,-,-,

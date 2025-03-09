@@ -1,0 +1,163 @@
+<head>
+    <meta charset="utf-8">
+    <title>科目三</title>
+</head>
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+    }
+    th {
+        background-color:rgb(205, 205, 205);
+        font-weight: bold;
+		user-select: none;
+    }
+	th::after {
+		content: "▲";
+		right: 10px
+		font-size: 12px;
+		opacity: 0.2;
+		transition: opacity 0.2s;
+	}
+	th.desc::after {
+		content: "▼";
+		opacity: 1;
+	}
+	th.asc::after {
+		content: "▲";
+		opacity: 1;
+	}
+</style>
+<p>科目三基础规则：</p>
+<ul>
+<li>使用竞速 mod</li>
+<li>角色为表 AZ</li>
+<li>初始自带妈刀（c114）、开图（c333）</li>
+<li>终点为羔羊</li>
+<li>所有道具中，只能拾取 boss 掉落的道具</li>
+</ul>
+<p>个人附加规则：</p>
+<ul>
+<li><span style="color:red">不携带饰品，不使用卡牌、药丸、符文</span></li>
+<li><span style="color:red">不进入恶魔房、天使房</span></li>
+<li><span style="color:green">允许下水</span></li>
+<li><span style="color:green">如果在 boss 房遇到黄针（c240），本局成绩可以不计</span>（有针不玩）</li>
+</ul>
+<h3 id="center版本忏悔center"><a class="markdownIt-Anchor" href="#center版本忏悔center"></a> <center>版本：忏悔</center></h3>
+<h4 id="center记录点击表头可排序center"><a class="markdownIt-Anchor" href="#center记录点击表头可排序center"></a> <center>记录（点击表头可排序）</center></h4>
+<table class="cen main-table" id="recTable" style="width: 100%">
+	<thead>
+		<tr>
+			<th style="width: 20%" onclick="sortTable(0)">编号</th>
+			<th style="width: 25%" onclick="sortTable(1)">种子</th>
+			<th style="width: 25%" onclick="sortTable(2)">现实时间</th>
+			<th style="width: 30%" onclick="sortTable(3)">视频</th>
+		</tr>
+	</thead>
+	<tbody>
+	</tbody>
+</table>
+<script>
+	let num_col = 0;
+
+	async function loadTable() {
+		const response = await fetch("data.txt");
+		const text = await response.text();
+		const rows = text.split("\n").map(row => row.split(","));
+		num_col = rows[0].length;
+
+		const tableBody = document.querySelector("#recTable tbody");
+		let avg = 0, valid_cnt = 0;
+		for (let i = 1; i < rows.length - 1; i++) {
+			const ms = rows[i][2].split(":").map(x => parseInt(x));
+			const time = ms[0] * 60 + ms[1];
+			if (ms[0] != 99) {
+				avg += time;
+				valid_cnt++;
+			}
+		}
+		avg = avg / valid_cnt;
+		const minute = parseInt(avg / 60).toString(), second = (avg - minute * 60).toFixed(3);
+		rows[rows.length - 1][2] = minute + ":" + second;
+		
+		tableBody.innerHTML = rows.slice(1).map(row => 
+			`<tr>${row.map(col => `<td>${col.trim()}</td>`).join("")}</tr>`
+		).join("");
+	}
+
+	function sortTable(columnIndex) {
+		let table = document.getElementById("recTable");
+		let rows = Array.from(table.rows).slice(1);
+		let isAscending = table.getAttribute("data-sort-dir") !== "asc"; 
+
+		rows.sort((rowA, rowB) => {
+			if (rowA.cells[1].textContent == "-") {
+				return 0;
+			} else if (rowB.cells[1].textContent == "-") {
+				return 0;
+			}
+
+			let cellA = rowA.cells[columnIndex].textContent.trim();
+			let cellB = rowB.cells[columnIndex].textContent.trim();
+			let isNumeric = !isNaN(cellA) && !isNaN(cellB);
+			
+			return isNumeric 
+				? (isAscending ? cellA - cellB : cellB - cellA) 
+				: (isAscending ? cellA.localeCompare(cellB, 'zh') : cellB.localeCompare(cellA, 'zh'));
+		});
+
+		table.setAttribute("data-sort-dir", isAscending ? "asc" : "desc");
+
+		rows.forEach(row => table.appendChild(row));
+		let ths = table.querySelectorAll("th");
+		if (isAscending) {
+			for (let i = 0; i < num_col; i++) {
+				ths[i].classList.remove("asc");
+				ths[i].classList.remove("desc");
+			}
+			ths[columnIndex].classList.add("asc");
+		} else {
+			for (let i = 0; i < num_col; i++) {
+				ths[i].classList.remove("asc");
+				ths[i].classList.remove("desc");
+			}
+			ths[columnIndex].classList.add("desc");
+		}
+		applyGradient();
+	}
+
+	function applyGradient() {
+        let table = document.getElementById("recTable"); 
+        let rows = table.getElementsByTagName("tr");  
+        let startColor = [255, 204, 204];
+		let midColor = [255, 255, 255]
+        let endColor = [204, 255, 204];
+
+        let numRows = rows.length - 1;
+        
+        for (let i = 1; i < rows.length; i++) {
+            let ratio = (i - 1) / (numRows - 1);
+			let r = 0, g = 0, b = 0;
+			if (ratio < 0.5) {
+				let aratio = ratio * 2;
+            	r = Math.round(startColor[0] + aratio * (midColor[0] - startColor[0]));
+            	g = Math.round(startColor[1] + aratio * (midColor[1] - startColor[1]));
+            	b = Math.round(startColor[2] + aratio * (midColor[2] - startColor[2]));
+			} else {
+				let aratio = ratio * 2 - 1;
+            	r = Math.round(midColor[0] + aratio * (endColor[0] - midColor[0]));
+            	g = Math.round(midColor[1] + aratio * (endColor[1] - midColor[1]));
+            	b = Math.round(midColor[2] + aratio * (endColor[2] - midColor[2]));
+			}
+            rows[i].style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+        }
+    }
+
+    window.onload = applyGradient;
+	loadTable();
+</script><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
