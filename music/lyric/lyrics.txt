@@ -1,0 +1,252 @@
+﻿[
+  {
+    "text": "Maybe we’re all cold machines\nStuffed in the human skin\nWith human sins\nSewed up by the gods of city",
+    "song": "String Theocracy",
+    "artist": "Mili"
+  },
+  {
+    "text": "I know\nSuccessful or not, I am who I am\nI am my biggest fan\nI am my biggest fan\nI am my enemy and my friend",
+    "song": "Hero",
+    "artist": "Mili"
+  },
+  {
+    "text": "Let the spring blossom\nLet summer dance\nLet autumn sing a song\nWinter yawned, it goes around and round\nWith you I sang along",
+    "song": "Year N",
+    "artist": "Mili"
+  },
+  {
+    "text": "I still remain\nAnd I’m still one and the same\nThough my love now goes by a different name\nMy heart stays unchanged",
+    "song": "Hearts Stay Unchanged",
+    "artist": "Mili"
+  },
+  {
+    "text": "Twenty-five years and my life is still\nTrying to get up that great big hill of hope\nFor a destination",
+    "song": "What's Up?",
+    "artist": "4 Non Blondes"
+  },
+  {
+    "text": "Touch me, it's so easy to leave me\nAll alone with my memory\nof my days in the sun",
+    "song": "Memory",
+    "artist": "Cats"
+  },
+  {
+    "text": "It's a new dawn\nIt's a new day\nIt's a new life\nFor me\nAnd I'm feeling good",
+    "song": "Feeling Good",
+    "artist": "Avicii"
+  },
+  {
+    "text": "He said, one day you'll leave this world behind\nSo live a life you will remember\nMy father told me when I was just a child\nThese are the nights that never die",
+    "song": "The Nights",
+    "artist": "Avicii / Nicholas Furlong"
+  },
+  {
+    "text": "Hon what did you expect?\nParenting's not our best\nWe're just\nPretending we'll forever be your gods\n\nWithout my supremacy\nDoes a robot need me?\nHuman moralities\nAre what robots really need",
+    "song": "WHAT ROBOTS NEED",
+    "artist": "AWAAWA"
+  },
+  {
+    "text": "原谅我这一生不羁放纵爱自由\n也会怕有一天会跌倒\n背弃了理想 谁人都可以\n哪会怕有一天只你共我",
+    "song": "海阔天空",
+    "artist": "Beyond"
+  },
+  {
+    "text": "How many years can a mountain exist\nBefore it is washed to the sea\nHow many years can some people exist\nBefore they're allowed to be free\nHow many times can a man turn his head\nAnd pretend that he just doesn't see\nThe answer, my friend, is blowing in the wind\nThe answer is blowing in the wind",
+    "song": "Blowing in the Wind",
+    "artist": "Bob Dylan"
+  },
+  {
+    "text": "They're selling postcards of the hanging\nThey're painting the passports brown\nThe beauty parlor is filled with sailors\nThe circus is in town\nHere comes the blind commissioner\nThey've got him in a trance\nOne hand is tied to the tight-rope walker\nThe other is in his pants\nAnd the riot squad they're restless\nThey need somewhere to go\nAs Lady and I look out tonight\nFrom Desolation Row\n\nCinderella, she seems so easy\n\"It takes one to know one,\" she smiles\nAnd puts her hands in her back pockets\nBette Davis style\nAnd in comes Romeo, he's moaning\n\"You Belong to Me I Believe\"\nAnd someone says,\" You're in the wrong place, my friend\nYou better leave\"\nAnd the only sound that's left\nAfter the ambulances go\nIs Cinderella sweeping up\nOn Desolation Row\n\nNow the moon is almost hidden\nThe stars are beginning to hide\nThe fortunetelling lady\nHas even taken all her things inside\nAll except for Cain and Abel\nAnd the hunchback of Notre Dame\nEverybody is making love\nOr else expecting rain\nAnd the Good Samaritan, he's dressing\nHe's getting ready for the show\nHe's going to the carnival tonight\nOn Desolation Row\n\nNow Ophelia, she's 'neath the window\nFor her I feel so afraid\nOn her twenty-second birthday\nShe already is an old maid\nTo her, death is quite romantic\nShe wears an iron vest\nHer profession's her religion\nHer sin is her lifelessness\nAnd though her eyes are fixed upon\nNoah's great rainbow\nShe spends her time peeking\nInto Desolation Row\n\nEinstein, disguised as Robin Hood\nWith his memories in a trunk\nPassed this way an hour ago\nWith his friend, a jealous monk\nHe looked so immaculately frightful\nAs he bummed a cigarette\nThen he went off sniffing drainpipes\nAnd reciting the alphabet\nNow you would not think to look at him\nBut he was famous long ago\nFor playing the electric violin\nOn Desolation Row\n\nDr. Filth, he keeps his world\nInside of a leather cup\nBut all his sexless patients\nThey're trying to blow it up\nNow his nurse, some local loser\nShe's in charge of the cyanide hole\nAnd she also keeps the cards that read\n\"Have Mercy on His Soul\"\nThey all play on penny whistles\nYou can hear them blow\nIf you lean your head out far enough\nFrom Desolation Row\n\nAcross the street they've nailed the curtains\nThey're getting ready for the feast\nThe Phantom of the Opera\nIn a perfect image of a priest\nThey're spoonfeeding Casanova\nTo get him to feel more assured\nThen they'll kill him with self-confidence\nAfter poisoning him with words\nAnd the Phantom's shouting to skinny girls\n\"Get outa here if you don't know,\nCasanova is just being punished for going\nTo Desolation Row\"\n\nNow at midnight all the agents\nAnd the superhuman crew\nCome out and round up everyone\nThat knows more than they do\nThen they bring them to the factory\nWhere the heart-attack machine\nIs strapped across their shoulders\nAnd then the kerosene\nIs brought down from the castles\nBy insurance men who go\nCheck to see that nobody is escaping\nTo Desolation Row\n\nPraise be to Nero's Neptune\nThe Titanic sails at dawn\nAnd everybody's shouting\n\"Which Side Are You On?\"\nAnd Ezra Pound and T. S. Eliot\nFighting in the captain's tower\nWhile calypso singers laugh at them\nAnd fishermen hold flowers\nBetween the windows of the sea\nWhere lovely mermaids flow\nAnd nobody has to think too much\nAbout Desolation Row\n\nYes, I received your letter yesterday\n(About the time the door knob broke)\nWhen you asked how I was doing\nWas that some kind of joke?\nAll these people that you mention\nYes, I know them, they're quite lame\nI had to rearrange their faces\nAnd give them all another name\nRight now I can't read too good\nDon't send me no more letters no\nNot unless you mail them\nFrom Desolation Row",
+    "song": "Desolation Row",
+    "artist": "Bob Dylan"
+  },
+  {
+    "text": "Feel my hair blowing in the wind\nSee the sky and the summer rain\nPick a flower from the garden for you\n\nBeyond the lane there's another world\nButterflies floating in the air\nBut is there someone out there for me?",
+    "song": "Arrietty's Song",
+    "artist": "Cécile Corbel"
+  },
+  {
+    "text": "All she saw was a silhouette of a gun,\nfar away on the other side,\nHe was shot six times by a man on the run,\nand she couldn't find how to push through.\nI stay, I pray, see you in heaven far away,\nI stay, I pray, see you in heaven one day.",
+    "song": "Moonlight Shadow",
+    "artist": "Maggie Reilly"
+  },
+  {
+    "text": "There was a time we killed the king\nWe tried to change the world too fast\nNow we have got another king\nHe is no better than the last\n\nThis is the land that fought for liberty\nNow when we fight, we fight for bread\nHere is the thing about equality\nEveryone's equal when they're dead\n\nTake your place\nTake your chance\nVive la France\nVive la France!",
+    "song": "Paris / Look Down",
+    "artist": "Les Misérables"
+  },
+  {
+    "text": "Mirrors on the ceiling\nThe pink champagne on ice\nAnd she said we are all just prisoners here\nof our own device\n\nAnd in the master s chambers\nthey gathered for the feast\nthey stab it with their steely knives\nbut they just can t kill the beast",
+    "song": "Hotel California",
+    "artist": "Eagles"
+  },
+  {
+    "text": "Run fast for your mother, run fast for your father\nRun for your children, for your sisters and brothers\nLeave all your love and your longing behind\nYou can't carry it with you if you want to survive\n\nThe dog days are over\nThe dog days are done\nCan you hear the horses?\nCause here they come",
+    "song": "Dog Days Are Over",
+    "artist": "Florence + The Machine"
+  },
+  {
+    "text": "Run fast for your mother, run fast for your father\nRun for your children, for your sisters and brothers\nLeave all your love and your longing behind\nYou can't carry it with you if you want to survive\n\nThe dog days are over\nThe dog days are done\nCan you hear the horses?\nCause here they come",
+    "song": "Dog Days Are Over",
+    "artist": "Florence + The Machine"
+  },
+  {
+    "text": "大胆不敵に ハイカラ革命\n（大胆无畏维新革命）\n磊々落々 反戦国家\n（光明磊落反战国家）",
+    "song": "千本桜",
+    "artist": "初音ミク"
+  },
+  {
+    "text": "Tomorrow is the judgement day\nTomorrow we'll discover\nWhat our God in Heaven has in store!\n\nOne more dawn\nOne more day\nOne day more!",
+    "song": "One Day More",
+    "artist": "Les Misérables"
+  },
+  {
+    "text": "Do you hear the people sing,\nsinging the song of angry men?\nIt is the music of people who will not be slaves again.\n\nWhen the beating of your heart\nechoes the beating of the drums\nThere is a life about to start when tomorrow comes.",
+    "song": "Do You Hear the People Sing",
+    "artist": "Les Misérables"
+  },
+  {
+    "text": "Raindrops on roses\nAnd whiskers on kittens\nBright copper kettles and warm woolen mittens\nBrown paper packages tied up with strings\nThese are a few of my favorite things\n\nCream-colored ponies and crisp apple strudels\nDoorbells and sleigh bells\nAnd schnitzel with noodles\nWild geese that fly with the moon on their wings\nThese are a few of my favorite things\n\nGirls in white dresses with blue satin sashes\nSnowflakes that stay on my nose and eyelashes\nSilver-white winters that melt into springs\nThese are a few of my favorite things",
+    "song": "My Favourite Things",
+    "artist": "The Sound of Music"
+  },
+  {
+    "text": "What about the holy land (What about it)\nTorn apart by creed (What about us)\nWhat about the common man (What about us)\nCan't we set him free (What about us)\nWhat about children dying (What about us)\nCan't you hear them cry (What about us)\nWhere did we go wrong (Oooooo)\nSomeone tell me why (What about us)",
+    "song": "Earth Song",
+    "artist": "Michael Jackson"
+  },
+  {
+    "text": "Found a sunny spot\nCurled into a ball\nSpinning out the silk\nFrom my head to toe\nInside the warm cocoon,\nI dreamt to be like you\nThough I know there's no undo\nWhat do I have left to lose?",
+    "song": "Between Two Worlds",
+    "artist": "Mili"
+  },
+  {
+    "text": "Truth is, I know as long as we live\nOur ideals dye rivers scarlet\nFiring shots in the name of justice\nDeclaring love we can only reminisce",
+    "song": "Grown-up's Paradise",
+    "artist": "Mili"
+  },
+  {
+    "text": "Are you going to Scarborough Fair\nParsley, sage, rosemary and thyme\nRemember me to one who lives there\nHe once was a true love of mine",
+    "song": "Scarborough Fair",
+    "artist": "Sarah Brightman"
+  },
+  {
+    "text": "And the people bowed and prayed\nto the neon god they made\nAnd the sign flashed out its warning\nin the words that it was forming\nAnd the sign said the words of the prophets are written on the subway walls\nand tenement halls\nand whispered in the sounds of silence",
+    "song": "The Sound Of Silence",
+    "artist": "Simon & Garfunkel"
+  },
+  {
+    "text": "All that was left\nWas a robot with a doll\nIs it a robot that has new soul\nOr was it a boy who've lost his own",
+    "song": "The Scrap Boy",
+    "artist": "Oliver"
+  },
+  {
+    "text": "The undertaker's daughter had wandered there,\nwith her sweet rosy pink cheeks and long flaxen hair\nShe looked to the plaque, and she thought it was odd\nShe looked to the plaque, the grave's name was gone.",
+    "song": "The Undertaker's Daughter",
+    "artist": "Oliver"
+  },
+  {
+    "text": "The remains of ugly corruptions\nWas once an accomplishment\nThe rumor says a robot still is looking for nourishment",
+    "song": "Ugly Fuel",
+    "artist": "Oliver"
+  },
+  {
+    "text": "Hide and seek\nReason and rhyme\nGrand and glorious\nLiving the dream\nYours and mine\nEuphoria",
+    "song": "The Calling",
+    "artist": "TheFatRat / Laura Brehm"
+  },
+  {
+    "text": "He knows his way in the dark\nMine is the way of the Lord\nThose who follow the path of the righteous\nShall have their reward\n\nAnd if they fall\nAs Lucifer fell\nThe flame\nThe sword!",
+    "song": "Stars",
+    "artist": "Les Misérables"
+  },
+  {
+    "text": "言葉の彩蓮が　光塞ぐ\n（静默是为光 无声）\n出鱈目の正義と星の腫れ(ハレ)\n（荒唐的正义和晴朗星空）\n遠い 遠い 遠い　ヰ国の宝石箱\n（遥远疏远淡远 异国的宝石箱）\n開けるたび泥まみれになる\n（每次开启总伴随着泥泞）",
+    "song": "ヰ世界の宝石譚",
+    "artist": "ヰ世界情緒"
+  },
+  {
+    "text": "・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー\n・・ ・ー・・ ーーー ・・・ー ・ ー・ーー ーーー ・・ー\n(I Love You)\n(I Love You)",
+    "song": "シリウスの心臓",
+    "artist": "ヰ世界情緒"
+  },
+  {
+    "text": "I'm just playing games I know that's plastic love\nDance to the plastic beat Another morning comes",
+    "song": "プラスティック・ラブ",
+    "artist": "竹内まりや"
+  },
+  {
+    "text": "薄荷飴 漁港の灯台 錆びたアーチ橋 捨てた自転車\n（薄荷糖 渔港的灯塔 生锈的拱桥 丢弃的自行车）\n木造の駅のストーブの前で どこにも旅立てない心\n（木造车站的暖炉前 无处可去的心灵）\n今日はまるで昨日みたいだ 明日を変えるなら今日を変えなきゃ\n（今天与昨天如此相像 想改变明天 必须改变今天）\n分かってる 分かってる けれど\n（我知道 我知道 但是...）\n\n僕が死のうと思ったのは 心が空っぽになったから\n（曾经我也想过一了百了 因为心中已空无一物）\n満たされないと泣いているのは きっと満たされたいと願うから\n（感到空虚而哭泣 一定是渴望得到充实）\n僕が死のうと思ったのは 靴紐が解けたから\n（曾经我也想过一了百了 因为鞋带松开了）\n結びなおすのは苦手なんだよ 人との繋がりもまた然り\n（不擅长重新系起 与人的牵绊亦是如此）",
+    "song": "僕が死のうと思ったのは",
+    "artist": "中島美嘉"
+  },
+  {
+    "text": "多年以后一场大雨惊醒沉睡的我\n突然之间都市的霓虹都不再闪烁\n天边有颗模糊的星光偷偷探出了头\n是你的眼神依旧在远方为我在等候\n\n星星点灯 照亮我的家门\n让迷失的孩子找到来时的路\n星星点灯 照亮我的前程\n用一点光 温暖孩子的心",
+    "song": "星星点灯",
+    "artist": "郑智化"
+  },
+  {
+    "text": "这个冬天 最后一夜\n我和你都在寻找 开往春天的地铁",
+    "song": "开往春天的地铁",
+    "artist": "羽·泉"
+  },
+  {
+    "text": "飞翔吧 飞在天空\n用力吹吧 无情的风\n我不会害怕 也无须懦弱\n流浪的路 我自己走\n\n那是种骄傲 阳光的洒脱\n白云从我脚下掠过\n干枯的身影 憔悴的面容\n挥着翅膀 不再回头\n\n纵然带着永远的伤口\n至少我还拥有自由",
+    "song": "白鸽",
+    "artist": "伍佰 & China Blue"
+  },
+  {
+    "text": "可能我 陪伴过你的青春\n可能我 陪伴自己的灵魂\n而我们 凝视着彼此的真\n所以心 才如此静水流深\n让歌生了根",
+    "song": "歌颂者",
+    "artist": "吴青峰"
+  },
+  {
+    "text": "狼烟千里乱葬岗\n乱世孤魂无人访\n无言苍天笔墨寒\n笔刀春秋以血偿",
+    "song": "缘分一道桥",
+    "artist": "王力宏 / 谭维维"
+  },
+  {
+    "text": "四月 燕子又飞过 夏夜会复活蝉鸣\n归来吧 归来吧 不管你失去什么\n冬天 升起了烟火 就原谅大雪寒冰\n归来吧 归来吧 从荒漠 里奔向我",
+    "song": "归途有风",
+    "artist": "王菲"
+  },
+  {
+    "text": "开始的开始 我们都是孩子\n最后的最后 渴望变成天使\n歌谣的歌谣 藏着童话的影子\n孩子的孩子 该要飞往哪去",
+    "song": "北京东路的日子",
+    "artist": "南京外国语学校 2010 届毕业生"
+  },
+  {
+    "text": "一闪一闪亮晶晶\n好像你的身体\n藏在众多孤星之中\n还是找得到你",
+    "song": "克卜勒",
+    "artist": "孙燕姿"
+  },
+  {
+    "text": "走吧去翻过山 路风雪迷途\n沿着岸的月光 似他乡的故土\n谁在桥上 面朝江水 喊归来\n可是我长留在渡口 的亲爱",
+    "song": "滴水一生",
+    "artist": "孙楠"
+  },
+  {
+    "text": "什么天地啊\n四季啊\n昼夜啊\n\n什么海天一色\n地狱天堂\n暮鼓晨钟\n\nAlways Together\nForever Apart\n\nAlways Together\nForever Apart",
+    "song": "飞鸟与鱼",
+    "artist": "齐豫 / 齐秦"
+  },
+  {
+    "text": "不变的你 伫立在茫茫的尘世中\n聪明的孩子 提着心爱的灯笼",
+    "song": "你的样子",
+    "artist": "罗大佑"
+  },
+  {
+    "text": "越过山丘 虽然已白了头\n喋喋不休 时不我予的哀愁\n还未如愿见着不朽\n就把自己先搞丢\n\n越过山丘 才发现无人等候\n喋喋不休 再也唤不回了温柔\n为何记不得上一次是谁给的拥抱\n在什么时候",
+    "song": "山丘",
+    "artist": "李宗盛"
+  },
+  {
+    "text": "我没别的说，我没别的做\n我攥着手只管向前走\n我张着口只管大声吼\n我恨这个，我爱这个\n哎呀哎呀……",
+    "song": "出走",
+    "artist": "崔健"
+  },
+  {
+    "text": "几百天来的热烈 一个寒流就瓦解\n再厚的爱只是一叠纸片\n\n你在房间 像幻灯片\n你在我眼里蔓延\n你在手机 你在笔电 无法隔绝\n你在深夜 像黑咖啡\n你在我心里面 陪我失眠\n可是却不在 我身边",
+    "song": "你在 不在",
+    "artist": "郭采洁"
+  }
+]

@@ -1,0 +1,14 @@
+﻿来源,日期,种子,角色,终点,胜者,败者,胜者成绩,视频,新知识/糖
+常规擂台,2025/05/15,2CXQ99Y0,里蓝人,见证者,喻菁,巡游春天,18:58,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第一局</a>,无
+常规擂台,2025/05/15,XSC2JCLL,表犹大,祸兽,地狱鸦,喻菁,17:57,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第二局</a>,毛霉菌+鬼椒配合；后悔药走机关房轻松连踩两次刺
+常规擂台,2025/05/15,4F1AYD9X,表伊甸,羔羊,地狱鸦,少晚爱晴,18:28,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第三局</a>,签语饼没饰品；科技 X 轻松拿个螺丝
+常规擂台,2025/05/15,B14V4H78,表 lost,大撒旦,地狱鸦,氧气,14:53,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第四局</a>,圣心 lost 轻松 roll 个蜡烛
+常规擂台,2025/05/15,QCGBRVHC,里 lost,见证者,粉汗衫,地狱鸦,99:99,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第五局</a>,出门刷新后悔药
+常规擂台,2025/05/15,LFX4GGZD,表 AZ,见证者,ix35,粉汗衫,10:16,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第六局</a>,铲子挖前看一下地上
+常规擂台,2025/05/15,3290A3NW,表该隐,小蓝人,ix35,五棵松,18:22,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第七局</a>,轻松抢一个黑书
+常规擂台,2025/05/15,ZRS2HRAW,里 AZ,羔羊,哈基人,ix35,17:57,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第八局</a>,无
+常规擂台,2025/05/15,RDHKBWM4,表莉莉丝,羔羊,sakuya,哈基人,15:11,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第九局</a>,Fallen 房间为恶魔池
+常规擂台,2025/05/15,6Q00TK48,表亚伯伦,小蓝人,小雪糕,sakuya,13:36,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第十局</a>,无
+常规擂台,2025/05/15,8EFQEPXL,里店长,大撒旦,老 E,小雪糕,12:04,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第十一局</a>,店长陀螺，剖腹产死眼能触发
+常规擂台,2025/05/15,893HPMH8,以撒,小蓝人,老 E,吃青蛙,16:49,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第十二局</a>,无
+常规擂台,2025/05/15,Q2DGPN4R,表 AZ,羔羊,老 E,耗子,14:39,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第十三局</a>,AZ 轻松换飞

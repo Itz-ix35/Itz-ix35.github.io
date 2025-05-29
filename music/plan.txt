@@ -13,8 +13,8 @@ M12 Poems of a Machine
 M13 幾年月
 M14 Sleep Talk Metropolis
 M15 Hearts Stay Unchanged
-M16 Bulbel
-M17 Salt, Pepper, Birds and the Thought Police
+M16 Lily Tree
+M17 Bulbel
 M18 Ga1ahad and Scientific Witchery
 M19 In Hell We Live, Lament
 M20 Duetting Solo
@@ -26,6 +26,7 @@ M25 Children of the City
 M26 Summoning 101
 M27 Camelia
 M28 Birthday Kid
+M29 Salt, Pepper, Birds and the Thought Police
 
 ---
 
@@ -43,7 +44,7 @@ G11 Malkuth - Elijah
 G12 Oblivion
 G13 いつしか双星はロッシュ限界へ
 G14 Farewell
-G15 Lily Tree
+G15 The Sun - Outro
 G16 Restoring the Light, Facing the Dark
 G17 Escaping a Foul Presence
 G18 霓虹
@@ -52,7 +53,6 @@ G20 Sealed Vessel
 G21 Sun and Moon
 G22 VS.スタードリーム
 G23 Something Different
-G24 The Sun - Outro
 
 ---
 
