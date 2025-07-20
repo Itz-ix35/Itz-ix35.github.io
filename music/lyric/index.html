@@ -280,13 +280,16 @@
     background-color: #ddd;
   }
 </style>
+
 <div style="text-align: center;">
   <button class="quote-button" onclick="showRandomQuote()">换一句</button>
 </div>
+
 <div class="quote-box">
   <div class="quote-text" id="quote"></div>
   <div class="quote-source" id="quote-source"></div>
 </div>
+
 <script>
   let quotes = [];
 
@@ -316,13 +319,13 @@
 
   function showRandomQuote() {
     if (quotes.length === 0) return;
-	const random = Math.floor(Math.random() * quotes.length);
+    const random = Math.floor(Math.random() * quotes.length);
     showQuote(random);
   }
 
   function showLastQuote() {
     if (quotes.length === 0) return;
-	showQuote(quotes.length - 1);
+    showQuote(quotes.length - 1);
   }
 
   fetch('lyrics.txt')
@@ -330,7 +333,7 @@
   .then(text => {
     try {
       const data = JSON.parse(text);
-	  quotes = data;
+      quotes = data;
       showRandomQuote();
     } catch (error) {
       console.error('解析 JSON 错误:', error);

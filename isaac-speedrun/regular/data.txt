@@ -1,4 +1,281 @@
 ﻿来源,日期,种子,角色,终点,胜者,败者,胜者成绩,视频,新知识/糖
+光头杯 6-48 强,2024/01/24,M83B2GSP,里以撒,见证者,如果当时,北铭H,21:57,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第一局</a>,轻松不会双生宝硫磺火打门；红豆汤可以扔；里以撒刷道具池
+光头杯 6-48 强,2024/01/24,167YKCEM,表拉撒路,祸兽,bbluejj,狸猫s,19:02,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第二局</a>,轻松不会卡道具池；轻松不自杀
+光头杯 6-48 强,2024/01/24,PDKRATYV,表参孙,凹凸,音量抑制器,Liev_yv,15:59,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第三局</a>,无
+光头杯 6-48 强,2024/01/24,RZNLSV0L,表蓝人,见证者,祤漱于灿,进击的松鼠君,14:00,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第四局</a>,轻松小蓝人放生恶魔房
+光头杯 6-48 强,2024/01/24,81BJ79V3,里莉莉丝,羔羊,pye-dog03,heitai-桑,13:47,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第五局</a>,轻松放生问号书
+光头杯 6-48 强,2024/01/24,JE9RNNL4,表该隐,大撒旦,海浪不会PVZ,黑白黑芝麻,18:32,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第六局</a>,无
+光头杯 6-48 强,2024/01/24,1B12Q3MC,表犹大,大撒旦,桃泽、,短跑冠军抹小姐,22:25,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第七局</a>,轻松放生混沌卡
+光头杯 6-48 强,2024/01/24,HQ47F3X7,里 AZ,小蓝人,MSC、耗子,甚甚子,15:36,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第八局</a>,无
+光头杯 6-48 强,2024/01/24,YZ80QXZ2,表亚伯伦,凹凸,浩渝i,蓝花胶布,13:07,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第九局</a>,
+光头杯 6-48 强,2024/01/24,W4J9D3L0,表店长,祸兽,公孙镡,小豪_LuckyHowe,99:99,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第十局</a>,
+光头杯 6-48 强,2024/01/24,RRX8VAVC,里双子,大撒旦,苳夏,摒弃尘俗,99:99,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第十一局</a>,
+光头杯 6-48 强,2024/01/24,RRB11N0Q,表伊甸,见证者,FBFK,暴雪家族-小朋,99:99,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第十二局</a>,轻松忘记黑心忘记恶魔套放生硫磺火；轻松出恶魔房瞬间拍 roll 机
+光头杯 6-48 强,2024/01/25,9NL0L6CW,里莉莉丝,羔羊,ix35,大帅曾是个蒟蒻,16:56,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第十三局</a>,无
+光头杯 6-48 强,2024/01/25,1Z91RQTF,表该隐,祸兽,一只麋鹿1,高等生物Au喵,99:99,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第十四局</a>,轻松拿着妈吻睡觉并打祸兽放生钉子；轻松把妈吻扔掉似了
+光头杯 6-48 强,2024/01/25,TXAADLJD,表参孙,大撒旦,鞍山泥若,Uiyt乐园,26:42,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第十五局</a>,无
+光头杯 6-48 强,2024/01/25,A4V3J274,里 lost,小蓝人,小米壹陆零零,雪碧tj,33:50,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第十六局</a>,冥王星卡错误房
+光头杯 6-48 强,2024/01/25,2B331PWY,表拉撒路,见证者,Az可爱捏,kakatana,13:41,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第十七局</a>,无
+光头杯 6-48 强,2024/01/25,K0XJHDTD,里夏娃,祸兽,扑克脸老K,chiiqiawa,19:48,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第十八局</a>,无
+光头杯 6-48 强,2024/01/25,BJT3XP7G,里参孙,羔羊,美少女小雪糕,122里22,13:10,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第十九局</a>,轻松拿冰；轻松不换犹大
+光头杯 6-48 强,2024/01/25,AJ4CX1H2,表莉莉丝,祸兽,为什么我不能叫欧豆豆,天堂之王LPH,22:27,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第二十局</a>,无
+光头杯 6-48 强,2024/01/25,ZVS19JZH,表以撒,羔羊,无忧,塔壳take,17:32,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第二十一局</a>,恶魔房地下室进了就回不去；轻松交易死了
+光头杯 6-48 强,2024/01/25,XVCYE1VK,表伊甸,见证者,明妖血灵,noiby,27:09,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第二十二局</a>,轻松闲庭信步逛逛街打 27 分钟
+光头杯 6-48 强,2024/01/25,E96R6TGB,表 lost,大撒旦,K9P9K,晚好吖乘客,19:25,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第二十三局</a>,轻松放生假发
+光头杯 6-24 强,2024/01/26,C6ALE3L2,表伊甸,见证者,bbluejj,如果当时,99:99,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第二十四局</a>,轻松放生蓝皇冠
+光头杯 6-24 强,2024/01/26,VBSSYJ6X,里 lost,见证者,音量抑制器,祤漱于灿,18:08,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第二十五局</a>,轻松跳正常八层
+光头杯 6-24 强,2024/01/26,17GYYDWP,表 AZ,凹凸,pye-dog03,MSC、耗子,13:11,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第二十六局</a>,无
+光头杯 6-24 强,2024/01/26,QQ3KWAEJ,里亚伯伦,大撒旦,海浪不会PVZ,桃泽、,17:50,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第二十七局</a>,无
+光头杯 6-24 强,2024/01/26,8LX0M1BP,表骨哥,小蓝人,浩渝i,公孙镡,15:03,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第二十八局</a>,轻松放生神风
+光头杯 6-24 强,2024/01/26,ECJSENQY,里店长,祸兽,苳夏,FBFK,99:99,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第二十九局</a>,
+光头杯 6-24 强,2024/01/26,WH2AB42Z,表参孙,祸兽,鞍山泥若,大份烤冷面I,99:99,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第六十五局</a>,小卖嗜血鱼轻松卖死吧；妈刀轻松连拿小石头雷霆大腿
+光头杯 6-24 强,2024/01/26,QSNCY682,里夏娃,见证者,K9P9K,ix35,11:40,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第三十局</a>,稍微开个天眼吧
+光头杯 6-24 强,2024/01/26,43QT1CCK,表犹大,大撒旦,一只麋鹿1,小米壹陆零零,19:53,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第三十一局</a>,六火吃面板；轻松放生白马充能
+光头杯 6-24 强,2024/01/26,PMZLRSEX,里蓝人,大撒旦,Az可爱捏,扑克脸老K,22:37,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第三十二局</a>,3.5 攻击轻松拿个全家福
+光头杯 6-24 强,2024/01/26,GVYKYNT2,表伊甸,见证者,为什么我不能叫欧豆豆,美少女小雪糕,12:56,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第三十三局</a>,无
+光头杯 6-24 强,2024/01/26,RPGPC6VM,里参孙,羔羊,无忧,明妖血灵,17:04,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第三十四局</a>,
+光头杯 6-16 强,2024/01/27,L76DR431,表伊甸,祸兽,鞍山泥若,音量抑制器,19:06,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第三十五局</a>,无
+光头杯 6-16 强,2024/01/27,0K2NGYNZ,里夏娃,祸兽,音量抑制器,鞍山泥若,23:11,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第三十六局</a>,轻松打 br；轻松拔刀失败
+光头杯 6-16 强,2024/01/27,T44H4QX4,表伊甸,大撒旦,音量抑制器,鞍山泥若,24:09,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第三十七局</a>,后悔药小罗
+光头杯 6-16 强,2024/01/27,1QD99YYE,表伊甸,凹凸,浩渝i,K9P9K,14:45,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第三十八局</a>,无
+光头杯 6-16 强,2024/01/27,QNH7KAST,里犹大,见证者,浩渝i,K9P9K,13:41,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第三十九局</a>,里犹大白猫头
+光头杯 6-16 强,2024/01/27,LP6T12DP,表伊甸,大撒旦,海浪不会PVZ,无忧,29:40,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第四十局</a>,七巧板改变属性
+光头杯 6-16 强,2024/01/27,FWL60ZLS,里蓝人,大撒旦,海浪不会PVZ,无忧,29:34,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第四十一局</a>,石化翔可以固定液体颜色
+光头杯 6-16 强,2024/01/27,1YW77LQF,表伊甸,见证者,Az可爱捏,一只麋鹿1,18:41,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第四十二局</a>,无
+光头杯 6-16 强,2024/01/27,0NFK3WJE,里犹大,大撒旦,一只麋鹿1,Az可爱捏,33:26,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第四十三局</a>,忍住不六雷的也是神人了
+光头杯 6-16 强,2024/01/27,P0HNNQ7J,表该隐,羔羊,Az可爱捏,一只麋鹿1,15:34,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第四十四局</a>,无
+光头杯 6-16 强,2024/01/28,S1K62SWC,表伊甸,大撒旦,pye-dog03,这账号即将注销,22:44,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第四十五局</a>,无
+光头杯 6-16 强,2024/01/28,TV0NSGB0,里 AZ,凹凸,这账号即将注销,pye-dog03,12:33,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第四十六局</a>,无
+光头杯 6-16 强,2024/01/28,W4H2TLE8,表伊甸,大撒旦,这账号即将注销,pye-dog03,22:15,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第四十七局</a>,无
+光头杯 6-16 强,2024/01/28,RVWL4XYQ,表伊甸,见证者,一块蓝冰,为什么我不能叫欧豆豆,19:58,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第四十八局</a>,巴风特大犹
+光头杯 6-16 强,2024/01/28,23RWGXRL,里蓝人,凹凸,一块蓝冰,为什么我不能叫欧豆豆,17:55,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第四十九局</a>,天启陀螺；轻松放生魔术手指
+光头杯 6-16 强,2024/01/28,E1HS28DF,表伊甸,祸兽,ysa冰糖,bbluejj,25:44,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第五十局</a>,无
+光头杯 6-16 强,2024/01/28,ZP0B1048,表 AZ,大撒旦,ysa冰糖,bbluejj,16:27,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第五十一局</a>,轻松放生格罗
+光头杯 6-16 强,2024/01/28,648V0WBB,表伊甸,见证者,苳夏,焰心心心,21:13,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第五十二局</a>,无
+光头杯 6-16 强,2024/01/28,6EM7VQJW,表伯大尼,大撒旦,苳夏,焰心心心,16:32,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第五十三局</a>,无
+光头杯 6-8 强,2024/01/29,R3GAFYFY,表伊甸,见证者,音量抑制器,浩渝i,14:09,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第五十四局</a>,轻松拿到牵引博士
+光头杯 6-8 强,2024/01/29,SN1KZKM3,里骨哥,见证者,浩渝i,音量抑制器,13:13,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第五十五局</a>,轻松放生巧克力奶
+光头杯 6-8 强,2024/01/29,8DCXEAZW,里双子,祸兽,浩渝i,音量抑制器,18:22,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第五十六局</a>,轻松放生格罗
+光头杯 6-8 强,2024/01/29,2QGXXM8T,表伊甸,凹凸,海浪不会PVZ,Az可爱捏,13:29,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第五十七局</a>,无
+光头杯 6-8 强,2024/01/29,SQK7JZQV,里骨哥,见证者,海浪不会PVZ,Az可爱捏,13:36,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第五十八局</a>,钝刀片嗜血+底片
+光头杯 6-8 强,2024/01/29,7JJ27Z6B,表伊甸,大撒旦,这账号即将注销,一块蓝冰,18:25,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第五十九局</a>,轻松放生太阳
+光头杯 6-8 强,2024/01/29,W894GKZ3,里骨哥,见证者,一块蓝冰,这账号即将注销,11:54,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第六十局</a>,无
+光头杯 6-8 强,2024/01/29,ZHGQ1F4M,表 AZ,羔羊,一块蓝冰,这账号即将注销,12:21,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第六十一局</a>,无
+光头杯 6-8 强,2024/01/29,FKKGK24A,表伊甸,见证者,ysa冰糖,苳夏,24:00,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第六十二局</a>,看到大嘴等于死；轻松放生后悔药 AZ 魂石
+光头杯 6-8 强,2024/01/29,X0LFG3N6,表夏娃,见证者,苳夏,ysa冰糖,17:19,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第六十三局</a>,轻松纵火狂放生大脑；轻松放生尖头钥匙；轻松钥匙扔歪
+光头杯 6-8 强,2024/01/29,AGN23PCW,表伊甸,小蓝人,苳夏,ysa冰糖,19:10,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第六十四局</a>,无
+光头杯 6-4 强,2024/01/30,JXCEMYNZ,表伊甸,大撒旦,海浪不会PVZ,浩渝i,20:00,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第六十六局</a>,无
+光头杯 6-4 强,2024/01/30,Q96PTQPR,里夏娃,祸兽,浩渝i,海浪不会PVZ,16:25,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第六十七局</a>,轻松拔刀失败
+光头杯 6-4 强,2024/01/30,FLH2W8CR,里 AZ,凹凸,浩渝i,海浪不会PVZ,13:02,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第六十八局</a>,无
+光头杯 6-4 强,2024/01/30,3H2VFTZS,里 lost,祸兽,浩渝i,海浪不会PVZ,21:40,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第六十九局</a>,轻松不会小偷盒抢 br
+光头杯 6-4 强,2024/01/30,C1ZMZ90T,表伊甸,羔羊,一块蓝冰,苳夏,27:59,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第七十局</a>,轻松不信蓝地图
+光头杯 6-4 强,2024/01/30,224Y8CGP,表抹大拉,见证者,一块蓝冰,苳夏,11:08,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第七十一局</a>,无
+光头杯 6-4 强,2024/01/30,AWMY9QMG,表伊甸,见证者,一块蓝冰,苳夏,16:00,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第七十二局</a>,轻松放生铲子*2；卡小罗硫磺
+光头杯 6-季军赛,2024/01/31,HAD1GQY7,表伊甸,大撒旦,海浪不会PVZ,苳夏,17:58,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第七十三局</a>,无
+光头杯 6-季军赛,2024/01/31,W4H9AQE2,里夏娃,见证者,苳夏,海浪不会PVZ,9:59,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第七十四局</a>,无
+光头杯 6-季军赛,2024/01/31,FAEV0WMR,里犹大,凹凸,海浪不会PVZ,苳夏,15:43,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第七十五局</a>,里犹大菜刀
+光头杯 6-季军赛,2024/01/31,T948EYCH,里以撒,小蓝人,苳夏,海浪不会PVZ,15:07,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第七十六局</a>,里以撒 roll 机
+光头杯 6-季军赛,2024/01/31,A2ZSEA4C,表 AZ,羔羊,苳夏,海浪不会PVZ,15:57,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第七十七局</a>,轻松放生细蘑菇
+光头杯 6-决赛,2024/01/31,QNNMG23H,表伊甸,祸兽,一块蓝冰,浩渝i,19:07,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第七十八局</a>,轻松把寻人启事丢在恶魔房里
+光头杯 6-决赛,2024/01/31,LDSRNDH2,里 AZ,凹凸,浩渝i,一块蓝冰,11:44,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第七十九局</a>,无
+光头杯 6-决赛,2024/01/31,YX494JE4,表骨哥,见证者,浩渝i,一块蓝冰,12:42,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第八十局</a>,无
+光头杯 6-决赛,2024/01/31,CRGEF7MB,里双子,见证者,浩渝i,一块蓝冰,14:01,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第八十一局</a>,漂移
+五一排位赛-第一天,2024/05/??,JY2D9A8T,表伊甸,小蓝人,苳夏,ix35,13:52,<a href="https://www.bilibili.com/video/BV1Ni421k7cP" target="_blank">Link 第一局</a>,轻松妈刀拿小石头；轻松放生犹大
+五一排位赛-第一天,2024/05/??,T8XTTB2F,里 AZ,凹凸,苳夏,ix35,12:24,<a href="https://www.bilibili.com/video/BV1Ni421k7cP" target="_blank">Link 第二局</a>,轻松放生雷
+五一排位赛-第一天,2024/05/??,FFXV2HFM,表伊甸,小蓝人,音量抑制器,风雅颂,21:19,<a href="https://www.bilibili.com/video/BV1Ni421k7cP" target="_blank">Link 第三局</a>,轻松被小蓝人拿下
+五一排位赛-第一天,2024/05/??,4WSTVXHG,表店长,见证者,音量抑制器,风雅颂,15:33,<a href="https://www.bilibili.com/video/BV1Ni421k7cP" target="_blank">Link 第四局</a>,无
+五一排位赛-第一天,2024/05/??,JQHXHL7L,表伊甸,小蓝人,晚好吖乘客,这账号即将注销,15:08,<a href="https://www.bilibili.com/video/BV1Ni421k7cP" target="_blank">Link 第五局</a>,无
+五一排位赛-第一天,2024/05/??,YMY2TCFP,里犹大,见证者,晚好吖乘客,这账号即将注销,11:28,<a href="https://www.bilibili.com/video/BV1Ni421k7cP" target="_blank">Link 第六局</a>,轻松放生初始刺房
+五一排位赛-第一天,2024/05/??,LDWC2E33,表伊甸,羔羊,海浪不会PVZ,神游的旅人,12:47,<a href="https://www.bilibili.com/video/BV1Ni421k7cP" target="_blank">Link 第七局</a>,盲 roll 星象房第一人
+五一排位赛-第一天,2024/05/??,ZGXKQAD7,里莉莉丝,祸兽,神游的旅人,海浪不会PVZ,19:26,<a href="https://www.bilibili.com/video/BV1Ni421k7cP" target="_blank">Link 第八局</a>,无
+五一排位赛-第一天,2024/05/??,GT2BRXRA,表 AZ,羔羊,海浪不会PVZ,神游的旅人,13:27,<a href="https://www.bilibili.com/video/BV1Ni421k7cP" target="_blank">Link 第九局</a>,无
+五一排位赛-第二天,2024/05/??,4MTLT47V,表伊甸,羔羊,以撒北小鸟,故障小蓝神,15:27,<a href="https://www.bilibili.com/video/BV1Er421J7S8" target="_blank">Link 第一局</a>,轻松喷子金破传原地跳三下；轻松主动拿悬浮走了一个房间被打死
+五一排位赛-第二天,2024/05/??,TFEB2D0Z,表蓝人,凹凸,以撒北小鸟,故障小蓝神,99:99,<a href="https://www.bilibili.com/video/BV1Er421J7S8" target="_blank">Link 第二局</a>,轻松进恶魔房拍一下愚者吧
+五一排位赛-第二天,2024/05/??,P4K0BC8Z,表伊甸,大撒旦,浩渝i,天堂之王LPH,14:46,<a href="https://www.bilibili.com/video/BV1Er421J7S8" target="_blank">Link 第三局</a>,无
+五一排位赛-第二天,2024/05/??,K39MZBVX,表伊甸,见证者,天堂之王LPH,浩渝i,13:03,<a href="https://www.bilibili.com/video/BV1Er421J7S8" target="_blank">Link 第四局</a>,无
+五一排位赛-第二天,2024/05/??,Q8809V2M,里 AZ,凹凸,天堂之王LPH,浩渝i,11:47,<a href="https://www.bilibili.com/video/BV1Er421J7S8" target="_blank">Link 第五局</a>,打凹凸轻松给大金箱上供
+五一排位赛-第二天,2024/05/??,KZAEP2AJ,表伊甸,祸兽,美少女小雪糕,喵小day,19:30,<a href="https://www.bilibili.com/video/BV1Er421J7S8" target="_blank">Link 第六局</a>,凸眼轻松拿烂洋葱，拿完再轻松拿血泪；轻松放生妈套
+五一排位赛-第二天,2024/05/??,2EAD2DYN,表夏娃,大撒旦,喵小day,美少女小雪糕,18:53,<a href="https://www.bilibili.com/video/BV1Er421J7S8" target="_blank">Link 第七局</a>,基米冲刺
+五一排位赛-第二天,2024/05/??,1B9S18X8,表 AZ,小蓝人,喵小day,美少女小雪糕,13:46,<a href="https://www.bilibili.com/video/BV1Er421J7S8" target="_blank">Link 第八局</a>,无
+五一排位赛-第二天,2024/05/??,3SGZWTSW,表伊甸,大撒旦,ysa冰糖,公孙镡,12:02,<a href="https://www.bilibili.com/video/BV1Er421J7S8" target="_blank">Link 第九局</a>,无
+五一排位赛-第二天,2024/05/??,K0K4V04P,表双子,祸兽,ysa冰糖,公孙镡,25:04,<a href="https://www.bilibili.com/video/BV1Er421J7S8" target="_blank">Link 第十局</a>,全程主线双子；轻松不看 BR；搞笑双拿；轻松不知道秒杀按钮
+五一排位赛-第三天,2024/05/??,NGLTE4KW,表伊甸,凹凸,浩渝i,风雅颂,14:45,<a href="https://www.bilibili.com/video/BV1Zz421U7Mc" target="_blank">Link 第一局</a>,轻松不进放生妈刀
+五一排位赛-第三天,2024/05/??,NSA7GTPF,里骨哥,见证者,浩渝i,风雅颂,16:24,<a href="https://www.bilibili.com/video/BV1Zz421U7Mc" target="_blank">Link 第二局</a>,再次轻松不进
+五一排位赛-第三天,2024/05/??,K3JJVF66,表伊甸,祸兽,公孙镡,故障小蓝神,27:21,<a href="https://www.bilibili.com/video/BV1Zz421U7Mc" target="_blank">Link 第三局</a>,白羊浓痰大肠杆菌；开局轻松放生红钥匙
+五一排位赛-第三天,2024/05/??,N68SNGMM,里 AZ,凹凸,公孙镡,故障小蓝神,11:06,<a href="https://www.bilibili.com/video/BV1Zz421U7Mc" target="_blank">Link 第四局</a>,腐心死了掉恶魔房；食泪魔眼
+五一排位赛-第三天,2024/05/??,SSQZKKKB,表双子,祸兽,公孙镡,故障小蓝神,21:39,<a href="https://www.bilibili.com/video/BV1Zz421U7Mc" target="_blank">Link 第五局</a>,无
+五一排位赛-第三天,2024/05/??,9PTS1VH9,表伊甸,大撒旦,ix35,喵小day,17:05,<a href="https://www.bilibili.com/video/BV1Zz421U7Mc" target="_blank">Link 第六局</a>,无
+五一排位赛-第三天,2024/05/??,LE8NK6NG,表夏娃,大撒旦,ix35,喵小day,11:21,<a href="https://www.bilibili.com/video/BV1Zz421U7Mc" target="_blank">Link 第七局</a>,无
+五一排位赛-第三天,2024/05/??,4YEMGVXD,表伊甸,祸兽,神游的旅人,这账号即将注销,16:30,<a href="https://www.bilibili.com/video/BV1Zz421U7Mc" target="_blank">Link 第八局</a>,无
+五一排位赛-第三天,2024/05/??,A7GMWAM7,里 AZ,凹凸,这账号即将注销,神游的旅人,12:20,<a href="https://www.bilibili.com/video/BV1Zz421U7Mc" target="_blank">Link 第九局</a>,无
+五一排位赛-第三天,2024/05/??,628KYP0M,里亚伯伦,大撒旦,这账号即将注销,神游的旅人,15:25,<a href="https://www.bilibili.com/video/BV1Zz421U7Mc" target="_blank">Link 第十局</a>,轻松忍耐 tears down
+五一排位赛-第四天,2024/05/??,VTXQKLJC,表伊甸,大撒旦,音量抑制器,天堂之王LPH,16:47,<a href="https://www.bilibili.com/video/BV12f421m7nB" target="_blank">Link 第一局</a>,无
+五一排位赛-第四天,2024/05/??,8BWB6C0V,表伊甸,祸兽,音量抑制器,天堂之王LPH,19:50,<a href="https://www.bilibili.com/video/BV12f421m7nB" target="_blank">Link 第二局</a>,无
+五一排位赛-第四天,2024/05/??,4FTLEN6C,表伊甸,大撒旦,海浪不会PVZ,苳夏,15:15,<a href="https://www.bilibili.com/video/BV12f421m7nB" target="_blank">Link 第三局</a>,无伤大炮
+五一排位赛-第四天,2024/05/??,VLPMNPKV,表伊甸,见证者,海浪不会PVZ,苳夏,12:12,<a href="https://www.bilibili.com/video/BV12f421m7nB" target="_blank">Link 第四局</a>,卡死眼；轻松炸石头填路失败
+五一排位赛-第四天,2024/05/??,0Y124KF6,表伊甸,见证者,美少女小雪糕,晚好吖乘客,16:55,<a href="https://www.bilibili.com/video/BV12f421m7nB" target="_blank">Link 第五局</a>,换不起轻松炸自己一下；轻松不要太阳要美丽
+五一排位赛-第四天,2024/05/??,3JS2XBCP,里犹大,见证者,美少女小雪糕,晚好吖乘客,11:01,<a href="https://www.bilibili.com/video/BV12f421m7nB" target="_blank">Link 第六局</a>,无
+五一排位赛-第四天,2024/05/??,THYB1VJ6,表伊甸,见证者,ysa冰糖,以撒北小鸟,11:00,<a href="https://www.bilibili.com/video/BV12f421m7nB" target="_blank">Link 第七局</a>,轻松没钥匙放生妈刀
+五一排位赛-第四天,2024/05/??,6T9HHMPN,里伯大尼,羔羊,ysa冰糖,以撒北小鸟,14:45,<a href="https://www.bilibili.com/video/BV12f421m7nB" target="_blank">Link 第八局</a>,轻松拿到心脏后火全灭；轻松保护红心；轻松使用火星火再全灭
+五一排位赛-第五天,2024/05/??,9WJYCB1Q,表伊甸,小蓝人,天堂之王LPH,苳夏,15:47,<a href="https://www.bilibili.com/video/BV1gZ421E7Zk" target="_blank">Link 第一局</a>,
+五一排位赛-第五天,2024/05/??,1Y17R6ZR,表伊甸,见证者,天堂之王LPH,苳夏,13:10,<a href="https://www.bilibili.com/video/BV1gZ421E7Zk" target="_blank">Link 第二局</a>,无
+五一排位赛-第五天,2024/05/??,6RT7BD7N,表伊甸,凹凸,这账号即将注销,晚好吖乘客,16:10,<a href="https://www.bilibili.com/video/BV1gZ421E7Zk" target="_blank">Link 第三局</a>,无
+五一排位赛-第五天,2024/05/??,7HHM9NCS,里伯大尼,祸兽,这账号即将注销,晚好吖乘客,17:05,<a href="https://www.bilibili.com/video/BV1gZ421E7Zk" target="_blank">Link 第四局</a>,食泪剖腹产有点难玩
+五一排位赛-第五天,2024/05/??,8V9GTWNX,表伊甸,小蓝人,浩渝i,公孙镡,16:40,<a href="https://www.bilibili.com/video/BV1gZ421E7Zk" target="_blank">Link 第五局</a>,无
+五一排位赛-第五天,2024/05/??,KLJA7KKR,表双子,祸兽,浩渝i,公孙镡,14:51,<a href="https://www.bilibili.com/video/BV1gZ421E7Zk" target="_blank">Link 第六局</a>,倒愚者抢恶魔房
+五一排位赛-第五天,2024/05/??,PCBAMJAH,表伊甸,羔羊,ix35,以撒北小鸟,22:44,<a href="https://www.bilibili.com/video/BV1gZ421E7Zk" target="_blank">Link 第七局</a>,天秤轻松放生 PHD；收束器鲍勃头轻松难玩
+五一排位赛-第五天,2024/05/??,HTKAB2VH,里夏娃,祸兽,以撒北小鸟,ix35,16:30,<a href="https://www.bilibili.com/video/BV1gZ421E7Zk" target="_blank">Link 第八局</a>,轻松拔刀失败
+五一排位赛-第五天,2024/05/??,1YNZJRQC,里伯大尼,凹凸,ix35,以撒北小鸟,20:18,<a href="https://www.bilibili.com/video/BV1gZ421E7Zk" target="_blank">Link 第九局</a>,轻松打两遍凹凸
+五一排位赛-第六天,2024/05/??,JWFGT7B6,表伊甸,见证者,音量抑制器,美少女小雪糕,18:59,<a href="https://www.bilibili.com/video/BV1mE421V7ud" target="_blank">Link 第一局</a>,轻松认为苍蝇吃吐根
+五一排位赛-第六天,2024/05/??,09Y3XCK6,表 AZ,羔羊,美少女小雪糕,音量抑制器,12:43,<a href="https://www.bilibili.com/video/BV1mE421V7ud" target="_blank">Link 第二局</a>,无
+五一排位赛-第六天,2024/05/??,QYWSBS8W,里双子,见证者,音量抑制器,美少女小雪糕,12:22,<a href="https://www.bilibili.com/video/BV1mE421V7ud" target="_blank">Link 第三局</a>,跳石寄生虫
+五一排位赛-第六天,2024/05/??,JB1R28RD,表伊甸,小蓝人,ysa冰糖,海浪不会PVZ,16:56,<a href="https://www.bilibili.com/video/BV1mE421V7ud" target="_blank">Link 第四局</a>,无
+五一排位赛-第六天,2024/05/??,MVJ4HNAK,里 lost,大撒旦,ysa冰糖,海浪不会PVZ,20:03,<a href="https://www.bilibili.com/video/BV1mE421V7ud" target="_blank">Link 第五局</a>,无
+五一排位赛-第六天,2024/05/??,XACS8F9A,表伊甸,羔羊,喵小day,风雅颂,16:27,<a href="https://www.bilibili.com/video/BV1mE421V7ud" target="_blank">Link 第六局</a>,轻松用魂心炸蓝火
+五一排位赛-第六天,2024/05/??,01W3LWP0,里骨哥,见证者,风雅颂,喵小day,14:20,<a href="https://www.bilibili.com/video/BV1mE421V7ud" target="_blank">Link 第七局</a>,轻松拿镜子然后拿小星球
+五一排位赛-第六天,2024/05/??,F2N7Q4SP,表夏娃,大撒旦,风雅颂,喵小day,21:45,<a href="https://www.bilibili.com/video/BV1mE421V7ud" target="_blank">Link 第八局</a>,轻松灵魂拍刀片；拍刀片不掉血轻松以为自己开挂了
+五一排位赛-第六天,2024/05/??,Z0WCCKNY,表伊甸,祸兽,神游的旅人,故障小蓝神,17:46,<a href="https://www.bilibili.com/video/BV1mE421V7ud" target="_blank">Link 第九局</a>,无
+五一排位赛-第六天,2024/05/??,QAFM499R,表伊甸,凹凸,神游的旅人,故障小蓝神,20:05,<a href="https://www.bilibili.com/video/BV1mE421V7ud" target="_blank">Link 第十局</a>,暴鲤龙轻松安全消化炸弹；轻松不摸金刀片买不起大宝；轻松拿剖腹产吐根
+五一排位赛-第七天,2024/05/??,268ZQV8B,表伊甸,羔羊,晚好吖乘客,神游的旅人,16:40,<a href="https://www.bilibili.com/video/BV1cm421u7HF" target="_blank">Link 第一局</a>,轻松使用小红罐放生读卡器
+五一排位赛-第七天,2024/05/??,9W944Q9L,里莉莉丝,祸兽,神游的旅人,晚好吖乘客,12:51,<a href="https://www.bilibili.com/video/BV1cm421u7HF" target="_blank">Link 第二局</a>,再玩里拉
+五一排位赛-第七天,2024/05/??,0NK8W6NV,里犹大,见证者,神游的旅人,晚好吖乘客,15:10,<a href="https://www.bilibili.com/video/BV1cm421u7HF" target="_blank">Link 第三局</a>,无
+光头杯 7-48 强,2024/07/21,JXDEEMEH,表伊甸,羔羊,ffffffrans,oneday-dawn,19:01,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第一局</a>,要烫火进刺房
+光头杯 7-48 强,2024/07/21,S800J6AY,里犹大,祸兽,美少女小雪糕,NullRain,21:40,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第二局</a>,尖头钥匙开回溯；里犹大轻松放生神风
+光头杯 7-48 强,2024/07/21,C6ZTAVVJ,表 AZ,大撒旦,起名废a,Mizore12,28:46,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第三局</a>,水晶球必开星象
+光头杯 7-48 强,2024/07/21,AS6F48GW,表亚伯伦,小蓝人,水色寻落黑,MoVey1,20:35,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第四局</a>,无
+光头杯 7-48 强,2024/07/21,LCR9VQKR,表伊甸,见证者,苳夏,撕裂的末日Cory,23:57,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第五局</a>,无
+光头杯 7-48 强,2024/07/21,AHVSDHFV,表参孙,祸兽,晚好吖乘客,夜鹰之星,23:16,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第六局</a>,轻松小让黑圈宝腐烂宝
+光头杯 7-48 强,2024/07/21,1QZ8262V,表以撒,羔羊,122里22,火星来客yang,99:99,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第七局</a>,一层 roll boss 别下水
+光头杯 7-48 强,2024/07/21,PC0Q1WCQ,表抹大拉,大撒旦,唯米、,故障小蓝神,99:99,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第八局</a>,典中典之 40 分钟惜败撒旦
+光头杯 7-48 强,2024/07/21,N4D441WQ,表犹大,羔羊,sdupid_man,涅槃的其卡斯,17:45,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第九局</a>,无
+光头杯 7-48 强,2024/07/21,4ZMLGSTS,表蓝人,祸兽,ysa冰糖,ix35,13:29,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第十局</a>,摇篮曲轻松大于剪刀
+光头杯 7-48 强,2024/07/21,X12JVZY9,里 AZ,凹凸,饿啊又寄了,暴雪家族-小朋,18:06,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第十一局</a>,无
+光头杯 7-48 强,2024/07/21,A96LZESG,表伊甸,见证者,SGZ-SSSSS,一二三四五棵树,14:53,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第十二局</a>,轻松放生妈刀是对的？
+光头杯 7-48 强,2024/07/22,E4QLRLMG,里莉莉丝,大撒旦,喵小day,嚣弄菌,14:39,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第十三局</a>,轻松放生大宝剑
+光头杯 7-48 强,2024/07/22,TBQ2AT71,表夏娃,见证者,天灾使者,雪碧tj,13:56,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第十四局</a>,无
+光头杯 7-48 强,2024/07/22,XS0PN8Y1,表 lost,小蓝人,生命的气息,唐天,19:08,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第十五局</a>,倒愚者轻松给超大蘑菇
+光头杯 7-48 强,2024/07/22,1SEGXNVA,表拉撒路,见证者,小米壹陆零零,冷尘AI,18:29,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第十六局</a>,细节先捡血再自杀
+光头杯 7-48 强,2024/07/22,GV8BCKSD,表伊甸,大撒旦,腾讯电脑管家,chiiqiawa,19:09,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第十七局</a>,无
+光头杯 7-48 强,2024/07/22,ZDE27ZSZ,表伊甸,凹凸,MSC、耗子,桃泽、,18:41,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第十八局</a>,心脏准星轻松拿下
+光头杯 7-48 强,2024/07/22,HLE3J4SP,表亚伯伦,祸兽,路遇一只鲈鱼,短跑冠军抹小姐,17:27,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第十九局</a>,无
+光头杯 7-48 强,2024/07/22,JTJAW1PF,表以撒,见证者,风雅颂,karkimira,18:43,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第二十局</a>,防爆真得拿脑子；白心+半魂心可以挡一次
+光头杯 7-48 强,2024/07/22,88AEZKK8,表莉莉丝,见证者,11_23Q,胖胖的古纳,19:27,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第二十一局</a>,轻松下正常六层；轻松放生力量卡
+光头杯 7-48 强,2024/07/22,Q0JAFYZ3,里夏娃,大撒旦,海浪不会PVZ,神游的旅人,13:27,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第二十二局</a>,无
+光头杯 7-48 强,2024/07/22,PTP6HKPT,表伊甸,祸兽,鱼慕鲸,堕化以撒鸟,22:06,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第二十三局</a>,无
+光头杯 7-48 强,2024/07/22,DKFEALH3,表伊甸,大撒旦,扑克脸老K,凉茶与凉皮,16:26,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第二十四局</a>,宝宝套轻松放生魔眼
+光头杯 7-24 强,2024/07/23,HN7PXEX9,表骨哥,小蓝人,ffffffrans,美少女小雪糕,15:18,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第二十五局</a>,骨哥肺是对的
+光头杯 7-24 强,2024/07/23,AP19LNEH,表抹大拉,大撒旦,水色寻落黑,起名废a,19:36,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第二十六局</a>,无
+光头杯 7-24 强,2024/07/23,X8GMH7K2,表伯大尼,祸兽,晚好吖乘客,苳夏,18:25,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第二十七局</a>,轻松看不见卖血机
+光头杯 7-24 强,2024/07/23,YHGGTXCA,里 AZ,小蓝人,唯米、,122里22,24:08,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第二十八局</a>,早死有优势
+光头杯 7-24 强,2024/07/23,0BTDLWW8,表伊甸,见证者,ysa冰糖,sdupid_man,18:19,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第二十九局</a>,轻松拿断头台
+光头杯 7-24 强,2024/07/23,EYVNNPK3,表夏娃,大撒旦,SGZ-SSSSS,饿啊又寄了,17:38,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第三十局</a>,无
+光头杯 7-24 强,2024/07/23,0GW93KAZ,表拉撒路,见证者,天灾使者,喵小day,14:38,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第三十一局</a>,无
+光头杯 7-24 强,2024/07/23,43SGJ3VR,表店长,祸兽,生命的气息,小米壹陆零零,30:15,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第三十二局</a>,轻松海王星拿科技；轻松店长心碎；轻松三圣颂放生跟踪
+光头杯 7-24 强,2024/07/23,VXLWL18Z,表伯大尼,大撒旦,腾讯电脑管家,MSC、耗子,40:04,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第三十三局</a>,闪电五连鞭
+光头杯 7-24 强,2024/07/23,2B4JELPE,表 AZ,小蓝人,路遇一只鲈鱼,风雅颂,14:18,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第三十四局</a>,轻松保护创世纪
+光头杯 7-24 强,2024/07/23,2KPGMHB1,表夏娃,大撒旦,海浪不会PVZ,11_23Q,18:36,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第三十五局</a>,无
+光头杯 7-24 强,2024/07/23,SNPHRT9H,表该隐,凹凸,扑克脸老K,鱼慕鲸,15:23,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第三十六局</a>,无
+光头杯 7-16 强,2024/07/24,PHA8F3BD,表伊甸,祸兽,晚好吖乘客,路遇一只鲈鱼,23:42,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第三十七局</a>,爱达摩 TV
+光头杯 7-16 强,2024/07/24,6A699RGR,表参孙,羔羊,路遇一只鲈鱼,晚好吖乘客,19:00,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第三十八局</a>,无
+光头杯 7-16 强,2024/07/24,A94QXB2M,里犹大,见证者,晚好吖乘客,路遇一只鲈鱼,15:33,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第三十九局</a>,里犹大轻松拿冥王星杏仁奶
+光头杯 7-16 强,2024/07/24,98DZ4PYB,表伊甸,大撒旦,天堂之王LPH,唯米、,26:25,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第四十局</a>,开局测猫圈；有钱先换一磅肉
+光头杯 7-16 强,2024/07/24,SDTN0300,表 AZ,祸兽,天堂之王LPH,唯米、,13:31,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第四十一局</a>,一层丢愚者；BR 看到东西出去找愚者
+光头杯 7-16 强,2024/07/24,MPXNFERN,表伊甸,大撒旦,SGZ-SSSSS,生命的气息,17:50,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第四十二局</a>,无
+光头杯 7-16 强,2024/07/24,6PBCZ1Q2,表 lost,祸兽,SGZ-SSSSS,生命的气息,29:32,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第四十三局</a>,boss 房道具留着回来 roll；留红钥匙碎片
+光头杯 7-16 强,2024/07/24,7FYF14J9,表伊甸,凹凸,ysa冰糖,一块蓝冰,17:21,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第四十四局</a>,大犹要换
+光头杯 7-16 强,2024/07/24,W44WSLSM,表伊甸,见证者,ysa冰糖,一块蓝冰,15:51,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第四十五局</a>,无
+光头杯 7-16 强,2024/07/25,YMSPE26Z,表伊甸,大撒旦,扑克脸老K,ffffffrans,14:47,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第四十六局</a>,无
+光头杯 7-16 强,2024/07/25,7CRH6S02,里双子,羔羊,ffffffrans,扑克脸老K,29:22,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第四十七局</a>,轻松打 1/15
+光头杯 7-16 强,2024/07/25,A8MPYTDE,表 AZ,凹凸,扑克脸老K,ffffffrans,14:00,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第四十八局</a>,后悔药关恶魔房
+光头杯 7-16 强,2024/07/25,673ZCFJR,表伊甸,祸兽,这账号即将注销,海浪不会PVZ,20:01,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第四十九局</a>,小汽车轻松创世纪
+光头杯 7-16 强,2024/07/25,DM6PFV2X,里 lost,大撒旦,这账号即将注销,海浪不会PVZ,15:54,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第五十局</a>,无
+光头杯 7-16 强,2024/07/25,HHG6V4P1,表伊甸,见证者,浩渝i,天灾使者,15:00,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第五十一局</a>,肾结石肺减子弹高度
+光头杯 7-16 强,2024/07/25,LJH97YJ0,里亚伯伦,凹凸,天灾使者,浩渝i,12:12,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第五十二局</a>,轻松放生 joker
+光头杯 7-16 强,2024/07/25,NZJWQW0D,里双子,见证者,天灾使者,浩渝i,11:46,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第五十三局</a>,无
+光头杯 7-16 强,2024/07/25,QN0RMXHQ,表伊甸,羔羊,美少女小雪糕,水色寻落黑,22:29,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第五十四局</a>,影刀轻松放生大犹
+光头杯 7-16 强,2024/07/25,HSDKKZW9,里 lost,祸兽,美少女小雪糕,水色寻落黑,16:40,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第五十五局</a>,轻松认为天秤镰刀肺小于硫磺火
+光头杯 7-8 强,2024/07/26,H9DCLH8D,表伊甸,见证者,晚好吖乘客,天堂之王LPH,14:25,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第五十六局</a>,卡 az 打见证者；轻松铲子抢陵墓 br
+光头杯 7-8 强,2024/07/26,4RNC6YRS,表伊甸,大撒旦,天堂之王LPH,晚好吖乘客,16:59,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第五十七局</a>,无
+光头杯 7-8 强,2024/07/26,0333GMR0,表骨哥,凹凸,天堂之王LPH,晚好吖乘客,14:50,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第五十八局</a>,无
+光头杯 7-8 强,2024/07/26,LJGP31M3,表伊甸,凹凸,ysa冰糖,SGZ-SSSSS,14:25,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第五十九局</a>,轻松以为蜡烛能煲
+光头杯 7-8 强,2024/07/26,DG3P1807,里蓝人,见证者,ysa冰糖,SGZ-SSSSS,19:21,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第六十局</a>,轻松放生火星绿嘴
+光头杯 7-8 强,2024/07/26,BTMJ6CSG,表伊甸,大撒旦,这账号即将注销,扑克脸老K,16:26,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第六十一局</a>,无
+光头杯 7-8 强,2024/07/26,TYS83SJP,表伊甸,凹凸,这账号即将注销,扑克脸老K,14:19,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第六十二局</a>,无
+光头杯 7-8 强,2024/07/26,YF0H96E9,表伊甸,祸兽,天灾使者,美少女小雪糕,23:24,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第六十三局</a>,boss 房拍地下室
+光头杯 7-8 强,2024/07/26,8P02Q870,表 AZ,羔羊,美少女小雪糕,天灾使者,15:05,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第六十四局</a>,无
+光头杯 7-8 强,2024/07/26,G72CPMBV,里 AZ,凹凸,天灾使者,美少女小雪糕,11:46,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第六十五局</a>,轻松误拍 d4；轻松不拿四眼后面出妈刀
+光头杯 7-4 强,2024/07/27,2YKDSG87,表伊甸,羔羊,这账号即将注销,天灾使者,17:56,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第六十六局</a>,轻松消耗六个雷自杀
+光头杯 7-4 强,2024/07/27,0WGLFEMD,表亚伯伦,小蓝人,这账号即将注销,天灾使者,15:01,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第六十七局</a>,神秘钥匙开门之后出门
+光头杯 7-4 强,2024/07/27,4CESWPSX,里蓝人,凹凸,这账号即将注销,天灾使者,19:32,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第六十八局</a>,保护圣翔
+光头杯 7-4 强,2024/07/27,JK363L2N,表伊甸,见证者,ysa冰糖,天堂之王LPH,16:54,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第六十九局</a>,穿透科技零轻松拿杏仁牛奶
+光头杯 7-4 强,2024/07/27,FQFVMKBH,表伊甸,祸兽,ysa冰糖,天堂之王LPH,16:27,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第七十局</a>,无
+光头杯 7-4 强,2024/07/27,SZARE33B,里 lost,大撒旦,天堂之王LPH,ysa冰糖,14:51,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第七十一局</a>,电脑轻松被拿下
+光头杯 7-4 强,2024/07/27,RY101NHH,表 AZ,见证者,天堂之王LPH,ysa冰糖,12:10,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第七十二局</a>,无
+光头杯 7-4 强,2024/07/27,LYYLE2KP,表伊甸,大撒旦,ysa冰糖,天堂之王LPH,15:28,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第七十三局</a>,无
+光头杯 7-季军赛,2024/07/28,Z6K3H3QY,表伊甸,羔羊,天灾使者,天堂之王LPH,13:17,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第七十四局</a>,无
+光头杯 7-季军赛,2024/07/28,HCGMZZGE,表伊甸,见证者,天堂之王LPH,天灾使者,13:47,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第七十五局</a>,轻松不拿呕吐宝
+光头杯 7-季军赛,2024/07/28,C3G2MP4T,表伊甸,羔羊,天堂之王LPH,天灾使者,27:34,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第七十六局</a>,倒教皇轻松放生白卡；轻松一点房 roll 烂
+光头杯 7-季军赛,2024/07/28,LDBB70GD,里夏娃,祸兽,天灾使者,天堂之王LPH,19:45,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第七十七局</a>,轻松太阳拔刀
+光头杯 7-季军赛,2024/07/28,ALWVH8SB,表伊甸,大撒旦,天灾使者,天堂之王LPH,20:34,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第七十八局</a>,无
+光头杯 7-决赛,2024/07/28,69K9Q2ZJ,表伊甸,祸兽,ysa冰糖,这账号即将注销,19:46,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第七十九局</a>,看完捕梦网轻松再进道具房
+光头杯 7-决赛,2024/07/28,GNANB3S9,里夏娃,祸兽,这账号即将注销,ysa冰糖,14:35,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第八十局</a>,里夏娃前期打翔；妈刀轻松把红心换完；轻松拔刀失败
+光头杯 7-决赛,2024/07/28,B3H9E7KA,表伊甸,见证者,ysa冰糖,这账号即将注销,10:49,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第八十一局</a>,无
+光头杯 7-决赛,2024/07/28,3LEXTEDW,里 AZ,凹凸,ysa冰糖,这账号即将注销,13:24,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第八十二局</a>,无
+光头杯 8-第三天,2025/01/23,TWECKHLB,表伊甸,大撒旦,K9P9K,风雅颂,17:06,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P19 第一局</a>,轻松放生鼻涕；轻松认为猫头大苍蝇小于 C 计划
+光头杯 8-第三天,2025/01/23,N21LFGPX,里骨哥,见证者,K9P9K,风雅颂,12:28,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P19 第二局</a>,无
+光头杯 8-第三天,2025/01/23,3W6KJFVE,表伊甸,小蓝人,神游的旅人,进击的松鼠君,18:43,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P20 第一局</a>,轻松白地图迷路
+光头杯 8-第三天,2025/01/23,YCDWERQJ,里双子,见证者,进击的松鼠君,神游的旅人,15:46,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P20 第二局</a>,火星走错误房
+光头杯 8-第三天,2025/01/23,31DYNBNM,里莉莉丝,羔羊,进击的松鼠君,神游的旅人,16:09,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P20 第三局</a>,无
+光头杯 8-第三天,2025/01/23,HTW84KQ4,表伊甸,羔羊,为什么我不能叫欧豆豆,天堂之王LPH,19:08,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P21 第一局</a>,铲子轻松挖歪
+光头杯 8-第三天,2025/01/23,LZ80SKBM,里蓝人,祸兽,天堂之王LPH,为什么我不能叫欧豆豆,19:12,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P21 第二局</a>,该隐魂开回溯门
+光头杯 8-第三天,2025/01/23,R0VHVG3M,表双子,见证者,天堂之王LPH,为什么我不能叫欧豆豆,17:05,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P21 第三局</a>,无
+光头杯 8-第三天,2025/01/23,LAAJBMFD,表伊甸,凹凸,浩渝i,ysa冰糖,17:59,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P22 第一局</a>,无
+光头杯 8-第三天,2025/01/23,2C9YBVFP,表 AZ,见证者,ysa冰糖,浩渝i,12:06,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P22 第二局</a>,有科技 X 一阶段拍塔卡
+光头杯 8-第三天,2025/01/23,AENYRLLR,表伊甸,小蓝人,浩渝i,ysa冰糖,23:14,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P22 第三局</a>,内裤吸管
+光头杯 8-第四天,2025/01/24,Z43L3EC7,表伊甸,大撒旦,ix35,一块蓝冰,16:05,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P23 第一局</a>,无
+光头杯 8-第四天,2025/01/24,J2VD2RSW,表伊甸,见证者,ix35,一块蓝冰,17:18,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P23 第二局</a>,轻松放生四眼 2020
+光头杯 8-第四天,2025/01/24,SDH8DZXV,表伊甸,小蓝人,chiiqiawa,MSC、耗子,15:03,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P24 第一局</a>,星象房轻松放生签筒然后放生太阳卡
+光头杯 8-第四天,2025/01/24,R2Z7F6C8,里莉莉丝,羔羊,chiiqiawa,MSC、耗子,11:13,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P24 第二局</a>,无
+光头杯 8-第四天,2025/01/24,CHAMBHDR,表伊甸,见证者,美少女小雪糕,音量抑制器,16:58,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P25 第一局</a>,轻松小送两条命
+光头杯 8-第四天,2025/01/24,KLBV1KPF,里犹大,见证者,美少女小雪糕,音量抑制器,9:35,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P25 第二局</a>,开挂了
+光头杯 8-第四天,2025/01/24,3EBYNMYV,表伊甸,大撒旦,天灾使者,这账号即将注销,15:30,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P26 第一局</a>,食泪起爆器；轻松放生后悔药
+光头杯 8-第四天,2025/01/24,6P20YXZD,里 AZ,凹凸,天灾使者,这账号即将注销,11:17,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P26 第二局</a>,轻松放生狂暴头拿黑马
+光头杯 8-第五天,2025/01/25,41DDJ0RK,表 lost,大撒旦,天堂之王LPH,音量抑制器,17:14,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P28</a>,无
+光头杯 8-第五天,2025/01/25,9QJY76TF,里夏娃,凹凸,风雅颂,天堂之王LPH,13:47,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P29</a>,里夏娃海王星用法
+光头杯 8-第五天,2025/01/25,ECFHBQYK,表抹大拉,小蓝人,风雅颂,K9P9K,21:06,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P30</a>,无
+光头杯 8-第五天,2025/01/25,HL2E86RR,里 AZ,祸兽,一块蓝冰,风雅颂,19:51,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P31</a>,轻松放生达摩剑是对的
+光头杯 8-第五天,2025/01/25,GBQLRH7Z,表犹大,见证者,ix35,一块蓝冰,17:54,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P32</a>,轻松放生挖坑
+光头杯 8-第五天,2025/01/25,RCG6M1X8,里以撒,羔羊,这账号即将注销,ix35,18:32,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P33</a>,轻松放生 roll 机
+光头杯 8-第五天,2025/01/25,DFTQFLE3,表 AZ,大撒旦,ysa冰糖,这账号即将注销,13:34,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P34</a>,无
+光头杯 8-第五天,2025/01/25,D99LNCPM,里 lost,小蓝人,ysa冰糖,MSC、耗子,22:23,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P35</a>,轻松被红天使拿下
+光头杯 8-第五天,2025/01/25,H3QT0GE9,表伊甸,羔羊,ysa冰糖,美少女小雪糕,19:35,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P36</a>,内裤不能拿诅咒眼；天秤轻松拿小石头
+光头杯 8-第五天,2025/01/25,YT9Z42V0,里亚伯伦,见证者,ysa冰糖,进击的松鼠君,16:56,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P37</a>,悬浮肺
+光头杯 8-第五天,2025/01/25,3H2C72Y4,表参孙,凹凸,浩渝i,ysa冰糖,13:06,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P38</a>,悬浮魔眼
+光头杯 8-第五天,2025/01/25,3H2C72Y4,里店长,羔羊,浩渝i,chiiqiawa,17:26,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P39</a>,轻松放生血权
+光头杯 8-第五天,2025/01/25,ZWDCQBEK,表抹大拉,大撒旦,浩渝i,神游的旅人,16:10,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P40</a>,无
+光头杯 8-第五天,2025/01/25,2AQGJBRC,里莉莉丝,祸兽,天灾使者,浩渝i,17:32,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P41</a>,轻松放生大宝
+光头杯 8-第六天,2025/01/26,6H8KC8EN,表伊甸,小蓝人,一块蓝冰,为什么我不能叫欧豆豆,17:47,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P42</a>,轻松认为发卡 D4 大于骰子袋
+光头杯 8-第六天,2025/01/26,QA18ZXWR,里骨哥,祸兽,风雅颂,一块蓝冰,13:53,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P43</a>,无
+光头杯 8-第六天,2025/01/26,RJHCQAXW,里双子,见证者,浩渝i,风雅颂,13:33,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P44</a>,里双换空血量撞小红
+光头杯 8-第六天,2025/01/26,DD088L7A,里夏娃,凹凸,浩渝i,天灾使者,11:46,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P45</a>,无
+光头杯 8-第六天,2025/01/26,812CHJMC,里莉莉丝,见证者,浩渝i,神游的旅人,11:54,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P46</a>,小蓝人魂打见证者
+光头杯 8-第六天,2025/01/26,E9B9KZST,表伊甸,祸兽,ysa冰糖,浩渝i,22:06,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P47</a>,无
+光头杯 8-第六天,2025/01/26,KDKV63ER,里夏娃,祸兽,这账号即将注销,ysa冰糖,17:19,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P48</a>,D10 把心脏变成红心
+光头杯 8-第六天,2025/01/26,PPTBLMW3,里犹大,见证者,这账号即将注销,音量抑制器,14:26,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P49</a>,无
+光头杯 8-第六天,2025/01/26,MQZ28Q7B,表 AZ,羔羊,这账号即将注销,ix35,8:43,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P50</a>,轻松保护乌鸦心
+光头杯 8-第六天,2025/01/26,0N0JDQW2,里伯大尼,大撒旦,这账号即将注销,chiiqiawa,13:19,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P51</a>,小史卡火
+光头杯 8-第七天,2025/01/27,VX9V9XNZ,里 lost,祸兽,K9P9K,音量抑制器,14:50,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P52</a>,无
+光头杯 8-第七天,2025/01/27,N1NBTZMA,表伊甸,凹凸,风雅颂,K9P9K,14:16,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P53</a>,无
+光头杯 8-第七天,2025/01/27,V9FJAYWR,表亚伯伦,见证者,风雅颂,美少女小雪糕,17:22,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P54</a>,无
+光头杯 8-第七天,2025/01/27,HW64LVWH,里参孙,大撒旦,天堂之王LPH,风雅颂,14:36,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P55</a>,狂暴硫磺火降速
+光头杯 8-第七天,2025/01/27,L8MB6SBX,表蓝人,见证者,天堂之王LPH,chiiqiawa,17:19,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P56</a>,轻松放生镐子
+光头杯 8-第七天,2025/01/27,YPCAA1HS,里以撒,祸兽,天堂之王LPH,神游的旅人,21:21,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P57</a>,轻松手快放生复眼
+光头杯 8-第七天,2025/01/27,8KBGZNPP,里店长,羔羊,ysa冰糖,天堂之王LPH,13:10,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P58</a>,磁铁等于长子权
+光头杯 8-第七天,2025/01/27,80AKJAMN,表以撒,小蓝人,ysa冰糖,进击的松鼠君,15:37,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P59</a>,无
+光头杯 8-第七天,2025/01/27,VX6E0ZMM,表夏娃,大撒旦,ysa冰糖,MSC、耗子,18:25,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P60</a>,轻松神秘仪式失败
+光头杯 8-第七天,2025/01/27,N24HFZ84,表 lost,羔羊,ysa冰糖,浩渝i,12:45,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P61</a>,无
+光头杯 8-第七天,2025/01/27,MPEDPEXC,表抹大拉,凹凸,ysa冰糖,这账号即将注销,15:40,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P62</a>,黑怀煲仔饭白嫖
+光头杯 8-第七天,2025/01/27,NBX772QE,表该隐,小蓝人,ysa冰糖,一块蓝冰,13:56,<a href="https://www.bilibili.com/video/BV1m8weeMEJi" target="_blank">Link P63</a>,无
 常规擂台,2025/05/15,2CXQ99Y0,里蓝人,见证者,喻菁,巡游春天,18:58,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第一局</a>,无
 常规擂台,2025/05/15,XSC2JCLL,表犹大,祸兽,地狱鸦,喻菁,17:57,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第二局</a>,毛霉菌+鬼椒配合；后悔药走机关房轻松连踩两次刺
 常规擂台,2025/05/15,4F1AYD9X,表伊甸,羔羊,地狱鸦,少晚爱晴,18:28,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第三局</a>,签语饼没饰品；科技 X 轻松拿个螺丝
@@ -10,5 +287,43 @@
 常规擂台,2025/05/15,RDHKBWM4,表莉莉丝,羔羊,sakuya,哈基人,15:11,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第九局</a>,Fallen 房间为恶魔池
 常规擂台,2025/05/15,6Q00TK48,表亚伯伦,小蓝人,小雪糕,sakuya,13:36,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第十局</a>,无
 常规擂台,2025/05/15,8EFQEPXL,里店长,大撒旦,老 E,小雪糕,12:04,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第十一局</a>,店长陀螺，剖腹产死眼能触发
-常规擂台,2025/05/15,893HPMH8,以撒,小蓝人,老 E,吃青蛙,16:49,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第十二局</a>,无
+常规擂台,2025/05/15,893HPMH8,表以撒,小蓝人,老 E,吃青蛙,16:49,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第十二局</a>,无
 常规擂台,2025/05/15,Q2DGPN4R,表 AZ,羔羊,老 E,耗子,14:39,<a href="https://www.bilibili.com/video/BV1M7EnzTEtM" target="_blank">Link 第十三局</a>,AZ 轻松换飞
+火山杯 16 强,2025/05/30,2NBWBA46,表伊甸,凹凸,葡萄蒲公英,喜气洋洋,25:03,<a href="https://www.bilibili.com/video/BV1VW7szREoJ" target="_blank">Link 第一局</a>,轻松保护塔咒然后被打加被炸最后轻松被几何雷拿下吧；二周目轻松卖塔咒全部炸空拍好困吧
+火山杯 16 强,2025/05/30,HEEVZKP6,表伊甸,羔羊,喜气洋洋,葡萄蒲公英,99:99,<a href="https://www.bilibili.com/video/BV1VW7szREoJ" target="_blank">Link 第二局</a>,天王星轻松放生变异怪；黑蜡烛诅咒眼轻松卖血；混沌卡轻松扔歪
+火山杯 16 强,2025/05/30,CVRQP4ZQ,表伊甸,见证者,喜气洋洋,葡萄蒲公英,99:99,<a href="https://www.bilibili.com/video/BV1VW7szREoJ" target="_blank">Link 第三局</a>,
+火山杯 16 强,2025/05/30,X4SKQ34F,表伊甸,凹凸,五更琉璃,音量抑制器,15:44,<a href="https://www.bilibili.com/video/BV1VW7szREoJ" target="_blank">Link 第四局</a>,无
+火山杯 16 强,2025/05/30,D8J1R1FE,表伊甸,大撒旦,五更琉璃,音量抑制器,22:31,<a href="https://www.bilibili.com/video/BV1VW7szREoJ" target="_blank">Link 第五局</a>,轻松拿眼球
+火山杯 16 强,2025/05/30,2LMNRA39,表伊甸,凹凸,chiiqiawa,神游的旅人,15:53,<a href="https://www.bilibili.com/video/BV1VW7szREoJ" target="_blank">Link 第六局</a>,
+火山杯 16 强,2025/05/30,MDX4TBQY,表伊甸,羔羊,神游的旅人,chiiqiawa,19:13,<a href="https://www.bilibili.com/video/BV1VW7szREoJ" target="_blank">Link 第七局</a>,
+火山杯 16 强,2025/05/30,2EHGZW27,表伊甸,大撒旦,神游的旅人,chiiqiawa,18:52,<a href="https://www.bilibili.com/video/BV1VW7szREoJ" target="_blank">Link 第八局</a>,永恒 D6 美德书；轻松放生 666 竟有三圣颂
+火山杯 16 强,2025/05/30,4LH6G9WH,表伊甸,大撒旦,风情一场梦,夜鹰之星,21:49,<a href="https://www.bilibili.com/video/BV1VW7szREoJ" target="_blank">Link 第九局</a>,轻松放生第十脚；轻松不信启明星；妈刀硫磺火轻松就被拿下
+火山杯 16 强,2025/05/30,26W0F831,表伊甸,大撒旦,夜鹰之星,风情一场梦,23:22,<a href="https://www.bilibili.com/video/BV1VW7szREoJ" target="_blank">Link 第十局</a>,无
+火山杯 16 强,2025/05/30,48B0XFXN,表伊甸,小蓝人,夜鹰之星,风情一场梦,99:99,<a href="https://www.bilibili.com/video/BV1VW7szREoJ" target="_blank">Link 第十一局</a>,
+火山杯 16 强,2025/05/31,HHKD0BPM,表伊甸,见证者,故障小蓝神,风雅颂,99:99,<a href="https://www.bilibili.com/video/BV12m7KzxE5A" target="_blank">Link 第一局</a>,
+火山杯 16 强,2025/05/31,PJQB23VM,表伊甸,祸兽,风雅颂,故障小蓝神,20:48,<a href="https://www.bilibili.com/video/BV12m7KzxE5A" target="_blank">Link 第二局</a>,
+火山杯 16 强,2025/05/31,R3DT4GXF,表伊甸,凹凸,故障小蓝神,风雅颂,20:47,<a href="https://www.bilibili.com/video/BV12m7KzxE5A" target="_blank">Link 第三局</a>,
+火山杯 16 强,2025/05/31,NRLF2Y9R,表伊甸,羔羊,MSC、耗子,进击的松鼠君,13:55,<a href="https://www.bilibili.com/video/BV12m7KzxE5A" target="_blank">Link 第四局</a>,轻松不会看白地图
+火山杯 16 强,2025/05/31,Z3AMETZD,表伊甸,见证者,MSC、耗子,进击的松鼠君,19:53,<a href="https://www.bilibili.com/video/BV12m7KzxE5A" target="_blank">Link 第五局</a>,轻松灵魂死刺房里；轻松放生血誓
+火山杯 16 强,2025/05/31,GFCDDQ0Z,表伊甸,见证者,天灾使者,粉汗衫,18:00,<a href="https://www.bilibili.com/video/BV12m7KzxE5A" target="_blank">Link 第六局</a>,无
+火山杯 16 强,2025/05/31,YQX6N7QB,表伊甸,大撒旦,天灾使者,粉汗衫,20:22,<a href="https://www.bilibili.com/video/BV12m7KzxE5A" target="_blank">Link 第七局</a>,三周目 tears down；轻松给泪盾尽孝
+火山杯 16 强,2025/05/31,2SG1CCKL,表伊甸,小蓝人,sakuya,地狱鸦,99:99,<a href="https://www.bilibili.com/video/BV12m7KzxE5A" target="_blank">Link 第八局</a>,轻松就下地狱了
+火山杯 16 强,2025/05/31,9XW86H4J,表伊甸,小蓝人,sakuya,地狱鸦,24:42,<a href="https://www.bilibili.com/video/BV12m7KzxE5A" target="_blank">Link 第九局</a>,无
+火山杯 8 强,2025/06/01,PRAHA36H,表伊甸,大撒旦,天灾使者,MSC、耗子,14:25,<a href="https://www.bilibili.com/video/BV1BK7rz3EZS" target="_blank">Link 第一局</a>,
+火山杯 8 强,2025/06/01,F197YT6W,表伊甸,小蓝人,天灾使者,MSC、耗子,13:43,<a href="https://www.bilibili.com/video/BV1BK7rz3EZS" target="_blank">Link 第二局</a>,
+火山杯 8 强,2025/06/01,APLAZKJG,表伊甸,见证者,神游的旅人,故障小蓝神,15:47,<a href="https://www.bilibili.com/video/BV1BK7rz3EZS" target="_blank">Link 第三局</a>,
+火山杯 8 强,2025/06/01,4ZG7AGQE,表伊甸,祸兽,故障小蓝神,神游的旅人,20:43,<a href="https://www.bilibili.com/video/BV1BK7rz3EZS" target="_blank">Link 第四局</a>,
+火山杯 8 强,2025/06/01,C22KYC01,表伊甸,小蓝人,故障小蓝神,神游的旅人,20:09,<a href="https://www.bilibili.com/video/BV1BK7rz3EZS" target="_blank">Link 第五局</a>,
+火山杯 8 强,2025/06/01,3TAZMF3L,表伊甸,见证者,sakuya,夜鹰之星,21:28,<a href="https://www.bilibili.com/video/BV1BK7rz3EZS" target="_blank">Link 第六局</a>,
+火山杯 8 强,2025/06/01,2ACXKCWZ,表伊甸,羔羊,sakuya,夜鹰之星,18:44,<a href="https://www.bilibili.com/video/BV1BK7rz3EZS" target="_blank">Link 第七局</a>,
+火山杯 4 强,2025/06/02,FMKLM9X9,表伊甸,见证者,故障小蓝神,喜气洋洋,25:26,<a href="https://www.bilibili.com/video/BV1az7QzbEHz" target="_blank">Link 第一局</a>,
+火山杯 4 强,2025/06/02,A400Z447,表伊甸,小蓝人,喜气洋洋,故障小蓝神,21:54,<a href="https://www.bilibili.com/video/BV1az7QzbEHz" target="_blank">Link 第二局</a>,
+火山杯 4 强,2025/06/02,NEF94GE1,表伊甸,见证者,故障小蓝神,喜气洋洋,20:07,<a href="https://www.bilibili.com/video/BV1az7QzbEHz" target="_blank">Link 第三局</a>,
+火山杯 4 强,2025/06/02,7KEZYPHA,表伊甸,羔羊,sakuya,五更琉璃,22:20,<a href="https://www.bilibili.com/video/BV1az7QzbEHz" target="_blank">Link 第四局</a>,
+火山杯 4 强,2025/06/02,R00RKJLB,表伊甸,凹凸,sakuya,五更琉璃,14:10,<a href="https://www.bilibili.com/video/BV1az7QzbEHz" target="_blank">Link 第五局</a>,
+火山杯季军赛,2025/06/02,Z6X07QPX,表伊甸,祸兽,五更琉璃,喜气洋洋,20:04,<a href="https://www.bilibili.com/video/BV1az7QzbEHz" target="_blank">Link 第六局</a>,
+火山杯季军赛,2025/06/02,RDXRDXHE,表伊甸,凹凸,喜气洋洋,五更琉璃,17:58,<a href="https://www.bilibili.com/video/BV1az7QzbEHz" target="_blank">Link 第七局</a>,
+火山杯季军赛,2025/06/02,CABK182J,表伊甸,祸兽,五更琉璃,喜气洋洋,99:99,<a href="https://www.bilibili.com/video/BV1az7QzbEHz" target="_blank">Link 第八局</a>,
+火山杯决赛,2025/06/02,A2VCMK38,表伊甸,羔羊,故障小蓝神,sakuya,22:14,<a href="https://www.bilibili.com/video/BV1az7QzbEHz" target="_blank">Link 第九局</a>,
+火山杯决赛,2025/06/02,C0FK2KF6,表伊甸,小蓝人,sakuya,故障小蓝神,21:06,<a href="https://www.bilibili.com/video/BV1az7QzbEHz" target="_blank">Link 第十局</a>,
+火山杯决赛,2025/06/02,FK7WEMDQ,表伊甸,祸兽,sakuya,故障小蓝神,30:20,<a href="https://www.bilibili.com/video/BV1az7QzbEHz" target="_blank">Link 第十一局</a>,

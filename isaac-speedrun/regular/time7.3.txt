@@ -24,6 +24,7 @@
 0,饿啊又寄了,8,12:39,https://www.bilibili.com/video/BV1RK411a759
 0,MoVey1,9,13:24,
 0,八分先生eqm,9,19:53,
-0,☆斩空の千翼一,10,12:42,https://www.bilibili.com/video/BV1BN4y1H7eg
+0,☆斩空の千翼一,8,12:19,https://www.bilibili.com/video/BV1BN4y1H7eg
 0,--ima--,1,0:00,
 0,sao话王1,1,0:00,
+2,（自己复盘）,99,15:08,
