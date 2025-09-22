@@ -1,4 +1,4 @@
-﻿来源,日期,种子,角色,终点,胜者,败者,胜者成绩,视频,新知识/糖
+来源,日期,种子,角色,终点,胜者,败者,胜者成绩,视频,新知识/糖
 光头杯 6-48 强,2024/01/24,M83B2GSP,里以撒,见证者,如果当时,北铭H,21:57,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第一局</a>,轻松不会双生宝硫磺火打门；红豆汤可以扔；里以撒刷道具池
 光头杯 6-48 强,2024/01/24,167YKCEM,表拉撒路,祸兽,bbluejj,狸猫s,19:02,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第二局</a>,轻松不会卡道具池；轻松不自杀
 光头杯 6-48 强,2024/01/24,PDKRATYV,表参孙,凹凸,音量抑制器,Liev_yv,15:59,<a href="https://www.bilibili.com/video/BV1Kw411j7kU" target="_blank">Link 第三局</a>,无
@@ -139,6 +139,13 @@
 五一排位赛-第七天,2024/05/??,268ZQV8B,表伊甸,羔羊,晚好吖乘客,神游的旅人,16:40,<a href="https://www.bilibili.com/video/BV1cm421u7HF" target="_blank">Link 第一局</a>,轻松使用小红罐放生读卡器
 五一排位赛-第七天,2024/05/??,9W944Q9L,里莉莉丝,祸兽,神游的旅人,晚好吖乘客,12:51,<a href="https://www.bilibili.com/video/BV1cm421u7HF" target="_blank">Link 第二局</a>,再玩里拉
 五一排位赛-第七天,2024/05/??,0NK8W6NV,里犹大,见证者,神游的旅人,晚好吖乘客,15:10,<a href="https://www.bilibili.com/video/BV1cm421u7HF" target="_blank">Link 第三局</a>,无
+五一排位赛-第七天,2024/05/??,WMKZD4DD,表伊甸,见证者,公孙镡,以撒北小鸟,17:01,<a href="https://www.bilibili.com/video/BV1cm421u7HF" target="_blank">Link 第四局</a>,
+五一排位赛-第七天,2024/05/??,FPT9RB21,里伯大尼,祸兽,以撒北小鸟,公孙镡,17:54,<a href="https://www.bilibili.com/video/BV1cm421u7HF" target="_blank">Link 第五局</a>,
+五一排位赛-第七天,2024/05/??,A832FNKE,表双子,祸兽,以撒北小鸟,公孙镡,23:15,<a href="https://www.bilibili.com/video/BV1cm421u7HF" target="_blank">Link 第六局</a>,
+五一排位赛-第七天,2024/05/??,KTNK4Z9A,表伊甸,凹凸,喵小day,苳夏,15:02,<a href="https://www.bilibili.com/video/BV1cm421u7HF" target="_blank">Link 第七局</a>,
+五一排位赛-第七天,2024/05/??,EFNJRSEY,表伊甸,小蓝人,喵小day,苳夏,15:34,<a href="https://www.bilibili.com/video/BV1cm421u7HF" target="_blank">Link 第八局</a>,
+五一排位赛-第七天,2024/05/??,TT72Y4M4,表伊甸,羔羊,风雅颂,故障小蓝神,18:12,<a href="https://www.bilibili.com/video/BV1cm421u7HF" target="_blank">Link 第九局</a>,
+五一排位赛-第七天,2024/05/??,BR2LFMQD,里 AZ,凹凸,风雅颂,故障小蓝神,22:37,<a href="https://www.bilibili.com/video/BV1cm421u7HF" target="_blank">Link 第十局</a>,
 光头杯 7-48 强,2024/07/21,JXDEEMEH,表伊甸,羔羊,ffffffrans,oneday-dawn,19:01,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第一局</a>,要烫火进刺房
 光头杯 7-48 强,2024/07/21,S800J6AY,里犹大,祸兽,美少女小雪糕,NullRain,21:40,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第二局</a>,尖头钥匙开回溯；里犹大轻松放生神风
 光头杯 7-48 强,2024/07/21,C6ZTAVVJ,表 AZ,大撒旦,起名废a,Mizore12,28:46,<a href="https://www.bilibili.com/video/BV1Cz421i7DQ" target="_blank">Link 第三局</a>,水晶球必开星象
@@ -327,3 +334,192 @@
 火山杯决赛,2025/06/02,A2VCMK38,表伊甸,羔羊,故障小蓝神,sakuya,22:14,<a href="https://www.bilibili.com/video/BV1az7QzbEHz" target="_blank">Link 第九局</a>,
 火山杯决赛,2025/06/02,C0FK2KF6,表伊甸,小蓝人,sakuya,故障小蓝神,21:06,<a href="https://www.bilibili.com/video/BV1az7QzbEHz" target="_blank">Link 第十局</a>,
 火山杯决赛,2025/06/02,FK7WEMDQ,表伊甸,祸兽,sakuya,故障小蓝神,30:20,<a href="https://www.bilibili.com/video/BV1az7QzbEHz" target="_blank">Link 第十一局</a>,
+常规擂台,2025/07/20,QSFHY1KP,表以撒,祸兽,ffffffrans,心铃,20:32,<a href="https://www.bilibili.com/video/BV1qwgxzVEVV" target="_blank">Link 第一局</a>,0.8腿放生好表
+常规擂台,2025/07/20,QGFFBMP0,表该隐,羔羊,魔女苏顺西,ffffffrans,15:16,<a href="https://www.bilibili.com/video/BV1qwgxzVEVV" target="_blank">Link 第二局</a>,无
+常规擂台,2025/07/20,MH01P3K2,表亚伯伦,大撒旦,魔女苏顺西,远古柱之男,20:19,<a href="https://www.bilibili.com/video/BV1qwgxzVEVV" target="_blank">Link 第三局</a>,无
+常规擂台,2025/07/20,EK4RGKSV,表 lost,羔羊,魔女苏顺西,公孙镡,19:28,<a href="https://www.bilibili.com/video/BV1qwgxzVEVV" target="_blank">Link 第四局</a>,莉莉宝放生收束器
+常规擂台,2025/07/20,V1RE41E0,表 AZ,羔羊,创世纪,魔女苏顺西,13:53,<a href="https://www.bilibili.com/video/BV1qwgxzVEVV" target="_blank">Link 第五局</a>,无
+常规擂台,2025/07/20,GBMA6870,里双子,祸兽,ix35,创世纪,19:26,<a href="https://www.bilibili.com/video/BV1qwgxzVEVV" target="_blank">Link 第六局</a>,无
+常规擂台,2025/07/20,D8GPV06J,表夏娃,凹凸,ix35,风雅颂,99:99,<a href="https://www.bilibili.com/video/BV1qwgxzVEVV" target="_blank">Link 第七局</a>,轻松半血保护力量卡；轻松拍刀片自杀
+常规擂台,2025/07/20,FHC7LEZV,里犹大,祸兽,浩渝i,ix35,17:32,<a href="https://www.bilibili.com/video/BV1qwgxzVEVV" target="_blank">Link 第八局</a>,轻松撞白火被亡语秒杀
+常规擂台,2025/07/20,S1A99HDB,表骨哥,小蓝人,进击的松鼠君,浩渝i,12:30,<a href="https://www.bilibili.com/video/BV1qwgxzVEVV" target="_blank">Link 第九局</a>,
+常规擂台,2025/07/20,E0L3V0CX,里骨哥,见证者,喜气洋洋,进击的松鼠君,11:45,<a href="https://www.bilibili.com/video/BV1qwgxzVEVV" target="_blank">Link 第十局</a>,
+常规擂台,2025/07/20,4HKKMHTJ,里亚伯伦,大撒旦,light、,喜气洋洋,14:51,<a href="https://www.bilibili.com/video/BV1qwgxzVEVV" target="_blank">Link 第十一局</a>,
+常规擂台,2025/07/20,NTTC2NAR,表伯大尼,羔羊,light、,在下控萝莉,16:33,<a href="https://www.bilibili.com/video/BV1qwgxzVEVV" target="_blank">Link 第十二局</a>,
+光头杯 9-48 强,2025/08/09,2A6WYM7P,表该隐,见证者,交易所,zhendepiao,16:27,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第一局</a>,无
+光头杯 9-48 强,2025/08/09,3G4BPDFA,表双子,羔羊,ffffffrans,sdupid_man,16:52,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第二局</a>,无
+光头杯 9-48 强,2025/08/09,90G0XT0R,里参孙,大撒旦,ix35,-DeEMO--,13:45,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第三局</a>,轻松水蜘蛛卡石头里
+光头杯 9-48 强,2025/08/09,14V1XDRZ,表伊甸,小蓝人,dsnt,虚限、夜白,13:46,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第四局</a>,放生黑书基米冲刺
+光头杯 9-48 强,2025/08/09,RMAP8A6B,里莉莉丝,小蓝人,无忧,一二三四五棵树,12:31,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第五局</a>,无
+光头杯 9-48 强,2025/08/09,9LHBBSAD,表伊甸,祸兽,葡萄蒲公英,浩渝i,25:36,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第六局</a>,轻松放生小石头恶魔房四个道具换不起打完 boss 不开然后吃一个 tears down 吧
+光头杯 9-48 强,2025/08/09,87L2BGVF,里骨哥,羔羊,哈基人爱以撒,大份烤冷面I,14:08,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第七局</a>,无
+光头杯 9-48 强,2025/08/09,3WLYQXXB,表伯大尼,大撒旦,一块蓝冰,oneday-dawn,17:33,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第八局</a>,轻松放生好表；创世纪怎么不一样
+光头杯 9-48 强,2025/08/09,DRTPZHBW,表 AZ,小蓝人,这账号即将注销,K9P9K,11:43,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第九局</a>,轻松忘记被动白猫
+光头杯 9-48 强,2025/08/09,KEEZ8SH1,表犹大,羔羊,天堂之王LPH,魔女苏顺西,19:54,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第十局</a>,轻松被黑胖拿下三条命
+光头杯 9-48 强,2025/08/09,9J62L12C,里双子,祸兽,风悠川,九天之枫,19:13,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第十一局</a>,无
+光头杯 9-48 强,2025/08/09,V7MGG64A,表双子,凹凸,天灾使者,ysa冰糖,12:48,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第十二局</a>,煲仔饭出妈刀；六点房也能出
+光头杯 9-48 强,2025/08/10,R1SS3SV8,表店长,见证者,light、,公孙镡,23:34,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第十三局</a>,超级逛逛
+光头杯 9-48 强,2025/08/10,863BHHFY,里 lost,羔羊,进击的松鼠君,-MO0nLight_,16:23,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第十四局</a>,轻松混沌卡乱丢；连续双 XL
+光头杯 9-48 强,2025/08/10,KGEA2BL4,表 AZ,羔羊,ReBeCcaK1,hhhhhalu,12:41,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第十五局</a>,AZ 打镜子第一人
+光头杯 9-48 强,2025/08/10,8VPCWN68,表骨哥,大撒旦,祤漱于灿,超级大狐,20:21,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第十六局</a>,大狐典中典之一脚到打完 boss 拍蓝传；轻松豆浆->天秤->圣心；大撒旦二阶段轻松拿下两个骨哥
+光头杯 9-48 强,2025/08/10,V9H1QWA2,表伊甸,凹凸,神游的旅人,心铃,17:16,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第十七局</a>,轻松打 boss 挑战被拿下；第二条命轻松被白火拿下；三条命过红箱子而不开
+光头杯 9-48 强,2025/08/10,8LKYGA0T,里双子,羔羊,方糖13a,喜气洋洋,17:27,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第十八局</a>,轻松起飞捡掉落被大可爱拿下
+光头杯 9-48 强,2025/08/10,SXGHOLER,里亚伯伦,见证者,桃泽,苳夏,16:40,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第十九局</a>,轻松天使宝小于红苍蝇；轻松都放生卡包
+光头杯 9-48 强,2025/08/10,6EBBMJWA,里伯大尼,大撒旦,Oxygen-_-_-,Hurts_珑喵,20:23,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第二十局</a>,不摸圣经轻松后面再来
+光头杯 9-48 强,2025/08/10,PBJDDE7J,表犹大,凹凸,腾讯电脑管家,小米壹陆零零,99:99,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第二十一局</a>,无
+光头杯 9-48 强,2025/08/10,PBJDDE7J,表蓝人,小蓝人,五更琉璃,A-SuperBottle578,17:04,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第二十二局</a>,不会考试
+光头杯 9-48 强,2025/08/10,PBJDDE7J,表拉撒路,大撒旦,创世纪神教教主,焰心心心,16:17,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第二十三局</a>,轻松先捡血再自杀
+光头杯 9-48 强,2025/08/10,X220Q029,里莉莉丝,凹凸,见崎未咲w,夜鹰之星,12:33,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第二十四局</a>,无
+光头杯 9-24 强,2025/08/11,ZHBMTTPL,表抹大拉,羔羊,ffffffrans,葡萄蒲公英,,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第二十五局</a>,水星妈刀小让一条命拿下吧
+光头杯 9-24 强,2025/08/11,20QL6ARR,里抹大拉,小蓝人,交易所,light、,15:42,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第二十六局</a>,无
+光头杯 9-24 强,2025/08/11,A7FFSGCW,表双子,见证者,祤漱于灿,一块蓝冰,16:06,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第二十七局</a>,无
+光头杯 9-24 强,2025/08/11,6T3ACYPY,表骨哥,小蓝人,桃泽,风悠川,12:52,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第二十八局</a>,无
+光头杯 9-24 强,2025/08/11,4FK48PRL,表犹大,大撒旦,ReBeCcaK1,见崎未咲w,19:21,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第二十九局</a>,轻松变犹大换不起妈刀
+光头杯 9-24 强,2025/08/11,ZWDJDNBV,里 lost,祸兽,方糖13a,五更琉璃,25:10,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第三十局</a>,轻松不拍斗篷卡被打掉两条命；轻松拿混沌卡放生斗篷卡被打死
+光头杯 9-24 强,2025/08/11,MYH9TGJK,表店长,见证者,dsnt,哈基人爱以撒,17:39,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第三十一局</a>,悬浮毁了食泪证启明星圣心
+光头杯 9-24 强,2025/08/11,FTG6320G,里蓝人,见证者,神游的旅人,腾讯电脑管家,14:06,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第三十二局</a>,
+光头杯 9-24 强,2025/08/11,7ZRJYLQA,表骨哥,羔羊,这账号即将注销,无忧,16:15,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第三十三局</a>,
+光头杯 9-24 强,2025/08/11,3PSX9PLG,里 AZ,祸兽,天堂之王LPH,创世纪神教教主,15:25,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第三十四局</a>,
+光头杯 9-24 强,2025/08/11,AXNYH4KW,表以撒,羔羊,进击的松鼠君,Oxygen-_-_-,19:13,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第三十五局</a>,
+光头杯 9-24 强,2025/08/11,K6K9TNMD,里以撒,见证者,ix35,天灾使者,12:51,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第三十六局</a>,
+光头杯 9-16 强,2025/08/12,KA8JBQVW,表伊甸,见证者,进击的松鼠君,ix35,12:46,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第三十七局</a>,轻松打个红天使
+光头杯 9-16 强,2025/08/12,VZY383D8,里 AZ,凹凸,ix35,进击的松鼠君,9:57,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第三十八局</a>,炸骷髅出个混沌卡
+光头杯 9-16 强,2025/08/12,6XL0317A,里双子,祸兽,ix35,进击的松鼠君,14:41,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第三十九局</a>,放生道具房回溯拿血泪是对的
+光头杯 9-16 强,2025/08/12,1W24QRVE,表伊甸,见证者,美少女小雪糕,祤漱于灿,12:42,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第四十局</a>,眼球比列眼寄生虫；犹大之影用刀加攻击
+光头杯 9-16 强,2025/08/12,1G1GLHAS,里 AZ,凹凸,祤漱于灿,美少女小雪糕,13:19,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第四十一局</a>,无
+光头杯 9-16 强,2025/08/12,VT8TQ2LG,里夏娃,凹凸,祤漱于灿,美少女小雪糕,12:46,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第四十二局</a>,跳书收放轻松被凹凸拿下
+光头杯 9-16 强,2025/08/12,098WEF79,表伊甸,祸兽,方糖13a,ffffffrans,18:18,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第四十三局</a>,圣心神性凸眼小于谷底 ibs
+光头杯 9-16 强,2025/08/12,E9YYAZ73,表骨哥,见证者,ffffffrans,方糖13a,11:46,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第四十四局</a>,金牛里犹大硫磺火食泪小于开车骨哥
+光头杯 9-16 强,2025/08/12,Y6QDR319,表该隐,大撒旦,方糖13a,ffffffrans,,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第四十五局</a>,牛中牛之混沌卡 C 计划小于诅咒眼格罗
+光头杯 9-16 强,2025/08/12,SPDE67NB,表伊甸,羔羊,交易所,神游的旅人,13:48,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第四十六局</a>,轻松被月亮诈骗
+光头杯 9-16 强,2025/08/12,73BX36Y7,里莉莉丝,羔羊,神游的旅人,交易所,11:51,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第四十七局</a>,炸 roll 机轻松放生神风纵火狂
+光头杯 9-16 强,2025/08/12,704HXAZ6,表骨哥,羔羊,交易所,神游的旅人,13:31,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第四十八局</a>,无
+光头杯 9-16 强,2025/08/13,73TM1CKH,表伊甸,大撒旦,这账号即将注销,故障小蓝神,13:38,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第四十九局</a>,GB bug 变个硫磺火幽灵轻松被拿下；犹大九命猫真的很烧脑
+光头杯 9-16 强,2025/08/13,E6EFCYS0,表该隐,大撒旦,这账号即将注销,故障小蓝神,15:00,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第五十局</a>,轻松波比弟弟大于嗜血腥风；A+ 局
+光头杯 9-16 强,2025/08/13,1MRQM926,表伊甸,小蓝人,dsnt,sakuya,18:57,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第五十一局</a>,在恶魔房拍倒命运之轮轻松睡觉
+光头杯 9-16 强,2025/08/13,K6BK21FH,里犹大,大撒旦,dsnt,sakuya,12:01,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第五十二局</a>,放生陀螺轻松有水星
+光头杯 9-16 强,2025/08/13,HDH4WM8A,表伊甸,祸兽,天堂之王LPH,喻菁,17:24,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第五十三局</a>,无
+光头杯 9-16 强,2025/08/13,YQVVM7RS,里双子,见证者,喻菁,天堂之王LPH,11:47,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第五十四局</a>,boss 门口轻松拍皇帝
+光头杯 9-16 强,2025/08/13,WNAPL93T,里 lost,祸兽,喻菁,天堂之王LPH,17:06,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第五十五局</a>,无
+光头杯 9-16 强,2025/08/13,XS0JJSQY,表伊甸,见证者,ReBeCcaK1,桃泽、,28:29,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第五十六局</a>,鞭子哥非常厉害
+光头杯 9-16 强,2025/08/13,VVZPRQT0,里犹大,小蓝人,ReBeCcaK1,桃泽、,15:26,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第五十七局</a>,无
+光头杯 9-8 强,2025/08/13,ERAS9BD8,表伊甸,祸兽,ix35,交易所,17:55,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第五十八局</a>,超大蘑菇小于水星
+光头杯 9-8 强,2025/08/13,70CN9AQC,表莉莉丝,小蓝人,交易所,ix35,17:34,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第五十九局</a>,无
+光头杯 9-8 强,2025/08/13,WL6M4WMS,表 AZ,见证者,交易所,ix35,11:59,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第六十局</a>,无
+光头杯 9-8 强,2025/08/13,EC4P0Z6Z,表伊甸,祸兽,dsnt,喻菁,18:01,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第六十一局</a>,无
+光头杯 9-8 强,2025/08/13,BRBQ87Q6,里骨哥,凹凸,dsnt,喻菁,10:02,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第六十二局</a>,水星小于混沌卡
+光头杯 9-8 强,2025/08/13,0FS1B0GD,表伊甸,大撒旦,祤漱于灿,方糖13a,18:04,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第六十三局</a>,无
+光头杯 9-8 强,2025/08/13,6X24V386,表夏娃,大撒旦,祤漱于灿,方糖13a,17:26,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第六十四局</a>,轻松达摩毒种被扎死吧
+光头杯 9-8 强,2025/08/13,4C6PTL3P,表伊甸,见证者,这账号即将注销,ReBeCcaK1,10:48,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第六十五局</a>,捡完红豆汤轻松原地倒战车吧
+光头杯 9-8 强,2025/08/13,C98L448G,里双子,见证者,这账号即将注销,ReBeCcaK1,12:37,<a href="https://www.bilibili.com/video/BV1hSthztEFu" target="_blank">Link 第六十六局</a>,无
+常规擂台,2025/08/17,YC0QXX0V,表 AZ,大撒旦,公孙镡,鹦55555,11:48,<a href="https://www.bilibili.com/video/BV1xPYWzCEBG" target="_blank">Link 第一局</a>,
+常规擂台,2025/08/17,FQC1NCJM,里双子,见证者,超级大狐,公孙镡,17:22,<a href="https://www.bilibili.com/video/BV1xPYWzCEBG" target="_blank">Link 第二局</a>,
+常规擂台,2025/08/17,JJQS341Y,表 lost,祸兽,超级大狐,交易所,17:58,<a href="https://www.bilibili.com/video/BV1xPYWzCEBG" target="_blank">Link 第三局</a>,
+常规擂台,2025/08/17,VWSHTSPX,表店长,见证者,ysa冰糖,超级大狐,19:45,<a href="https://www.bilibili.com/video/BV1xPYWzCEBG" target="_blank">Link 第四局</a>,
+常规擂台,2025/08/17,43ZD0M3Q,表以撒,见证者,chiiqiawa,ysa冰糖,15:24,<a href="https://www.bilibili.com/video/BV1xPYWzCEBG" target="_blank">Link 第五局</a>,
+常规擂台,2025/08/17,CDLMK2Q0,表该隐,羔羊,以撒北小鸟,chiiqiawa,11:05,<a href="https://www.bilibili.com/video/BV1xPYWzCEBG" target="_blank">Link 第六局</a>,
+常规擂台,2025/08/17,YJ9L1CYT,里亚伯伦,小蓝人,心铃,以撒北小鸟,12:40,<a href="https://www.bilibili.com/video/BV1xPYWzCEBG" target="_blank">Link 第七局</a>,
+常规擂台,2025/08/17,T3AJWWRW,里莉莉丝,羔羊,喻菁,心铃,12:59,<a href="https://www.bilibili.com/video/BV1xPYWzCEBG" target="_blank">Link 第八局</a>,
+常规擂台,2025/08/17,3R1SNFM7,里 AZ,小蓝人,天灾使者,喻菁,12:21,<a href="https://www.bilibili.com/video/BV1xPYWzCEBG" target="_blank">Link 第九局</a>,
+常规擂台,2025/08/17,84K8739X,表蓝人,小蓝人,天灾使者,远古柱之男,13:37,<a href="https://www.bilibili.com/video/BV1xPYWzCEBG" target="_blank">Link 第十局</a>,
+常规擂台,2025/08/17,M3LE63B6,表 lost,小蓝人,天灾使者,五更琉璃,16:23,<a href="https://www.bilibili.com/video/BV1xPYWzCEBG" target="_blank">Link 第十一局</a>,
+常规擂台,2025/08/17,4KAGBEKQ,里犹大,羔羊,天灾使者,MSC、耗子,11:15,<a href="https://www.bilibili.com/video/BV1xPYWzCEBG" target="_blank">Link 第十二局</a>,
+常规擂台,2025/08/17,A2GLD1SR,里抹大拉,祸兽,天灾使者,进击的松鼠君,14:10,<a href="https://www.bilibili.com/video/BV1xPYWzCEBG" target="_blank">Link 第十三局</a>,
+常规擂台,2025/08/17,ZEAZF42Z,里以撒,大撒旦,天灾使者,LemonGame73132,30:45,<a href="https://www.bilibili.com/video/BV1xPYWzCEBG" target="_blank">Link 第十四局</a>,
+常规擂台,2025/08/18,WKGSH3GE,表夏娃,见证者,超级大狐,122里22,13:43,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第一局</a>,
+常规擂台,2025/08/18,9GDFM27S,里双子,大撒旦,超级大狐,喜气洋洋,21:15,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第二局</a>,
+常规擂台,2025/08/18,CT3PVAX9,表亚伯伦,祸兽,超级大狐,故障小蓝神,22:39,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第三局</a>,
+常规擂台,2025/08/18,7ADD9ECL,里莉莉丝,大撒旦,超级大狐,创世纪神教教主,11:46,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第四局</a>,
+常规擂台,2025/08/18,WAR8JCK8,表伊甸,大撒旦,远古柱之男,超级大狐,20:15,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第五局</a>,
+常规擂台,2025/08/18,1KCNMTBS,表 lost,祸兽,心铃,远古柱之男,99:99,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第六局</a>,
+常规擂台,2025/08/18,W96QPQ18,表双子,小蓝人,粉汗衫,心铃,19:22,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第七局</a>,
+常规擂台,2025/08/18,DYDEEMSB,里抹大拉,祸兽,公孙镡,粉汗衫,22:51,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第八局</a>,
+常规擂台,2025/08/18,RBEFNK73,里参孙,小蓝人,公孙镡,神游的旅人,15:46,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第九局</a>,
+常规擂台,2025/08/18,9SMJB3YS,里 lost,羔羊,天灾使者,公孙镡,12:24,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第十局</a>,
+常规擂台,2025/08/18,60Z2XCJS,表莉莉丝,羔羊,天灾使者,玉枫,20:38,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第十一局</a>,
+常规擂台,2025/08/18,V0QWDQAZ,表店长,大撒旦,天灾使者,LemonGame73132,12:07,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第十二局</a>,
+常规擂台,2025/08/18,RJRL90XW,表抹大拉,小蓝人,天灾使者,哈基人爱以撒,15:23,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第十三局</a>,
+常规擂台,2025/08/18,8V7XLTRQ,里骨哥,大撒旦,天灾使者,进击的松鼠君,10:35,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第十四局</a>,
+常规擂台,2025/08/18,R7TD0V0B,里夏娃,凹凸,天灾使者,数字冰箱贴,11:19,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第十五局</a>,
+常规擂台,2025/08/18,JL86ZYAG,表蓝人,大撒旦,天灾使者,魔女苏顺西,99:99,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第十六局</a>,
+常规擂台,2025/08/18,76PTLEYV,表 AZ,凹凸,天灾使者,长梦秋,12:12,<a href="https://www.bilibili.com/video/BV1MSYtzbEjs" target="_blank">Link 第十七局</a>,
+常规擂台,2025/08/19,YGVJHVBS,里 AZ,见证者,chiiqiawa,进击的松鼠君,18:44,<a href="https://www.bilibili.com/video/BV1C6eAzHE48" target="_blank">Link 第一局</a>,
+常规擂台,2025/08/19,EXSEQD4N,表 AZ,凹凸,chiiqiawa,light、,9:59,<a href="https://www.bilibili.com/video/BV1C6eAzHE48" target="_blank">Link 第二局</a>,
+常规擂台,2025/08/19,ZSR32LLC,表蓝人,小蓝人,喜气洋洋,chiiqiawa,19:26,<a href="https://www.bilibili.com/video/BV1C6eAzHE48" target="_blank">Link 第三局</a>,
+常规擂台,2025/08/19,H6NRCCJ6,表 lost,大撒旦,喜气洋洋,千迴夜舞,12:36,<a href="https://www.bilibili.com/video/BV1C6eAzHE48" target="_blank">Link 第四局</a>,
+常规擂台,2025/08/19,X2M03PKE,里亚伯伦,祸兽,虚限、夜白,喜气洋洋,16:00,<a href="https://www.bilibili.com/video/BV1C6eAzHE48" target="_blank">Link 第五局</a>,
+常规擂台,2025/08/19,KZNP9JMQ,表店长,祸兽,创世纪,虚限、夜白,99:99,<a href="https://www.bilibili.com/video/BV1C6eAzHE48" target="_blank">Link 第六局</a>,
+常规擂台,2025/08/19,JJ47739A,里双子,见证者,创世纪,公孙镡,16:52,<a href="https://www.bilibili.com/video/BV1C6eAzHE48" target="_blank">Link 第七局</a>,
+常规擂台,2025/08/19,LQ1S6FMN,表亚伯伦,凹凸,创世纪,数字冰箱贴,15:20,<a href="https://www.bilibili.com/video/BV1C6eAzHE48" target="_blank">Link 第八局</a>,
+常规擂台,2025/08/19,CCN0Q1GC,表拉撒路,祸兽,创世纪,交易所,16:00,<a href="https://www.bilibili.com/video/BV1C6eAzHE48" target="_blank">Link 第九局</a>,
+常规擂台,2025/08/19,ZXSC26AT,里蓝人,小蓝人,天灾使者,创世纪,19:06,<a href="https://www.bilibili.com/video/BV1C6eAzHE48" target="_blank">Link 第十局</a>,
+常规擂台,2025/08/19,EKLYETBL,表伯大尼,见证者,天灾使者,超级大狐,16:58,<a href="https://www.bilibili.com/video/BV1C6eAzHE48" target="_blank">Link 第十一局</a>,
+常规擂台,2025/08/19,L7AQWTY6,表以撒,小蓝人,天灾使者,sakuya,16:24,<a href="https://www.bilibili.com/video/BV1C6eAzHE48" target="_blank">Link 第十三局</a>,
+常规擂台,2025/08/19,TWPFGWV9,表该隐,大撒旦,长梦秋,天灾使者,17:06,<a href="https://www.bilibili.com/video/BV1C6eAzHE48" target="_blank">Link 第十四局</a>,
+常规擂台,2025/08/20,YEWEYY40,表夏娃,小蓝人,方糖13a,LemonGame73132,13:07,<a href="https://www.bilibili.com/video/BV1poY2ziETw" target="_blank">Link 第一局</a>,
+常规擂台,2025/08/20,3SP6C6KZ,表伊甸,见证者,故障小蓝神,方糖13a,13:11,<a href="https://www.bilibili.com/video/BV1poY2ziETw" target="_blank">Link 第二局</a>,
+常规擂台,2025/08/20,967C6H6G,表参孙,羔羊,故障小蓝神,喜气洋洋,15:51,<a href="https://www.bilibili.com/video/BV1poY2ziETw" target="_blank">Link 第三局</a>,
+常规擂台,2025/08/20,SX7KDBV4,里参孙,凹凸,粉汗衫,故障小蓝神,99:99,<a href="https://www.bilibili.com/video/BV1poY2ziETw" target="_blank">Link 第四局</a>,
+常规擂台,2025/08/20,9SQQWQQA,里 lost,祸兽,数字冰箱贴,粉汗衫,21:03,<a href="https://www.bilibili.com/video/BV1poY2ziETw" target="_blank">Link 第五局</a>,
+常规擂台,2025/08/20,HR0M9TG4,表伊甸,大撒旦,千迴夜舞,数字冰箱贴,24:32,<a href="https://www.bilibili.com/video/BV1poY2ziETw" target="_blank">Link 第六局</a>,
+常规擂台,2025/08/20,HSKTE8D9,里犹大,凹凸,千迴夜舞,sunday_rain,12:05,<a href="https://www.bilibili.com/video/BV1poY2ziETw" target="_blank">Link 第七局</a>,
+常规擂台,2025/08/20,T9A866QY,里亚伯伦,见证者,魔女苏顺西,千迴夜舞,27:48,<a href="https://www.bilibili.com/video/BV1poY2ziETw" target="_blank">Link 第八局</a>,
+常规擂台,2025/08/20,VNB82RRV,里以撒,祸兽,魔女苏顺西,创世纪神教教主,19:13,<a href="https://www.bilibili.com/video/BV1poY2ziETw" target="_blank">Link 第九局</a>,
+常规擂台,2025/08/20,B826YLH1,表 lost,见证者,公孙镡,魔女苏顺西,99:99,<a href="https://www.bilibili.com/video/BV1poY2ziETw" target="_blank">Link 第十局</a>,
+常规擂台,2025/08/20,CTGKVXZF,表伯大尼,见证者,超级大狐,公孙镡,14:41,<a href="https://www.bilibili.com/video/BV1poY2ziETw" target="_blank">Link 第十一局</a>,
+常规擂台,2025/08/20,G8DH1VZ3,表骨哥,祸兽,天灾使者,超级大狐,13:52,<a href="https://www.bilibili.com/video/BV1poY2ziETw" target="_blank">Link 第十二局</a>,
+常规擂台,2025/08/20,DFGP02KY,表夏娃,大撒旦,天灾使者,远古柱之男,19:11,<a href="https://www.bilibili.com/video/BV1poY2ziETw" target="_blank">Link 第十三局</a>,
+常规擂台,2025/08/20,NAXGQLMN,里伯大尼,小蓝人,天灾使者,sakuya,15:21,<a href="https://www.bilibili.com/video/BV1poY2ziETw" target="_blank">Link 第十四局</a>,
+常规擂台,2025/08/20,CMFBR78Z,表店长,大撒旦,天灾使者,交易所,9:46,<a href="https://www.bilibili.com/video/BV1poY2ziETw" target="_blank">Link 第十五局</a>,
+常规擂台,2025/08/20,KQCQPD8L,里骨哥,凹凸,天灾使者,light、,11:15,<a href="https://www.bilibili.com/video/BV1poY2ziETw" target="_blank">Link 第十六局</a>,
+常规擂台,2025/08/21,1X1469XG,表该隐,见证者,超级大狐,九天之枫,13:35,<a href="https://www.bilibili.com/video/BV14ZYXzFEHM" target="_blank">Link 第一局</a>,
+常规擂台,2025/08/21,6KWYGTLM,里店长,大撒旦,超级大狐,拂晓前线,99:99,<a href="https://www.bilibili.com/video/BV14ZYXzFEHM" target="_blank">Link 第二局</a>,
+常规擂台,2025/08/21,22YQJ764,里以撒,羔羊,超级大狐,故障小蓝神,15:16,<a href="https://www.bilibili.com/video/BV14ZYXzFEHM" target="_blank">Link 第三局</a>,
+常规擂台,2025/08/21,LJXY20CL,里抹大拉,见证者,公孙镡,超级大狐,16:49,<a href="https://www.bilibili.com/video/BV14ZYXzFEHM" target="_blank">Link 第四局</a>,
+常规擂台,2025/08/21,MQYJ2QD9,里 lost,大撒旦,苳夏,公孙镡,99:99,<a href="https://www.bilibili.com/video/BV14ZYXzFEHM" target="_blank">Link 第五局</a>,
+常规擂台,2025/08/21,NMSA8TMY,表伯大尼,见证者,sakuya,苳夏,13:19,<a href="https://www.bilibili.com/video/BV14ZYXzFEHM" target="_blank">Link 第六局</a>,
+常规擂台,2025/08/21,9DV471AC,里参孙,凹凸,长梦秋,sakuya,14:22,<a href="https://www.bilibili.com/video/BV14ZYXzFEHM" target="_blank">Link 第七局</a>,
+常规擂台,2025/08/21,GDGXVAGW,里抹大拉,大撒旦,长梦秋,方糖13a,20:45,<a href="https://www.bilibili.com/video/BV14ZYXzFEHM" target="_blank">Link 第八局</a>,
+常规擂台,2025/08/21,JYLC6GEE,里夏娃,大撒旦,长梦秋,魔女苏顺西,10:47,<a href="https://www.bilibili.com/video/BV14ZYXzFEHM" target="_blank">Link 第九局</a>,
+常规擂台,2025/08/24,NBB8DZ14,里夏娃,羔羊,神游的旅人,毛玉小虎,15:13,<a href="https://www.bilibili.com/video/BV11MenzTEHh" target="_blank">Link 第一局</a>,
+常规擂台,2025/08/24,HDDP6P0Z,表莉莉丝,羔羊,进击的松鼠君,神游的旅人,19:58,<a href="https://www.bilibili.com/video/BV11MenzTEHh" target="_blank">Link 第二局</a>,
+常规擂台,2025/08/24,F2KTK0DW,里 lost,见证者,进击的松鼠君,故障小蓝神,11:44,<a href="https://www.bilibili.com/video/BV11MenzTEHh" target="_blank">Link 第三局</a>,
+常规擂台,2025/08/24,LBX9FN1Z,表店长,羔羊,sunday_rain,进击的松鼠君,14:50,<a href="https://www.bilibili.com/video/BV11MenzTEHh" target="_blank">Link 第四局</a>,
+常规擂台,2025/08/24,L2WPETE4,表蓝人,小蓝人,sunday_rain,风雅颂,14:18,<a href="https://www.bilibili.com/video/BV11MenzTEHh" target="_blank">Link 第五局</a>,
+常规擂台,2025/08/24,6JXQBWJ7,表 AZ,见证者,sakuya,sunday_rain,8:55,<a href="https://www.bilibili.com/video/BV11MenzTEHh" target="_blank">Link 第六局</a>,
+常规擂台,2025/08/24,WVN3LRT9,里亚伯伦,羔羊,sakuya,粉汗衫,14:43,<a href="https://www.bilibili.com/video/BV11MenzTEHh" target="_blank">Link 第七局</a>,
+常规擂台,2025/08/24,ZAYACVN4,表该隐,大撒旦,天灾使者,sakuya,15:45,<a href="https://www.bilibili.com/video/BV11MenzTEHh" target="_blank">Link 第八局</a>,
+常规擂台,2025/08/24,KKZDG0RV,里双子,见证者,天灾使者,Oxygen-_-_-,13:24,<a href="https://www.bilibili.com/video/BV11MenzTEHh" target="_blank">Link 第九局</a>,
+常规擂台,2025/08/24,F9SYQW3J,表亚伯伦,小蓝人,天灾使者,数字冰箱贴,17:33,<a href="https://www.bilibili.com/video/BV11MenzTEHh" target="_blank">Link 第十一局</a>,
+常规擂台,2025/08/24,41BFPP4M,里莉莉丝,羔羊,天灾使者,light、,10:55,<a href="https://www.bilibili.com/video/BV11MenzTEHh" target="_blank">Link 第十二局</a>,
+常规擂台,2025/08/24,4MWFF1HD,表 AZ,大撒旦,天灾使者,远古柱之男,10:16,<a href="https://www.bilibili.com/video/BV11MenzTEHh" target="_blank">Link 第十三局</a>,
+常规擂台,2025/08/24,F4JHF04R,表犹大,大撒旦,五更琉璃,天灾使者,14:17,<a href="https://www.bilibili.com/video/BV11MenzTEHh" target="_blank">Link 第十四局</a>,
+常规擂台,2025/08/25,QHWNQJ3C,里夏娃,大撒旦,千迴夜舞,心铃,17:57,<a href="https://www.bilibili.com/video/BV134vFztEp1" target="_blank">Link 第一局</a>,
+常规擂台,2025/08/25,H0JV2SGY,里 lost,大撒旦,公孙镡,千迴夜舞,16:17,<a href="https://www.bilibili.com/video/BV134vFztEp1" target="_blank">Link 第二局</a>,
+常规擂台,2025/08/25,PCZ6W6JY,表伊甸,凹凸,故障小蓝神,公孙镡,21:11,<a href="https://www.bilibili.com/video/BV134vFztEp1" target="_blank">Link 第三局</a>,
+常规擂台,2025/08/25,CXGF6SFS,表骨哥,羔羊,故障小蓝神,进击的松鼠君,15:12,<a href="https://www.bilibili.com/video/BV134vFztEp1" target="_blank">Link 第四局</a>,
+常规擂台,2025/08/25,B3H9WGLC,表拉撒路,小蓝人,Oxygen-_-_-,故障小蓝神,12:24,<a href="https://www.bilibili.com/video/BV134vFztEp1" target="_blank">Link 第五局</a>,
+常规擂台,2025/08/25,KRR4BJLL,表伊甸,凹凸,sunday_rain,Oxygen-_-_-,12:03,<a href="https://www.bilibili.com/video/BV134vFztEp1" target="_blank">Link 第六局</a>,
+常规擂台,2025/08/25,LC66FJWB,里犹大,凹凸,sunday_rain,长梦秋,11:44,<a href="https://www.bilibili.com/video/BV134vFztEp1" target="_blank">Link 第七局</a>,
+常规擂台,2025/08/25,13HTBRYZ,表 lost,祸兽,粉汗衫,sunday_rain,19:58,<a href="https://www.bilibili.com/video/BV134vFztEp1" target="_blank">Link 第八局</a>,
+常规擂台,2025/08/25,MHFRRWZL,里参孙,小蓝人,light、,美少女小雪糕,13:35,<a href="https://www.bilibili.com/video/BV134vFztEp1" target="_blank">Link 第九局</a>,
+常规擂台,2025/08/25,V2QNAZAB,表 lost,羔羊,light、,创世纪神教教主,15:42,<a href="https://www.bilibili.com/video/BV134vFztEp1" target="_blank">Link 第十局</a>,
+常规擂台,2025/08/25,KGACA02P,里以撒,羔羊,天灾使者,light、,14:43,<a href="https://www.bilibili.com/video/BV134vFztEp1" target="_blank">Link 第十一局</a>,
+常规擂台,2025/08/25,Z72YDQCC,表拉撒路,大撒旦,天灾使者,风雅颂,17:06,<a href="https://www.bilibili.com/video/BV134vFztEp1" target="_blank">Link 第十二局</a>,
+常规擂台,2025/08/25,8ER1XJ4Z,里 AZ,见证者,天灾使者,喻菁,11:44,<a href="https://www.bilibili.com/video/BV134vFztEp1" target="_blank">Link 第十三局</a>,
+常规擂台,2025/08/25,B68P9KJ9,表参孙,祸兽,天灾使者,五更琉璃,18:14,<a href="https://www.bilibili.com/video/BV134vFztEp1" target="_blank">Link 第十四局</a>,
+常规擂台,2025/08/27,GLMCDGCY,表抹大拉,见证者,light、,创世纪神教教主,13:51,<a href="https://www.bilibili.com/video/BV1AXh1zYEQ6" target="_blank">Link 第一局</a>,
+常规擂台,2025/08/27,1VHRYJKN,表骨哥,羔羊,light、,葡萄蒲公英,15:50,<a href="https://www.bilibili.com/video/BV1AXh1zYEQ6" target="_blank">Link 第二局</a>,
+常规擂台,2025/08/27,0B3T6MPM,表以撒,凹凸,天灾使者,light、,15:33,<a href="https://www.bilibili.com/video/BV1AXh1zYEQ6" target="_blank">Link 第三局</a>,
+常规擂台,2025/08/27,606HW9GK,里参孙,羔羊,天灾使者,公孙镡,13:02,<a href="https://www.bilibili.com/video/BV1AXh1zYEQ6" target="_blank">Link 第四局</a>,
+常规擂台,2025/08/27,CEFMERET,表亚伯伦,见证者,天灾使者,以撒北小鸟,14:52,<a href="https://www.bilibili.com/video/BV1AXh1zYEQ6" target="_blank">Link 第五局</a>,
+常规擂台,2025/08/27,2WK0D770,表骨哥,祸兽,天灾使者,故障小蓝神,17:12,<a href="https://www.bilibili.com/video/BV1AXh1zYEQ6" target="_blank">Link 第六局</a>,
+常规擂台,2025/08/27,VCEMR969,里伯大尼,祸兽,天灾使者,心铃,16:55,<a href="https://www.bilibili.com/video/BV1AXh1zYEQ6" target="_blank">Link 第七局</a>,
+常规擂台,2025/08/27,RJE9HA8W,表 AZ,见证者,Oxygen-_-_-,天灾使者,12:09,<a href="https://www.bilibili.com/video/BV1AXh1zYEQ6" target="_blank">Link 第八局</a>,
+常规擂台,2025/08/27,17JM8FRK,表抹大拉,羔羊,Oxygen-_-_-,进击的松鼠君,25:26,<a href="https://www.bilibili.com/video/BV1AXh1zYEQ6" target="_blank">Link 第九局</a>,
+常规擂台,2025/08/27,80RGJ17S,里参孙,凹凸,风雅颂,Oxygen-_-_-,14:19,<a href="https://www.bilibili.com/video/BV1AXh1zYEQ6" target="_blank">Link 第十局</a>,
+常规擂台,2025/08/27,4X94SZ14,表拉撒路,大撒旦,风雅颂,长梦秋,99:99,<a href="https://www.bilibili.com/video/BV1AXh1zYEQ6" target="_blank">Link 第十一局</a>,
+常规擂台,2025/08/27,ND6Y9ZER,里双子,大撒旦,魔女苏顺西,风雅颂,22:47,<a href="https://www.bilibili.com/video/BV1AXh1zYEQ6" target="_blank">Link 第十二局</a>,
+常规擂台,2025/08/27,T39CLLAV,表夏娃,羔羊,魔女苏顺西,浩渝i,18:13,<a href="https://www.bilibili.com/video/BV1AXh1zYEQ6" target="_blank">Link 第十三局</a>,
+常规擂台,2025/08/27,YTTGEYZS,表参孙,凹凸,魔女苏顺西,sakuya,20:02,<a href="https://www.bilibili.com/video/BV1AXh1zYEQ6" target="_blank">Link 第十四局</a>,
+常规擂台,2025/08/27,GP46VJ6P,里蓝人,祸兽,魔女苏顺西,千迴夜舞,20:37,<a href="https://www.bilibili.com/video/BV1AXh1zYEQ6" target="_blank">Link 第十五局</a>,
