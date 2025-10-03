@@ -2,7 +2,6 @@
     <meta charset="utf-8">
     <title>竞速对局记录</title>
 </head>
-
 <style>
     table {
         width: 100%;
@@ -16,392 +15,393 @@
     th {
         background-color:rgb(205, 205, 205);
         font-weight: bold;
-        user-select: none;
+		user-select: none;
     }
-    th::after {
-        content: "▲";
-        right: 1px
-        font-size: 12px;
-        opacity: 0.2;
-        transition: opacity 0.2s;
-    }
-    th.desc::after {
-        content: "▼";
-        opacity: 1;
-    }
-    th.asc::after {
-        content: "▲";
-        opacity: 1;
-    }
-    .modal {
-        display: none;
-        position: fixed;
-        z-index: 1000;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgba(0,0,0,0.5);
-    }
+	th::after {
+		content: "▲";
+		right: 1px
+		font-size: 12px;
+		opacity: 0.2;
+		transition: opacity 0.2s;
+	}
+	th.desc::after {
+		content: "▼";
+		opacity: 1;
+	}
+	th.asc::after {
+		content: "▲";
+		opacity: 1;
+	}
+	.modal {
+		display: none;
+		position: fixed;
+		z-index: 1000;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		background-color: rgba(0,0,0,0.5);
+	}
 
-    .modal-content {
-        background-color: #fff;
-        margin: 10% auto;
-        padding: 20px;
-        border: 1px solid #888;
-        width: 80%;
-        border-radius: 10px;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    }
+	.modal-content {
+		background-color: #fff;
+		margin: 10% auto;
+		padding: 20px;
+		border: 1px solid #888;
+		width: 80%;
+		border-radius: 10px;
+		box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	}
 
-    .close {
-        color: #aaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-        cursor: pointer;
-    }
+	.close {
+		color: #aaa;
+		float: right;
+		font-size: 28px;
+		font-weight: bold;
+		cursor: pointer;
+	}
 
-    .close:hover,
-    .close:focus {
-        color: black;
-        text-decoration: none;
-        cursor: pointer;
-    }
+	.close:hover,
+	.close:focus {
+		color: black;
+		text-decoration: none;
+		cursor: pointer;
+	}
 
-    .highlight-row td {
-        font-weight: bold;
-        color: blue;
-    }
+	.highlight-row td {
+		font-weight: bold;
+		color: blue;
+	}
 
-    .highlight-red-row td {
-        font-weight: bold;
-        color: red;
-    }
+	.highlight-red-row td {
+		font-weight: bold;
+		color: red;
+	}
 </style>
-
-<h2 id="常规竞速"><a href="#常规竞速" class="headerlink" title="常规竞速"></a><center>常规竞速</center></h2><h3 id="版本：忏悔"><a href="#版本：忏悔" class="headerlink" title="版本：忏悔"></a><center>版本：忏悔</center></h3><h4 id="记录（点击表头可排序）"><a href="#记录（点击表头可排序）" class="headerlink" title="记录（点击表头可排序）"></a><center>记录（点击表头可排序）</center></h4><table class="cen main-table" id="recTable" style="width: 100%">
-    <thead>
-        <tr>
-            <th style="width: 8%" onclick="sortTable(0,0)">来源</th>
-            <th style="width: 8%" onclick="sortTable(1,0)">日期</th>
-            <th style="width: 8%" onclick="sortTable(2,0)">种子</th>
-            <th style="width: 8%" onclick="sortTable(3,0)">角色</th>
-            <th style="width: 8%" onclick="sortTable(4,0)">终点</th>
-            <th style="width: 8%" onclick="sortTable(5,0)">胜者</th>
-            <th style="width: 8%" onclick="sortTable(6,0)">败者</th>
-            <th style="width: 8%" onclick="sortTable(7,0)">胜者成绩</th>
-            <th style="width: 8%" onclick="sortTable(8,0)">视频</th>
-            <th style="width: 20%" onclick="sortTable(9,0)">新知识/送&#x1F36C;</th>
-        </tr>
-    </thead>
-    <tbody>
-    </tbody>
+<h2 id="center常规竞速center"><a class="markdownIt-Anchor" href="#center常规竞速center"></a> <center>常规竞速</center></h2>
+<h3 id="center版本忏悔center"><a class="markdownIt-Anchor" href="#center版本忏悔center"></a> <center>版本：忏悔</center></h3>
+<h4 id="center记录点击表头可排序center"><a class="markdownIt-Anchor" href="#center记录点击表头可排序center"></a> <center>记录（点击表头可排序）</center></h4>
+<table class="cen main-table" id="recTable" style="width: 100%">
+	<thead>
+		<tr>
+			<th style="width: 8%" onclick="sortTable(0,0)">来源</th>
+			<th style="width: 8%" onclick="sortTable(1,0)">日期</th>
+			<th style="width: 8%" onclick="sortTable(2,0)">种子</th>
+			<th style="width: 8%" onclick="sortTable(3,0)">角色</th>
+			<th style="width: 8%" onclick="sortTable(4,0)">终点</th>
+			<th style="width: 8%" onclick="sortTable(5,0)">胜者</th>
+			<th style="width: 8%" onclick="sortTable(6,0)">败者</th>
+			<th style="width: 8%" onclick="sortTable(7,0)">胜者成绩</th>
+			<th style="width: 8%" onclick="sortTable(8,0)">视频</th>
+			<th style="width: 20%" onclick="sortTable(9,0)">新知识/送&#x1F36C;</th>
+		</tr>
+	</thead>
+	<tbody>
+	</tbody>
 </table>
-
-<h2 id="海选"><a href="#海选" class="headerlink" title="海选"></a><center>海选</center></h2><h3 id="版本：忏悔-1"><a href="#版本：忏悔-1" class="headerlink" title="版本：忏悔"></a><center>版本：忏悔</center></h3><h4 id="记录（点击表头可排序）-1"><a href="#记录（点击表头可排序）-1" class="headerlink" title="记录（点击表头可排序）"></a><center>记录（点击表头可排序）</center></h4><table class="cen main-table" id="recTable2" style="width: 100%">
-    <thead>
-        <tr>
-            <th style="width: 20%" onclick="sortTable(0,1)">来源</th>
-            <th style="width: 14%" onclick="sortTable(1,1)">日期</th>
-            <th style="width: 12%" onclick="sortTable(2,1)">种子</th>
-            <th style="width: 12%" onclick="sortTable(3,1)">角色</th>
-            <th style="width: 12%" onclick="sortTable(4,1)">终点</th>
-            <th style="width: 15%" onclick="sortTable(5,1)">成绩</th>
-            <th style="width: 15%" onclick="sortTable(6,1)">整组成绩</th>
-        </tr>
-    </thead>
-    <tbody>
-    </tbody>
+<h2 id="center海选center"><a class="markdownIt-Anchor" href="#center海选center"></a> <center>海选</center></h2>
+<h3 id="center版本忏悔center-2"><a class="markdownIt-Anchor" href="#center版本忏悔center-2"></a> <center>版本：忏悔</center></h3>
+<h4 id="center记录点击表头可排序center-2"><a class="markdownIt-Anchor" href="#center记录点击表头可排序center-2"></a> <center>记录（点击表头可排序）</center></h4>
+<table class="cen main-table" id="recTable2" style="width: 100%">
+	<thead>
+		<tr>
+			<th style="width: 20%" onclick="sortTable(0,1)">来源</th>
+			<th style="width: 14%" onclick="sortTable(1,1)">日期</th>
+			<th style="width: 12%" onclick="sortTable(2,1)">种子</th>
+			<th style="width: 12%" onclick="sortTable(3,1)">角色</th>
+			<th style="width: 12%" onclick="sortTable(4,1)">终点</th>
+			<th style="width: 15%" onclick="sortTable(5,1)">成绩</th>
+			<th style="width: 15%" onclick="sortTable(6,1)">整组成绩</th>
+		</tr>
+	</thead>
+	<tbody>
+	</tbody>
 </table>
-
 <div id="myModal" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h3>成绩详情</h3>
-        <table id="modalTable">
-            <thead>
-                <tr>
-                    <th style="width: 30%" onclick="sortTable(0,2)">选手</th>
-                    <th style="width: 10%" onclick="sortTable(1,2)">层数</th>
-                    <th style="width: 20%" onclick="sortTable(2,2)">时间</th>
-                    <th style="width: 10%" onclick="sortTable(3,2)">分数</th>
-                    <th style="width: 30%" onclick="sortTable(4,2)">视频</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
-    </div>
+	<div class="modal-content">
+		<span class="close">&times;</span>
+		<h3>成绩详情</h3>
+		<table id="modalTable">
+			<thead>
+				<tr>
+					<th style="width: 30%" onclick="sortTable(0,2)">选手</th>
+					<th style="width: 10%" onclick="sortTable(1,2)">层数</th>
+					<th style="width: 20%" onclick="sortTable(2,2)">时间</th>
+					<th style="width: 10%" onclick="sortTable(3,2)">分数</th>
+					<th style="width: 30%" onclick="sortTable(4,2)">视频</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
 </div>
-
 <div id="myModal2" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h3>成绩详情</h3>
-        <table id="modalTable2">
-            <thead>
-                <tr>
-                    <th style="width: 15%" onclick="sortTable(0,3)">选手</th>
-                    <th style="width: 7%" onclick="sortTable(1,3)">一种层数</th>
-                    <th style="width: 7%" onclick="sortTable(2,3)">一种时间</th>
-                    <th style="width: 7%" onclick="sortTable(3,3)">一种分数</th>
-                    <th style="width: 7%" onclick="sortTable(4,3)">二种层数</th>
-                    <th style="width: 7%" onclick="sortTable(5,3)">二种时间</th>
-                    <th style="width: 7%" onclick="sortTable(6,3)">二种分数</th>
-                    <th style="width: 7%" onclick="sortTable(7,3)">三种层数</th>
-                    <th style="width: 7%" onclick="sortTable(8,3)">三种时间</th>
-                    <th style="width: 7%" onclick="sortTable(9,3)">三种分数</th>
-                    <th style="width: 7%" onclick="sortTable(10,3)">总分</th>
-                    <th style="width: 15%" onclick="sortTable(11,3)">视频</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
-    </div>
+	<div class="modal-content">
+		<span class="close">&times;</span>
+		<h3>成绩详情</h3>
+		<table id="modalTable2">
+			<thead>
+				<tr>
+					<th style="width: 15%" onclick="sortTable(0,3)">选手</th>
+					<th style="width: 7%" onclick="sortTable(1,3)">一种层数</th>
+					<th style="width: 7%" onclick="sortTable(2,3)">一种时间</th>
+					<th style="width: 7%" onclick="sortTable(3,3)">一种分数</th>
+					<th style="width: 7%" onclick="sortTable(4,3)">二种层数</th>
+					<th style="width: 7%" onclick="sortTable(5,3)">二种时间</th>
+					<th style="width: 7%" onclick="sortTable(6,3)">二种分数</th>
+					<th style="width: 7%" onclick="sortTable(7,3)">三种层数</th>
+					<th style="width: 7%" onclick="sortTable(8,3)">三种时间</th>
+					<th style="width: 7%" onclick="sortTable(9,3)">三种分数</th>
+					<th style="width: 7%" onclick="sortTable(10,3)">总分</th>
+					<th style="width: 15%" onclick="sortTable(11,3)">视频</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
 </div>
-
 <script>
-    async function loadTable() {
-        const response = await fetch("data.txt");
-        const text = await response.text();
-        const rows = text.split("\n").map(row => row.split(","));
+	async function loadTable() {
+		const response = await fetch("data.txt");
+		const text = await response.text();
+		const rows = text.split("\n").map(row => row.split(","));
 
-        const tableBody = document.querySelector("#recTable tbody");
-        tableBody.innerHTML = rows.slice(1).map(row => 
-            `<tr>${row.map((col, i) => {
-                let text = col.trim();
-                if (i === 5 || i === 6) {
-                    return `<td><strong>${text}</strong></td>`;
-                } else {
-                    return `<td>${text}</td>`;
-                }
-            }).join("")}</tr>`
-        ).join("");
-        applyGradient(document.getElementById("recTable"));
+		const tableBody = document.querySelector("#recTable tbody");
+		tableBody.innerHTML = rows.slice(1).map(row => 
+			`<tr>${row.map((col, i) => {
+				let text = col.trim();
+				if (i === 5 || i === 6) {
+					return `<td><strong>${text}</strong></td>`;
+				} else {
+					return `<td>${text}</td>`;
+				}
+			}).join("")}</tr>`
+		).join("");
+		applyGradient(document.getElementById("recTable"));
 
+		
+		const response2 = await fetch("data2.txt");
+		const text2 = await response2.text();
+		const rows2 = text2.split("\n").map(row => row.split(","));
 
-        const response2 = await fetch("data2.txt");
-        const text2 = await response2.text();
-        const rows2 = text2.split("\n").map(row => row.split(","));
+		const tableBody2 = document.querySelector("#recTable2 tbody");
+		tableBody2.innerHTML = rows2.slice(1).map(row =>
+			`<tr>${row.map((col, i) => {
+				let text = col.trim();
+				if (i === 5) {
+					return `<td style="cursor: pointer; color: blue;" onclick="generateDetailTable('${text}')">详情</td>`;
+				} else if (i === 6) {
+					return `<td style="cursor: pointer; color: blue;" onclick="generateDetailTable2('${text}')">详情</td>`;
+				} else {
+					return `<td>${text}</td>`;
+				}
+			}).join("")}</tr>`
+		).join("");
+		applyGradient(document.getElementById("recTable2"));
+	}
 
-        const tableBody2 = document.querySelector("#recTable2 tbody");
-        tableBody2.innerHTML = rows2.slice(1).map(row =>
-            `<tr>${row.map((col, i) => {
-                let text = col.trim();
-                if (i === 5) {
-                    return `<td style="cursor: pointer; color: blue;" onclick="generateDetailTable('${text}')">详情</td>`;
-                } else if (i === 6) {
-                    return `<td style="cursor: pointer; color: blue;" onclick="generateDetailTable2('${text}')">详情</td>`;
-                } else {
-                    return `<td>${text}</td>`;
-                }
-            }).join("")}</tr>`
-        ).join("");
-        applyGradient(document.getElementById("recTable2"));
-    }
+	function sortTable(columnIndex, tableIndex) {
+		let table = tableIndex == 0 ? document.getElementById("recTable") : (tableIndex == 1 ? document.getElementById("recTable2") :
+					(tableIndex == 2 ? document.getElementById("modalTable") : document.getElementById("modalTable2")));
+		let tbody = table.querySelector("tbody");
+		let rows = Array.from(table.rows).slice(1);
+		let isAscending = table.getAttribute("data-sort-dir") !== "asc"; 
 
-    function sortTable(columnIndex, tableIndex) {
-        let table = tableIndex == 0 ? document.getElementById("recTable") : (tableIndex == 1 ? document.getElementById("recTable2") :
-                    (tableIndex == 2 ? document.getElementById("modalTable") : document.getElementById("modalTable2")));
-        let tbody = table.querySelector("tbody");
-        let rows = Array.from(table.rows).slice(1);
-        let isAscending = table.getAttribute("data-sort-dir") !== "asc"; 
+		tbody.innerHTML = "";
+		rows.sort((rowA, rowB) => {
+			if (rowA.cells[1].textContent == "-") {
+				return 0;
+			} else if (rowB.cells[1].textContent == "-") {
+				return 0;
+			}
 
-        tbody.innerHTML = "";
-        rows.sort((rowA, rowB) => {
-            if (rowA.cells[1].textContent == "-") {
-                return 0;
-            } else if (rowB.cells[1].textContent == "-") {
-                return 0;
-            }
+			let cellA = rowA.cells[columnIndex].textContent.trim();
+			let cellB = rowB.cells[columnIndex].textContent.trim();
+			if (isTime(cellA) && isTime(cellB)) {
+				return isAscending ? timeCompare(cellB, cellA) : timeCompare(cellA, cellB);
+			}
+			let isNumeric = !isNaN(cellA) && !isNaN(cellB);
+			
+			return isNumeric 
+				? (isAscending ? cellA - cellB : cellB - cellA) 
+				: (isAscending ? cellA.localeCompare(cellB, 'zh') : cellB.localeCompare(cellA, 'zh'));
+		});
 
-            let cellA = rowA.cells[columnIndex].textContent.trim();
-            let cellB = rowB.cells[columnIndex].textContent.trim();
-            if (isTime(cellA) && isTime(cellB)) {
-                return isAscending ? timeCompare(cellB, cellA) : timeCompare(cellA, cellB);
-            }
-            let isNumeric = !isNaN(cellA) && !isNaN(cellB);
+		table.setAttribute("data-sort-dir", isAscending ? "asc" : "desc");
 
-            return isNumeric 
-                ? (isAscending ? cellA - cellB : cellB - cellA) 
-                : (isAscending ? cellA.localeCompare(cellB, 'zh') : cellB.localeCompare(cellA, 'zh'));
-        });
+		rows.forEach(row => tbody.appendChild(row));
+		let ths = table.querySelectorAll("th");
+		if (isAscending) {
+			ths.forEach(th => {
+				th.classList.remove("asc");
+				th.classList.remove("desc");
+			});
+			ths[columnIndex].classList.add("asc");
+		} else {
+			ths.forEach(th => {
+				th.classList.remove("asc");
+				th.classList.remove("desc");
+			});
+			ths[columnIndex].classList.add("desc");
+		}
+		applyGradient(table);
+	}
 
-        table.setAttribute("data-sort-dir", isAscending ? "asc" : "desc");
-
-        rows.forEach(row => tbody.appendChild(row));
-        let ths = table.querySelectorAll("th");
-        if (isAscending) {
-            ths.forEach(th => {
-                th.classList.remove("asc");
-                th.classList.remove("desc");
-            });
-            ths[columnIndex].classList.add("asc");
-        } else {
-            ths.forEach(th => {
-                th.classList.remove("asc");
-                th.classList.remove("desc");
-            });
-            ths[columnIndex].classList.add("desc");
-        }
-        applyGradient(table);
-    }
-
-    function applyGradient(table) {
+	function applyGradient(table) {
         let rows = table.getElementsByTagName("tr");  
         let startColor = [214, 214, 255];
-        let midColor = [214, 214, 255]
+		let midColor = [214, 214, 255]
         let endColor = [214, 214, 255];
 
         let numRows = rows.length - 1;
-
+        
         for (let i = 1; i < rows.length; i++) {
             let ratio = (i - 1) / (numRows - 1);
-            let r = 0, g = 0, b = 0;
-            if (ratio < 0.5) {
-                let aratio = ratio * 2;
-                r = Math.round(startColor[0] + aratio * (midColor[0] - startColor[0]));
-                g = Math.round(startColor[1] + aratio * (midColor[1] - startColor[1]));
-                b = Math.round(startColor[2] + aratio * (midColor[2] - startColor[2]));
-            } else {
-                let aratio = ratio * 2 - 1;
-                r = Math.round(midColor[0] + aratio * (endColor[0] - midColor[0]));
-                g = Math.round(midColor[1] + aratio * (endColor[1] - midColor[1]));
-                b = Math.round(midColor[2] + aratio * (endColor[2] - midColor[2]));
-            }
+			let r = 0, g = 0, b = 0;
+			if (ratio < 0.5) {
+				let aratio = ratio * 2;
+            	r = Math.round(startColor[0] + aratio * (midColor[0] - startColor[0]));
+            	g = Math.round(startColor[1] + aratio * (midColor[1] - startColor[1]));
+            	b = Math.round(startColor[2] + aratio * (midColor[2] - startColor[2]));
+			} else {
+				let aratio = ratio * 2 - 1;
+            	r = Math.round(midColor[0] + aratio * (endColor[0] - midColor[0]));
+            	g = Math.round(midColor[1] + aratio * (endColor[1] - midColor[1]));
+            	b = Math.round(midColor[2] + aratio * (endColor[2] - midColor[2]));
+			}
             rows[i].style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
         }
     }
 
     window.onload = () => {
-        loadTable();
-    };
+		loadTable();
+	};
 
-    const modal = document.getElementById("myModal");
-    const modalBody = document.getElementById("modal-body");
-    const closeButtons = document.querySelectorAll(".close");
+	const modal = document.getElementById("myModal");
+	const modalBody = document.getElementById("modal-body");
+	const closeButtons = document.querySelectorAll(".close");
 
-    closeButtons.forEach(btn => {
-        btn.addEventListener("click", () => {
-            btn.closest(".modal").style.display = "none";
-        });
-    });
+	closeButtons.forEach(btn => {
+		btn.addEventListener("click", () => {
+			btn.closest(".modal").style.display = "none";
+		});
+	});
 
-    function showModal(modal) {
-        modal.style.display = "block";
-    }
+	function showModal(modal) {
+		modal.style.display = "block";
+	}
 
-    function processRow(rows) {
-        const len = rows.length;
-        rows.sort((rowA, rowB) => {
-            if (rowA[2] == rowB[2]) {
-                return timeCompare(rowA[3], rowB[3])
-            } else {
-                return rowA[2] - rowB[2];
-            }
-        });
-        let newRows = [];
-        let lastRank = 1;
-        let lastScore = null;
-        let lastName = null;
-        let flag = 0;
+	function processRow(rows) {
+		const len = rows.length;
+		rows.sort((rowA, rowB) => {
+			if (rowA[2] == rowB[2]) {
+				return timeCompare(rowA[3], rowB[3])
+			} else {
+				return rowA[2] - rowB[2];
+			}
+		});
+		let newRows = [];
+		let lastRank = 1;
+		let lastScore = null;
+		let lastName = null;
+		let flag = 0;
 
-        for (let i = 0; i < len; i++) {
-            const row = rows[i];
-            if (row[0] == "2") {
-                flag = 1;
-            }
-            const score = row[2];
-            const name = row[3];
-            if (score === lastScore && name === lastName) {
-            } else {
-                lastRank = i - flag + 1;
-                lastScore = score;
-                lastName = name;
-            }
+		for (let i = 0; i < len; i++) {
+			const row = rows[i];
+			if (row[0] == "2") {
+				flag = 1;
+			}
+			const score = row[2];
+			const name = row[3];
+			if (score === lastScore && name === lastName) {
+			} else {
+				lastRank = i - flag + 1;
+				lastScore = score;
+				lastName = name;
+			}
 
-            const newRow = [...row];
-            newRow.splice(4, 0, `${lastRank}`);
-            newRows.push(newRow);
-        }
-        newRows.sort((rowA, rowB) => {
-            return rowA[1].localeCompare(rowB[1], 'zh');
-        });
-        return newRows;
-    }
+			const newRow = [...row];
+			newRow.splice(4, 0, `${lastRank}`);
+			newRows.push(newRow);
+		}
+		newRows.sort((rowA, rowB) => {
+			return rowA[1].localeCompare(rowB[1], 'zh');
+		});
+		return newRows;
+	}
 
-    async function loadModalTable(dataUrl) {
-        const response = await fetch(dataUrl);
-        const text = await response.text();
-        const rows = text.trim().split("\n").map(row => row.split(",")).slice(1);
-        newRows = processRow(rows);
-        const tbody = document.querySelector("#modalTable tbody");
-        tbody.innerHTML = "";
-        tbody.innerHTML = newRows.map(row => {
-            if (row[0] == "0") {
-                return `<tr>${row.slice(1).map(cell => `<td>${cell.trim()}</td>`).join('')}</tr>`;
-            } else if (row[0] == "1") {
-                return `<tr class="highlight-row">${row.slice(1).map(cell => `<td>${cell.trim()}</td>`).join('')}</tr>`;
-            } else {
-                return `<tr class="highlight-red-row">${row.slice(1).map(cell => `<td>${cell.trim()}</td>`).join('')}</tr>`;
-            }
-        }).join('');
-        applyGradient(document.getElementById("modalTable"));
-    }
+	async function loadModalTable(dataUrl) {
+		const response = await fetch(dataUrl);
+		const text = await response.text();
+		const rows = text.trim().split("\n").map(row => row.split(",")).slice(1);
+		newRows = processRow(rows);
+		const tbody = document.querySelector("#modalTable tbody");
+		tbody.innerHTML = "";
+		tbody.innerHTML = newRows.map(row => {
+			if (row[0] == "0") {
+				return `<tr>${row.slice(1).map(cell => `<td>${cell.trim()}</td>`).join('')}</tr>`;
+			} else if (row[0] == "1") {
+				return `<tr class="highlight-row">${row.slice(1).map(cell => `<td>${cell.trim()}</td>`).join('')}</tr>`;
+			} else {
+				return `<tr class="highlight-red-row">${row.slice(1).map(cell => `<td>${cell.trim()}</td>`).join('')}</tr>`;
+			}
+		}).join('');
+		applyGradient(document.getElementById("modalTable"));
+	}
 
-    async function loadModalTable2(tableId) {
-        const response1 = await fetch("time" + tableId + ".1.txt");
-        const response2 = await fetch("time" + tableId + ".2.txt");
-        const response3 = await fetch("time" + tableId + ".3.txt");
-        const text1 = await response1.text();
-        const text2 = await response2.text();
-        const text3 = await response3.text();
-        const rows1 = processRow(text1.trim().split("\n").map(row => row.split(",")).slice(1));
-        const rows2 = processRow(text2.trim().split("\n").map(row => row.split(",")).slice(1));
-        const rows3 = processRow(text3.trim().split("\n").map(row => row.split(",")).slice(1));
-        newRows = rows1.map((row, i) => [...row.slice(0, 5), ...rows2[i].slice(2, 5), ...rows3[i].slice(2, 5), (Number(row[4]) + Number(rows2[i][4]) + Number(rows3[i][4])).toString(), row[5]]);
-        const tbody = document.querySelector("#modalTable2 tbody");
-        tbody.innerHTML = "";
-        tbody.innerHTML = newRows.map(row => {
-            if (row[0] == "0") {
-                return `<tr>${row.slice(1).map(cell => `<td>${cell.trim()}</td>`).join('')}</tr>`;
-            } else if (row[0] == "1") {
-                return `<tr class="highlight-row">${row.slice(1).map(cell => `<td>${cell.trim()}</td>`).join('')}</tr>`;
-            } else {
-                return `<tr class="highlight-red-row">${row.slice(1).map(cell => `<td>${cell.trim()}</td>`).join('')}</tr>`;
-            }
-        }).join('');
-        applyGradient(document.getElementById("modalTable2"));
-    }
+	async function loadModalTable2(tableId) {
+		const response1 = await fetch("time" + tableId + ".1.txt");
+		const response2 = await fetch("time" + tableId + ".2.txt");
+		const response3 = await fetch("time" + tableId + ".3.txt");
+		const text1 = await response1.text();
+		const text2 = await response2.text();
+		const text3 = await response3.text();
+		const rows1 = processRow(text1.trim().split("\n").map(row => row.split(",")).slice(1));
+		const rows2 = processRow(text2.trim().split("\n").map(row => row.split(",")).slice(1));
+		const rows3 = processRow(text3.trim().split("\n").map(row => row.split(",")).slice(1));
+		newRows = rows1.map((row, i) => [...row.slice(0, 5), ...rows2[i].slice(2, 5), ...rows3[i].slice(2, 5), (Number(row[4]) + Number(rows2[i][4]) + Number(rows3[i][4])).toString(), row[5]]);
+		const tbody = document.querySelector("#modalTable2 tbody");
+		tbody.innerHTML = "";
+		tbody.innerHTML = newRows.map(row => {
+			if (row[0] == "0") {
+				return `<tr>${row.slice(1).map(cell => `<td>${cell.trim()}</td>`).join('')}</tr>`;
+			} else if (row[0] == "1") {
+				return `<tr class="highlight-row">${row.slice(1).map(cell => `<td>${cell.trim()}</td>`).join('')}</tr>`;
+			} else {
+				return `<tr class="highlight-red-row">${row.slice(1).map(cell => `<td>${cell.trim()}</td>`).join('')}</tr>`;
+			}
+		}).join('');
+		applyGradient(document.getElementById("modalTable2"));
+	}
 
-    function generateDetailTable(tableId) {
-        loadModalTable("time" + tableId + ".txt").then(() => {
-            showModal(document.getElementById("myModal"));
-        });
-    }
+	function generateDetailTable(tableId) {
+		loadModalTable("time" + tableId + ".txt").then(() => {
+			showModal(document.getElementById("myModal"));
+		});
+	}
 
-    function generateDetailTable2(tableId) {
-        loadModalTable2(tableId).then(() => {
-            showModal(document.getElementById("myModal2"));
-        });
-    }
+	function generateDetailTable2(tableId) {
+		loadModalTable2(tableId).then(() => {
+			showModal(document.getElementById("myModal2"));
+		});
+	}
 
-    function toSec(time) {
-        const parts = time.split(':');
-        const minutes = parseInt(parts[0], 10);
-        const seconds = parseInt(parts[1], 10);
-        return minutes * 60 + seconds;
-    }
+	function toSec(time) {
+		const parts = time.split(':');
+		const minutes = parseInt(parts[0], 10);
+		const seconds = parseInt(parts[1], 10);
+		return minutes * 60 + seconds;
+	}
 
-    function timeCompare(timeA, timeB) {
-        return toSec(timeB) - toSec(timeA);
-    }
+	function timeCompare(timeA, timeB) {
+		return toSec(timeB) - toSec(timeA);
+	}
 
-    function isTime(str) {
-        const regex = /^\d+:[0-5]\d$/;
-        return regex.test(str);
-    }
+	function isTime(str) {
+		const regex = /^\d+:[0-5]\d$/;
+		return regex.test(str);
+	}
 </script><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>

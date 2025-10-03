@@ -1,0 +1,17 @@
+[
+	{"id": 1, "char": [9], "type": "tachie"},
+	{"id": 2, "char": [6], "type": "tachie"},
+	{"id": 3, "char": [12], "type": "tachie"},
+	{"id": 4, "char": [2], "type": "tachie"},
+	{"id": 5, "char": [8], "type": "tachie"},
+	{"id": 6, "char": [1], "type": "tachie"},
+	{"id": 7, "char": [3], "type": "tachie"},
+	{"id": 8, "char": [13], "type": "tachie"},
+	{"id": 9, "char": [11], "type": "tachie"},
+	{"id": 10, "char": [5], "type": "tachie"},
+	{"id": 10, "char": [5], "type": "tachie"},
+	{"id": 11, "char": [10], "type": "tachie"},
+	{"id": 12, "char": [4], "type": "tachie"},
+	{"id": 13, "char": [7], "type": "tachie"},
+	{"id": 14, "char": [14], "type": "tachie"}
+]

@@ -1,0 +1,11 @@
+{
+  "title": "我最爱的零食",
+  "tiers": [
+    {"name":"S","color":"#e11d48","items":[
+      {"text":"寿司"},
+      {"img":"https://picsum.photos/seed/sushi/120","label":"Sushi"}
+    ]},
+    {"name":"A","color":"#f59e0b","items":[{"text":"薯片"},{"text":"烤鸡"}]},
+    {"name":"B","color":"#22c55e","items":[{"text":"苹果派"}]}
+  ]
+}

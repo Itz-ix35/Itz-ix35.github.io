@@ -1,0 +1,41 @@
+{
+	"tiers": [
+		{"name": "最高的山", "color": "#da0901", "items": [
+			{"text": "以撒的结合：重生", "eng": "The Binding of Isaac: Rebirth", "id": 1},
+			{"text": "OMORI", "eng": "OMORI", "id": 2}
+		]},
+		{"name": "神作", "color": "#da8101", "items": [
+			{"text": "几何冲刺", "eng": "Geometry Dash", "id": 3},
+			{"text": "蔚蓝 / 塞莱斯特", "eng": "Celeste", "id": 4},
+			{"text": "超时空方舟", "eng": "Chrono Ark", "id": 5},
+			{"text": "魔法少女的魔女审判", "eng": "Mahou Shoujo no Majo Saiban", "id": 6},
+			{"text": "奥日与萤火意志", "eng": "Ori and the Will of Wisps", "id": 7}
+		]},
+		{"name": "佳作上", "color": "#dad601", "items": [
+			{"text": "帕特里克的悖论箱", "eng": "Patrick's Parabox", "id": 8},
+			{"text": "空洞骑士", "eng": "Hollow Knight", "id": 9},
+			{"text": "梦灯花", "eng": "Noctuary", "id": 10},
+			{"text": "脑叶公司", "eng": "Lobotomy Cooperation", "id": 11},
+			{"text": "超级弹丸论破 2：再见绝望学园", "eng": "Danganronpa 2: Goodbye Despair", "id": 12},
+			{"text": "VA-11 Hall-A：赛博朋克酒保行动", "eng": "VA-11 Hall-A: Cyberpunk Bartender Action", "id": 13},
+			{"text": "废墟图书馆", "eng": "Library of Ruina", "id": 14},
+			{"text": "新·弹丸论破 V3：大家互相残杀的新学期", "eng": "Danganronpa V3: Killing Harmony", "id": 15},
+			{"text": "杀戮尖塔", "eng": "Slay the Spire", "id": 16}
+		]},
+		{"name": "佳作下", "color": "#81da01", "items": [
+			{"text": "Ib / 恐怖美术馆", "eng": "Ib", "id": 17},
+			{"text": "空洞骑士：丝之歌", "eng": "Hollow Knight: Silksong", "id": 18},
+			{"text": "海沙风云", "eng": "Far Away", "id": 19},
+			{"text": "饥荒联机版", "eng": "Don't Starve Together", "id": 20},
+			{"text": "终焉之玛格诺利亚", "eng": "Ender Magnolia", "id": 21},
+			{"text": "宅男的人间冒险", "eng": "Otaku's Adventure", "id": 22}
+		]},
+		{"name": "好评", "color": "#01da92", "items": [
+			{"text": "奥日与黑暗森林", "eng": "Ori and the Blind Forest", "id": 23},
+			{"text": "弹丸论破：希望的学园和绝望高中生", "eng": "Danganronpa: Trigger Happy Havoc", "id": 24},
+			{"text": "不/存在的你和我", "eng": "The NOexistenceN of you AND me", "id": 25},
+			{"text": "终焉之莉莉", "eng": "Ender Lilies", "id": 26},
+			{"text": "纸房子", "eng": "Sweet Home", "id": 27}
+		]}
+	]
+}

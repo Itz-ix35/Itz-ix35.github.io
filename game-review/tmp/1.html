@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha256-xejo6yLi6vGtAjcMIsY8BHdKsLg7QynVlFMzdQgUuy8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"itz-ix35.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"show_result":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="静态 Tier 图（从固定文件读取）        :root{       --bg: #0b0f14; --panel:#0f1520; --border:#1e2633; --text:#e6eefc; --muted:#8ea2c3;       --radius:14px; --shadow:0 6px 24px rgba(0,0,0,.35);     }">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ix35&#39;s Blog">
+<meta property="og:url" content="https://itz-ix35.github.io/game-review/tmp/1.html">
+<meta property="og:site_name" content="ix35&#39;s Blog">
+<meta property="og:description" content="静态 Tier 图（从固定文件读取）        :root{       --bg: #0b0f14; --panel:#0f1520; --border:#1e2633; --text:#e6eefc; --muted:#8ea2c3;       --radius:14px; --shadow:0 6px 24px rgba(0,0,0,.35);     }">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-10-03T02:46:32.622Z">
+<meta property="article:modified_time" content="2025-10-03T02:46:32.622Z">
+<meta property="article:author" content="ix35">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://itz-ix35.github.io/game-review/tmp/1">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":true,"permalink":"https://itz-ix35.github.io/game-review/tmp/1.html","path":"game-review/tmp/1.html","title":""}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title> | ix35's Blog
+</title>
+  
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">ix35's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-essays"><a href="/essay/" rel="section"><i class="fa fa-tags fa-fw"></i>随笔选辑</a></li><li class="menu-item menu-item-game-guide"><a href="/game-guide/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏攻略</a></li><li class="menu-item menu-item-game-review"><a href="/game-review/" rel="section"><i class="fa fa-tags fa-fw"></i>游戏评测</a></li><li class="menu-item menu-item-music"><a href="/music/" rel="section"><i class="fa fa-tags fa-fw"></i>音乐分享</a></li><li class="menu-item menu-item-notes"><a href="/note/" rel="section"><i class="fa fa-tags fa-fw"></i>课程笔记</a></li><li class="menu-item menu-item-solutions"><a href="/solution/" rel="section"><i class="fa fa-tags fa-fw"></i>专题题解</a></li><li class="menu-item menu-item-technology"><a href="/technology/" rel="section"><i class="fa fa-tags fa-fw"></i>科普文章</a></li><li class="menu-item menu-item-travelogue"><a href="/travel/" rel="section"><i class="fa fa-tags fa-fw"></i>远古游记</a></li><li class="menu-item menu-item-gallery"><a href="/gallery/" rel="section"><i class="fa fa-image fa-fw"></i>画廊</a></li><li class="menu-item menu-item-idea"><a href="/idea/" rel="section"><i class="fa fa-lightbulb fa-fw"></i>奇思</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">静态 Tier 图</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="ix35"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">ix35</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Itz-ix35" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Itz-ix35" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:2757336405@qq.com" title="E-Mail → mailto:2757336405@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.luogu.com.cn/user/113546" title="Luogu → https:&#x2F;&#x2F;www.luogu.com.cn&#x2F;user&#x2F;113546" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>Luogu</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/187505795" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;187505795" rel="noopener" target="_blank"><i class="fab fa-youtube fa-fw"></i>Bilibili</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner page posts-expand">
+
+
+    
+    
+    
+    <div class="post-block" lang="zh-CN"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">
+</h1>
+
+<div class="post-meta-container">
+  <ul class="breadcrumb">
+            <li><a href="/game-review/">游戏评测</a></li>
+            <li><a href="/game-review/tmp/">TMP</a></li>
+            <li>1</li>
+  </ul>
+</div>
+
+</header>
+
+      
+      
+      <div class="post-body">
+          <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>静态 Tier 图（从固定文件读取）</title>
+  <style>
+    :root{
+      --bg: #0b0f14; --panel:#0f1520; --border:#1e2633; --text:#e6eefc; --muted:#8ea2c3;
+      --radius:14px; --shadow:0 6px 24px rgba(0,0,0,.35);
+    }
+    html,body{height:100%}
+    body{margin:0; background:linear-gradient(180deg,#0a0d12,#0f1520 20%,#0a0d12); color:var(--text); font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial}
+    .container{max-width:1100px; margin:0 auto; padding:20px}
+    h1{font-size:20px; font-weight:600; margin:0 0 12px}
+    .hint{color:var(--muted); font-size:13px; margin-bottom:14px}
+
+    .stage{background:var(--panel); border:1px solid var(--border); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden}
+    .tier{display:grid; grid-template-columns: 140px 1fr; border-bottom:1px solid var(--border)}
+    .tier:last-child{border-bottom:none}
+    .label{display:flex; align-items:center; gap:10px; padding:12px; background:#141b29; border-right:1px solid var(--border)}
+    .label .dot{width:16px; height:16px; border-radius:6px; border:1px solid #0006}
+    .label .name{font-weight:700}
+
+    .content{padding:10px; min-height:80px; display:flex; gap:10px; flex-wrap:wrap; align-content:flex-start}
+    .item{background:#131a27; border:1px solid var(--border); border-radius:12px; padding:8px 10px; display:flex; align-items:center; gap:8px; box-shadow:var(--shadow); max-width:240px}
+    .thumb{width:32px; height:32px; border-radius:8px; background:#0b0f14; border:1px solid #0006; overflow:hidden; display:grid; place-items:center}
+    .thumb img{width:100%; height:100%; object-fit:cover}
+    .text{white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+
+    .error{background:#2a1214; border:1px solid #5b1a1e; color:#ffd7dc; padding:10px 12px; border-radius:10px; margin-top:12px}
+    .code{font: 12px/1.4 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; white-space:pre-wrap; background:#0b0f14; border:1px solid var(--border); border-radius:10px; padding:10px; color:#cde3ff}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>静态 Tier 图</h1>
+    <div class="hint">从固定文件 <span class="code">tiers.json</span> 读取后渲染，无交互、无拖拽。你只需维护 JSON 文件即可。</div>
+
+    <div class="stage" id="stage"></div>
+
+    <details style="margin-top:16px">
+      <summary>示例数据结构（tiers.json）</summary>
+      <pre class="code" id="schema">{
+  "title": "我最爱的零食",
+  "tiers": [
+    {"name":"S","color":"#e11d48","items":[{"text":"寿司"},{"img":"https://picsum.photos/seed/sushi/120","label":"Sushi"}]},
+    {"name":"A","color":"#f59e0b","items":[{"text":"薯片"},{"text":"烤鸡"}]},
+    {"name":"B","color":"#22c55e","items":[{"text":"苹果派"}]}
+  ]
+}
+</pre>
+    </details>
+
+    <div id="err" class="error" style="display:none"></div>
+  </div>
+
+<script>
+(async function(){
+  const stage = document.getElementById('stage');
+  const err = document.getElementById('err');
+
+  // 固定数据文件名：可按需改为绝对路径或放到同目录
+  const DATA_URL = 'tiers.json';
+
+  try{
+    const res = await fetch(DATA_URL, {cache:'no-store'});
+    if(!res.ok) throw new Error('无法读取 '+DATA_URL+'（HTTP '+res.status+'）');
+    const data = await res.json();
+
+    document.title = data.title ? data.title + ' — 静态 Tier 图' : document.title;
+
+    stage.innerHTML = '';
+    (data.tiers||[]).forEach(t => {
+      const row = document.createElement('div');
+      row.className = 'tier';
+
+      const label = document.createElement('div');
+      label.className = 'label';
+      const dot = Object.assign(document.createElement('div'), {className:'dot'});
+      dot.style.background = (t.color||'#64748b');
+      const name = Object.assign(document.createElement('div'), {className:'name'});
+      name.textContent = t.name || '';
+      label.append(dot, name);
+
+      const content = document.createElement('div');
+      content.className = 'content';
+      (t.items||[]).forEach(it => {
+        const card = document.createElement('div'); card.className='item';
+        const thumb = document.createElement('div'); thumb.className='thumb';
+        const text = document.createElement('div'); text.className='text';
+        if(it.img){ const img = new Image(); img.loading='lazy'; img.src=it.img; thumb.append(img); text.textContent = it.label || '图片'; }
+        else { thumb.textContent = '🔹'; text.textContent = it.text || ''; }
+        card.append(thumb, text);
+        content.append(card);
+      });
+
+      row.append(label, content);
+      stage.append(row);
+    });
+  }catch(e){
+    err.style.display='block';
+    err.textContent = '读取或解析 tiers.json 失败：'+ e.message;
+  }
+})();
+</script>
+</body>
+</html>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+      </div>
+      
+      
+      
+    </div>
+  <ul class="breadcrumb">
+            <li><a href="/game-review/">游戏评测</a></li>
+            <li><a href="/game-review/tmp/">TMP</a></li>
+            <li>1</li>
+  </ul>
+
+    
+    
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">ix35</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js","integrity":"sha256-tu9j5pBilBQrWSDePOOajCUdz6hWsid/lBNzK4KgEPM="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.0/katex.min.css" integrity="sha256-uik/hNqHWZldXh/0K35nqOSCff9F61/ZOFReqNOBgB0=" crossorigin="anonymous">
+
+
+
+</body>
+</html>
